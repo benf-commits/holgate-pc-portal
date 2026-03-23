@@ -349,12 +349,12 @@ export default function School() {
       <h1 className="text-lg font-bold text-text-primary">School</h1>
 
       {/* Tab Bar */}
-      <div className="flex gap-1 border-b border-gray-200">
+      <div className="flex gap-1 border-b border-gray-200 overflow-x-auto">
         {TABS.map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-4 py-2 text-sm font-medium transition-colors ${
+            className={`px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors ${
               activeTab === tab
                 ? 'text-maroon-900 border-b-2 border-maroon-900 -mb-px'
                 : 'text-text-secondary hover:text-text-primary'

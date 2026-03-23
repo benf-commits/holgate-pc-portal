@@ -43,14 +43,14 @@ function formatDayColumn(dateStr) {
 
 function TypeFilterChips({ options, active, onChange }) {
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex gap-2 overflow-x-auto">
       {options.map((option) => {
         const isActive = option.value === active
         return (
           <button
             key={option.value}
             onClick={() => onChange(option.value)}
-            className={`flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium rounded-full transition-colors ${
+            className={`flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium rounded-full whitespace-nowrap shrink-0 transition-colors ${
               isActive
                 ? 'bg-maroon-900 text-white'
                 : 'bg-white text-text-secondary border border-gray-200 hover:border-maroon-900 hover:text-maroon-900'

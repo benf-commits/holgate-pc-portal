@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Outlet, NavLink } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Outlet, NavLink, useLocation } from 'react-router-dom'
 import { meta } from '../utils/data'
 import { formatDate } from '../utils/dates'
 
@@ -33,6 +33,12 @@ function NavItem({ to, label, end, onClick }) {
 
 export default function Layout() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const location = useLocation()
+
+  // Close mobile menu on route change (handles browser back/forward)
+  useEffect(() => {
+    setMenuOpen(false)
+  }, [location.pathname])
 
   return (
     <div className="min-h-screen bg-cream flex flex-col">

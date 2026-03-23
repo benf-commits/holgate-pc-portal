@@ -268,7 +268,7 @@ export default function MeetingDetail() {
       </div>
 
       {/* Tab bar */}
-      <div className="border-b border-gray-200">
+      <div className="border-b border-gray-200 overflow-x-auto">
         <div className="flex gap-1 -mb-px">
           {tabs.map((tab) => {
             const isActive = tab === activeTab
@@ -276,7 +276,7 @@ export default function MeetingDetail() {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`px-4 py-2 text-sm font-medium transition-colors ${
+                className={`px-4 py-2 text-sm font-medium whitespace-nowrap transition-colors ${
                   isActive
                     ? 'border-b-2 border-maroon-900 text-maroon-900'
                     : 'text-text-secondary hover:text-text-primary'

@@ -15,7 +15,7 @@ export function filterDecisions(decisions, { category = null, query = null } = {
     if (category && d.category !== category) return false
     if (query) {
       const q = query.toLowerCase()
-      return d.title.toLowerCase().includes(q) || d.description.toLowerCase().includes(q)
+      return d.title.toLowerCase().includes(q) || (d.description || '').toLowerCase().includes(q)
     }
     return true
   })

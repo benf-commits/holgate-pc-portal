@@ -1,7 +1,6 @@
 import { useState, useMemo } from 'react'
 import { events } from '../utils/data'
 import { filterEvents } from '../utils/filters'
-import FilterChips from '../components/FilterChips'
 import EventItem from '../components/EventItem'
 import EmptyState from '../components/EmptyState'
 

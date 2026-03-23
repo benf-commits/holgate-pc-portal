@@ -1,5 +1,6 @@
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Layout from './components/Layout'
+import Dashboard from './pages/Dashboard'
 
 function Placeholder({ title }) {
   return <div className="p-8 text-text-secondary">{title} — coming soon</div>
@@ -10,7 +11,7 @@ export default function App() {
     <HashRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route index element={<Placeholder title="Dashboard" />} />
+          <Route index element={<Dashboard />} />
           <Route path="meetings" element={<Placeholder title="Meetings" />} />
           <Route path="meetings/:id" element={<Placeholder title="Meeting Detail" />} />
           <Route path="actions" element={<Placeholder title="Actions" />} />

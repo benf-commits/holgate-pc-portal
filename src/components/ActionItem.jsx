@@ -31,26 +31,27 @@ export default function ActionItem({ action, meetingDate }) {
       </div>
 
       <div className="flex items-center flex-wrap gap-3 mt-3">
-        {/* Owner initials */}
-        <div className="flex -space-x-1">
-          {(action.owners || []).map((id) => {
-            const person = getPersonByInitials(id)
-            return (
-              <span
-                key={id}
-                title={person.name}
-                className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-maroon-100 text-maroon-900 text-[10px] font-bold ring-2 ring-white"
-              >
-                {id}
+        {(() => {
+          const owners = (action.owners || []).map((id) => ({ id, ...getPersonByInitials(id) }))
+          return (
+            <>
+              <div className="flex -space-x-1">
+                {owners.map((person) => (
+                  <span
+                    key={person.id}
+                    title={person.name}
+                    className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-maroon-100 text-maroon-900 text-[10px] font-bold ring-2 ring-white"
+                  >
+                    {person.id}
+                  </span>
+                ))}
+              </div>
+              <span className="text-xs text-text-secondary">
+                {owners.map((p) => p.name).join(', ')}
               </span>
-            )
-          })}
-        </div>
-
-        {/* Owner names */}
-        <span className="text-xs text-text-secondary">
-          {(action.owners || []).map((id) => getPersonByInitials(id).name).join(', ')}
-        </span>
+            </>
+          )
+        })()}
       </div>
 
       <div className="flex items-center flex-wrap gap-3 mt-2 text-xs text-text-secondary">

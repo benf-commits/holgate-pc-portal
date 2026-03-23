@@ -26,9 +26,9 @@ export function getAgingInfo(action, meetingDate) {
   if (action.dueDate) {
     const days = daysSince(action.dueDate)
     if (days > 0) {
-      return { status: 'overdue', days, label: `${days} days overdue` }
+      return { status: 'overdue', days, label: `${days} ${days === 1 ? 'day' : 'days'} overdue` }
     }
-    return { status: 'upcoming', days: -days, label: `Due in ${-days} days` }
+    return { status: 'upcoming', days: -days, label: `Due in ${-days} ${-days === 1 ? 'day' : 'days'}` }
   }
   return {
     status: 'open',

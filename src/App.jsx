@@ -6,10 +6,7 @@ import MeetingDetail from './pages/MeetingDetail'
 import Actions from './pages/Actions'
 import Calendar from './pages/Calendar'
 import Decisions from './pages/Decisions'
-
-function Placeholder({ title }) {
-  return <div className="p-8 text-text-secondary">{title} — coming soon</div>
-}
+import School from './pages/School'
 
 export default function App() {
   return (
@@ -22,7 +19,7 @@ export default function App() {
           <Route path="actions" element={<Actions />} />
           <Route path="calendar" element={<Calendar />} />
           <Route path="decisions" element={<Decisions />} />
-          <Route path="school" element={<Placeholder title="School" />} />
+          <Route path="school" element={<School />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

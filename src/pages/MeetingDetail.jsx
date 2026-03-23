@@ -5,18 +5,14 @@ import {
   getActionsForMeeting,
   getDecisionsForMeeting,
   getPersonByInitials,
+  getMeetingStatusBadge,
+  getAttendanceCount,
 } from '../utils/data'
 import { formatDate, getAgingInfo } from '../utils/dates'
 import Badge from '../components/Badge'
 import EmptyState from '../components/EmptyState'
 
 const tabs = ['Summary', 'Agenda', 'Minutes', 'Attendance']
-
-function statusBadge(status) {
-  if (status === 'draft') return { label: 'DRAFT', variant: 'warning' }
-  if (status === 'scheduled') return { label: 'UPCOMING', variant: 'info' }
-  return { label: 'FINAL', variant: 'success' }
-}
 
 function agingBadge(aging) {
   if (aging.status === 'completed') return { label: 'Completed', variant: 'success' }
@@ -56,9 +52,7 @@ function attendanceStatusLabel(status) {
 function SummaryTab({ meeting }) {
   const actions = getActionsForMeeting(meeting.id)
   const decisions = getDecisionsForMeeting(meeting.id)
-  const attendanceCount =
-    (meeting.attendance?.present?.length || 0) +
-    (meeting.attendance?.online?.length || 0)
+  const attendanceCount = getAttendanceCount(meeting)
   const reimbursementTotal = (meeting.reimbursements || []).reduce(
     (sum, r) => sum + r.amount,
     0
@@ -126,7 +120,7 @@ function SummaryTab({ meeting }) {
                     <Badge label={badge.label} variant={badge.variant} />
                   </div>
                   <div className="text-xs text-text-secondary mt-1">
-                    {action.owners
+                    {(action.owners || [])
                       .map((id) => getPersonByInitials(id).name)
                       .join(', ')}
                   </div>
@@ -238,7 +232,7 @@ export default function MeetingDetail() {
     )
   }
 
-  const badge = statusBadge(meeting.status)
+  const badge = getMeetingStatusBadge(meeting.status)
   const isAgm = meeting.type.includes('agm')
 
   const tabContent = {

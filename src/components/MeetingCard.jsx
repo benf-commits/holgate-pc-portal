@@ -1,13 +1,7 @@
 import { Link } from 'react-router-dom'
 import { formatDate } from '../utils/dates'
-import { getActionsForMeeting, getDecisionsForMeeting } from '../utils/data'
+import { getActionsForMeeting, getDecisionsForMeeting, getMeetingStatusBadge, getAttendanceCount } from '../utils/data'
 import Badge from './Badge'
-
-function statusBadge(status) {
-  if (status === 'draft') return { label: 'DRAFT', variant: 'warning' }
-  if (status === 'scheduled') return { label: 'UPCOMING', variant: 'info' }
-  return { label: 'FINAL', variant: 'success' }
-}
 
 function borderColor(meeting) {
   if (meeting.status === 'scheduled') return 'border-l-green-500'
@@ -18,10 +12,8 @@ function borderColor(meeting) {
 export default function MeetingCard({ meeting }) {
   const actions = getActionsForMeeting(meeting.id)
   const decisions = getDecisionsForMeeting(meeting.id)
-  const attendanceCount =
-    (meeting.attendance?.present?.length || 0) +
-    (meeting.attendance?.online?.length || 0)
-  const badge = statusBadge(meeting.status)
+  const attendanceCount = getAttendanceCount(meeting)
+  const badge = getMeetingStatusBadge(meeting.status)
 
   return (
     <Link

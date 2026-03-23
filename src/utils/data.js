@@ -28,3 +28,16 @@ export function getDecisionsForMeeting(meetingId) {
 export function getCorrespondenceForMeeting(meetingId) {
   return correspondence.filter((c) => c.meetingId === meetingId)
 }
+
+export function getMeetingStatusBadge(status) {
+  if (status === 'draft') return { label: 'DRAFT', variant: 'warning' }
+  if (status === 'scheduled') return { label: 'UPCOMING', variant: 'info' }
+  return { label: 'FINAL', variant: 'success' }
+}
+
+export function getAttendanceCount(meeting) {
+  return (
+    (meeting.attendance?.present?.length || 0) +
+    (meeting.attendance?.online?.length || 0)
+  )
+}

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "e-2026-03-02",
+    "title": "P&C AGM + Monthly Meeting",
+    "date": "2026-03-02",
+    "type": "meeting",
+    "term": 1,
+    "status": "confirmed",
+    "location": "School Staffroom & Online",
+    "time": "7pm"
+  },
+  {
+    "id": "e-2026-05-04",
+    "title": "P&C Monthly Meeting",
+    "date": "2026-05-04",
+    "type": "meeting",
+    "term": 2,
+    "status": "confirmed",
+    "location": "School Staffroom & Online",
+    "time": "7pm"
+  },
+  {
+    "id": "e-2026-05-06",
+    "title": "Mother's Day — Mums & Muffins",
+    "date": "2026-05-06",
+    "type": "school-event",
+    "term": 2,
+    "status": "confirmed",
+    "time": "8am",
+    "discussedIn": "2026-03-02"
+  },
+  {
+    "id": "e-2026-06-01",
+    "title": "P&C Monthly Meeting",
+    "date": "2026-06-01",
+    "type": "meeting",
+    "term": 2,
+    "status": "confirmed",
+    "location": "School Staffroom & Online",
+    "time": "7pm"
+  },
+  {
+    "id": "e-2026-07-06",
+    "title": "P&C Monthly Meeting",
+    "date": "2026-07-06",
+    "type": "meeting",
+    "term": 3,
+    "status": "confirmed",
+    "location": "School Staffroom & Online",
+    "time": "7pm"
+  },
+  {
+    "id": "e-2026-08-03",
+    "title": "P&C Monthly Meeting",
+    "date": "2026-08-03",
+    "type": "meeting",
+    "term": 3,
+    "status": "confirmed",
+    "location": "School Staffroom & Online",
+    "time": "7pm"
+  },
+  {
+    "id": "e-2026-09-07",
+    "title": "P&C Monthly Meeting",
+    "date": "2026-09-07",
+    "type": "meeting",
+    "term": 3,
+    "status": "confirmed",
+    "location": "School Staffroom & Online",
+    "time": "7pm"
+  },
+  {
+    "id": "e-2026-disco",
+    "title": "School Disco",
+    "date": null,
+    "type": "pc-event",
+    "term": 2,
+    "status": "tentative",
+    "discussedIn": "2025-12-01",
+    "notes": "Outside daylight saving hours"
+  },
+  {
+    "id": "e-2026-fathers-day",
+    "title": "Father's Day Breakfast",
+    "date": null,
+    "type": "school-event",
+    "term": 3,
+    "status": "tentative",
+    "discussedIn": "2025-12-01",
+    "notes": "School may host"
+  },
+  {
+    "id": "e-2026-trivia",
+    "title": "Trivia Night",
+    "date": null,
+    "type": "pc-event",
+    "term": 4,
+    "status": "tentative",
+    "discussedIn": "2025-12-01",
+    "notes": "Major P&C fundraiser"
+  },
+  {
+    "id": "e-2026-sculptures",
+    "title": "Sculptures in the Vines",
+    "date": null,
+    "type": "external",
+    "term": 4,
+    "status": "tentative",
+    "discussedIn": "2025-12-01"
+  },
+  {
+    "id": "e-2026-10-05",
+    "title": "P&C Monthly Meeting",
+    "date": "2026-10-05",
+    "type": "meeting",
+    "term": 4,
+    "status": "confirmed",
+    "location": "School Staffroom & Online",
+    "time": "7pm"
+  },
+  {
+    "id": "e-2026-11-02",
+    "title": "P&C Monthly Meeting",
+    "date": "2026-11-02",
+    "type": "meeting",
+    "term": 4,
+    "status": "confirmed",
+    "location": "School Staffroom & Online",
+    "time": "7pm"
+  }
+]

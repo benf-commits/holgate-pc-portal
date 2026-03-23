@@ -1,0 +1,170 @@
+[
+  {
+    "id": "c-2025-12-in-01",
+    "meetingId": "2025-12-01",
+    "direction": "inward",
+    "from": "Lowes (Rachel)",
+    "subject": "Uniform updates",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-in-02",
+    "meetingId": "2025-12-01",
+    "direction": "inward",
+    "from": "Various",
+    "subject": "Trivia Night thank yous",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-in-03",
+    "meetingId": "2025-12-01",
+    "direction": "inward",
+    "from": "RSL",
+    "subject": "Grant feedback",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-in-04",
+    "meetingId": "2025-12-01",
+    "direction": "inward",
+    "from": "Grill'd",
+    "subject": "Token acceptance",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-in-05",
+    "meetingId": "2025-12-01",
+    "direction": "inward",
+    "from": "NSW P&C Federation",
+    "subject": "Federation updates",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-in-06",
+    "meetingId": "2025-12-01",
+    "direction": "inward",
+    "from": "Lowes (new rep)",
+    "subject": "New Lowes representative — Rachel left",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-out-01",
+    "meetingId": "2025-12-01",
+    "direction": "outward",
+    "to": "Trivia Night donors",
+    "subject": "Trivia Night donation thank you letters",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-out-02",
+    "meetingId": "2025-12-01",
+    "direction": "outward",
+    "to": "VG / Lowes",
+    "subject": "Risk assessment and uniform correspondence",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-out-03",
+    "meetingId": "2025-12-01",
+    "direction": "outward",
+    "to": "Members",
+    "subject": "Minutes & Agenda",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-out-04",
+    "meetingId": "2025-12-01",
+    "direction": "outward",
+    "to": "Insurer",
+    "subject": "Insurance claim application",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2025-12-out-05",
+    "meetingId": "2025-12-01",
+    "direction": "outward",
+    "to": "RSL",
+    "subject": "Requesting grant feedback",
+    "date": "2025-12"
+  },
+  {
+    "id": "c-2026-03-in-01",
+    "meetingId": "2026-03-02",
+    "direction": "inward",
+    "from": "Lowes",
+    "subject": "Updates on uniform — track pants",
+    "date": "2026-03"
+  },
+  {
+    "id": "c-2026-03-in-02",
+    "meetingId": "2026-03-02",
+    "direction": "inward",
+    "from": "Grill'd",
+    "subject": "Token acceptance — cheque to be picked up by CV",
+    "date": "2026-03"
+  },
+  {
+    "id": "c-2026-03-in-03",
+    "meetingId": "2026-03-02",
+    "direction": "inward",
+    "from": "NSW P&C Federation",
+    "subject": "Federation updates",
+    "date": "2026-03"
+  },
+  {
+    "id": "c-2026-03-in-04",
+    "meetingId": "2026-03-02",
+    "direction": "inward",
+    "from": "Ged",
+    "subject": "Welcome back — how to help",
+    "date": "2026-03"
+  },
+  {
+    "id": "c-2026-03-in-05",
+    "meetingId": "2026-03-02",
+    "direction": "inward",
+    "from": "CC P&C",
+    "subject": "Invitation — same night as AGM",
+    "date": "2026-03"
+  },
+  {
+    "id": "c-2026-03-in-06",
+    "meetingId": "2026-03-02",
+    "direction": "inward",
+    "from": "Vanessa Gordon",
+    "subject": "Uniform information and canteen asbestos quote",
+    "date": "2026-03"
+  },
+  {
+    "id": "c-2026-03-in-07",
+    "meetingId": "2026-03-02",
+    "direction": "inward",
+    "from": "Emma McBride (MP)",
+    "subject": "Volunteer grants information",
+    "date": "2026-03"
+  },
+  {
+    "id": "c-2026-03-in-08",
+    "meetingId": "2026-03-02",
+    "direction": "inward",
+    "from": "Adam Crouch (MP)",
+    "subject": "Grant information",
+    "date": "2026-03"
+  },
+  {
+    "id": "c-2026-03-out-01",
+    "meetingId": "2026-03-02",
+    "direction": "outward",
+    "to": "Members",
+    "subject": "Minutes & Agenda",
+    "date": "2026-03"
+  },
+  {
+    "id": "c-2026-03-out-02",
+    "meetingId": "2026-03-02",
+    "direction": "outward",
+    "to": "Adam Crouch (MP)",
+    "subject": "Date for building grant",
+    "date": "2026-03"
+  }
+]

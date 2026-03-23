@@ -1,0 +1,104 @@
+[
+  {
+    "id": "a-2026-03-01",
+    "meetingId": "2026-03-02",
+    "description": "Check if $41.61 reimbursement for CB has been paid — if not, make payment",
+    "owners": ["LB", "JV"],
+    "status": "open"
+  },
+  {
+    "id": "a-2026-03-02",
+    "meetingId": "2026-03-02",
+    "description": "Year in Review 2025 for fundraising on Facebook",
+    "owners": ["MW"],
+    "status": "open"
+  },
+  {
+    "id": "a-2026-03-03",
+    "meetingId": "2026-03-02",
+    "description": "Pick up Grill'd cheque $100",
+    "owners": ["CV"],
+    "status": "completed",
+    "completedDate": "2026-03-02"
+  },
+  {
+    "id": "a-2026-03-04",
+    "meetingId": "2026-03-02",
+    "description": "Google Drive access to be updated for new executives",
+    "owners": ["CV", "AN"],
+    "status": "open"
+  },
+  {
+    "id": "a-2026-03-05",
+    "meetingId": "2026-03-02",
+    "description": "MYOB access to be granted for JV and CV",
+    "owners": ["LB", "JV"],
+    "status": "open"
+  },
+  {
+    "id": "a-2026-03-06",
+    "meetingId": "2026-03-02",
+    "description": "Ask Jessica Fit to lodge nil BAS to save $330 accounting fee annually",
+    "owners": ["CV"],
+    "status": "open"
+  },
+  {
+    "id": "a-2026-03-07",
+    "meetingId": "2026-03-02",
+    "description": "Uniform shop procedures to be sent to VG",
+    "owners": ["LM"],
+    "status": "open"
+  },
+  {
+    "id": "a-2026-03-08",
+    "meetingId": "2026-03-02",
+    "description": "Log book for canteen and fundraising cash to be purchased and organised for safe",
+    "owners": ["CV"],
+    "status": "open"
+  },
+  {
+    "id": "a-2026-03-09",
+    "meetingId": "2026-03-02",
+    "description": "Transfer canteen volunteer logs onto Google Drive",
+    "owners": ["IP"],
+    "status": "open"
+  },
+  {
+    "id": "a-2026-03-10",
+    "meetingId": "2026-03-02",
+    "description": "Starlink to be trialled",
+    "owners": ["BF"],
+    "status": "open"
+  },
+  {
+    "id": "a-2025-12-01",
+    "meetingId": "2025-12-01",
+    "description": "Follow up Canteen Insurance claim",
+    "owners": ["AN"],
+    "status": "completed",
+    "completedDate": "2026-03-02"
+  },
+  {
+    "id": "a-2025-12-02",
+    "meetingId": "2025-12-01",
+    "description": "Community Building Grant — complete application",
+    "owners": ["BF", "DG"],
+    "status": "open",
+    "notes": "Waiting for CBP 2026 round to open"
+  },
+  {
+    "id": "a-2025-12-03",
+    "meetingId": "2025-12-01",
+    "description": "Email Year in Review 2025",
+    "owners": ["AN"],
+    "status": "open"
+  },
+  {
+    "id": "a-2025-12-04",
+    "meetingId": "2025-12-01",
+    "description": "Canteen volunteer sign-in sheets to be scanned and added to Drive",
+    "owners": ["IP"],
+    "status": "open",
+    "dueDate": "2026-02-01"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "2025-12-01",
+    "date": "2025-12-01",
+    "type": "monthly",
+    "title": "Monthly Meeting — December 2025",
+    "status": "final",
+    "openTime": "7:05pm",
+    "closeTime": "9:15pm",
+    "location": "School Staffroom & Online Meeting",
+    "convenedBy": "AN",
+    "minutesBy": "IP",
+    "attendance": {
+      "present": ["VG", "AN", "IP", "LB", "TB", "LM", "SS", "JV", "VCR", "CV", "BF", "NO"],
+      "online": [],
+      "apologies": ["DG", "CB", "KK", "PO", "BH", "MW"],
+      "absent": ["LM-matheson"]
+    },
+    "agendaItems": [
+      "Minutes from Previous Meeting",
+      "Correspondence",
+      "Principal's Report",
+      "President's Report",
+      "Treasurer's Report",
+      "Fundraising Report",
+      "Canteen Report"
+    ],
+    "minutesItems": [
+      "School Improvements — sandpit begun, accessibility upgrades",
+      "Uniform — agreement reached",
+      "Looking Ahead — 4 classes, 20 kindy students in 2026",
+      "Grants — RSL resubmitting 15 Dec with project plan, canteen grant needs asbestos cost",
+      "Canteen — no sushi 2026, hinge repair, final clean",
+      "Wi-Fi Starlink Mini proposal — mixed reception, trial at Trivia Night",
+      "Calendar for 2026 events",
+      "Policies to review",
+      "End of year survey — 14 responses"
+    ],
+    "keyOutcomes": [
+      {
+        "type": "success",
+        "text": "Sandpit & handball court refurbishment approved — $17,800"
+      },
+      {
+        "type": "success",
+        "text": "Insurance claim nearing completion — $1,190 food spoilage + $1,500 freezer expected"
+      },
+      {
+        "type": "info",
+        "text": "RSL grant (basketball court) feedback received — resubmitting 15 Dec with project plan"
+      },
+      {
+        "type": "warning",
+        "text": "Still need asbestos removal cost for canteen grant application"
+      },
+      {
+        "type": "info",
+        "text": "2026: 4 classes, 20 new kindy, no 3-way classes. Ms Nash still extra staff until transfer."
+      },
+      {
+        "type": "info",
+        "text": "Winter uniform to be available 2026. New letterhead voted on."
+      }
+    ],
+    "reimbursements": [
+      { "payee": "LM-matheson", "description": "Teacher appreciation lunch", "amount": 34.48 },
+      { "payee": "CB", "description": "Glow sticks and chips", "amount": 41.61 },
+      { "payee": "DJ", "description": "Extra half hour", "amount": 40.00 },
+      { "payee": "AN", "description": "Teacher appreciation food", "amount": 242.20 },
+      { "payee": "School", "description": "Sandpit and handball court refurbishment", "amount": 17800.00 }
+    ]
+  },
+  {
+    "id": "2026-03-02",
+    "date": "2026-03-02",
+    "type": "monthly+agm",
+    "title": "Monthly Meeting + AGM — March 2026",
+    "status": "draft",
+    "openTime": "8:20pm",
+    "closeTime": "9:30pm",
+    "location": "School Staffroom & Online Meeting",
+    "convenedBy": "AN",
+    "minutesBy": "IP",
+    "attendance": {
+      "present": ["VG", "KK", "CV", "VCR", "JV", "LM", "SS", "BH", "HN", "MW", "JF", "NO"],
+      "online": ["CB", "BF", "DG", "AN", "LB", "IP", "LM-matheson"],
+      "apologies": ["PO"],
+      "absent": ["TB"]
+    },
+    "agendaItems": [
+      "Minutes from Previous Meeting",
+      "Correspondence",
+      "Principal's Report",
+      "President's Report",
+      "Treasurer's Report",
+      "Fundraising Report",
+      "Canteen Report",
+      "AGM — Election of Office Bearers"
+    ],
+    "minutesItems": [
+      "Previous minutes — $41.61 CB reimbursement unpaid, canteen hinge fixed, Year in Review for Facebook pending",
+      "Correspondence — uniform track pants, Grill'd token, Federation updates, CC P&C invite, Vanessa uniform/asbestos, Emma McBride volunteer grants, Adam Crouch grant info",
+      "Second-hand uniform — mess, BH donating hangers, procedures reminder, dangerous chemicals near clothing pool",
+      "Canteen — asbestos quote ~$7,804 unclear scope, Spriggy cut-off 8:30am, birthday bucket procedure, cash log book for safe",
+      "Mothers Day — 6 May, school hosted",
+      "School Works — underground irrigation unlikely",
+      "School Security — lighting and doors resolved",
+      "New Member — Holly Newton"
+    ],
+    "keyOutcomes": [
+      {
+        "type": "success",
+        "text": "AGM elections: New President (CV), Vice President (VCR), Treasurer (JV). Secretary (IP) continuing."
+      },
+      {
+        "type": "success",
+        "text": "New Canteen Manager role created — Lizzie McPherson (LM) appointed"
+      },
+      {
+        "type": "success",
+        "text": "$300/class donation carried — $1,400 total for 4 classrooms"
+      },
+      {
+        "type": "warning",
+        "text": "Asbestos quote received: ~$7,804 but unclear scope (one or both sides). Doesn't include new shutters."
+      },
+      {
+        "type": "info",
+        "text": "School enrolment cap: 156 students. Demountable staying. New leadership more flexible on funding."
+      },
+      {
+        "type": "info",
+        "text": "Lowes uniform licence until 2029. Looking at cotton blends for breathability."
+      },
+      {
+        "type": "success",
+        "text": "Insurance claim complete — all money received, case closed"
+      }
+    ],
+    "reimbursements": [
+      { "payee": "JV/CV", "description": "CC P&C Federation membership", "amount": 40.00 },
+      { "payee": "LB/JV", "description": "Class donation — $350 per class x 4", "amount": 1400.00 }
+    ]
+  },
+  {
+    "id": "2026-05-04",
+    "date": "2026-05-04",
+    "type": "monthly",
+    "title": "Monthly Meeting — May 2026",
+    "status": "scheduled",
+    "openTime": "7:00pm",
+    "location": "School Staffroom & Online Meeting",
+    "attendance": {
+      "present": [],
+      "online": [],
+      "apologies": [],
+      "absent": []
+    },
+    "agendaItems": [],
+    "minutesItems": [],
+    "keyOutcomes": [],
+    "reimbursements": []
+  }
+]

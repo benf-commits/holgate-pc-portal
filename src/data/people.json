@@ -1,0 +1,181 @@
+[
+  {
+    "id": "CV",
+    "name": "Catherine Vassilev",
+    "type": "office-bearer",
+    "active": true,
+    "role": "President",
+    "responsibilities": [
+      "Plan and lead meetings",
+      "Monitor Gmail and Google Drive",
+      "Present agenda 5 days prior to meetings",
+      "Collate reports 7 days prior to meetings",
+      "Signatory on financial transactions",
+      "Admin Facebook page",
+      "Liaise with Principal",
+      "Support volunteers",
+      "Attend CC P&C meetings"
+    ]
+  },
+  {
+    "id": "VCR",
+    "name": "Vicki Colmer Ridge",
+    "type": "office-bearer",
+    "active": true,
+    "role": "Vice President",
+    "responsibilities": [
+      "Support President",
+      "Assume President role in absence",
+      "Admin Facebook page",
+      "Signatory on financial transactions"
+    ]
+  },
+  {
+    "id": "JV",
+    "name": "Jodi Vigar",
+    "type": "office-bearer",
+    "active": true,
+    "role": "Treasurer",
+    "responsibilities": [
+      "Manage financial affairs",
+      "Financial report due 7 days prior to meetings",
+      "Canteen P&L once per term",
+      "Monitor treasurer Gmail",
+      "Manage banking",
+      "Facilitate payments",
+      "Submit for annual audit",
+      "Signatory on financial transactions"
+    ]
+  },
+  {
+    "id": "IP",
+    "name": "Imke Pearce",
+    "type": "office-bearer",
+    "active": true,
+    "role": "Secretary",
+    "responsibilities": [
+      "Assist collating agenda",
+      "Distribute agenda to members",
+      "Record, publish and distribute minutes within 7 days",
+      "Maintain member list",
+      "Collate correspondence",
+      "Signatory on financial transactions"
+    ]
+  },
+  {
+    "id": "CB",
+    "name": "Colleen Birch",
+    "type": "committee",
+    "active": true,
+    "role": "Fundraising"
+  },
+  {
+    "id": "BF",
+    "name": "Ben Fitzpatrick",
+    "type": "committee",
+    "active": true,
+    "role": "Grants"
+  },
+  {
+    "id": "LM",
+    "name": "Lizzie McPherson",
+    "type": "committee",
+    "active": true,
+    "role": "Canteen Manager, 2nd Hand Clothing"
+  },
+  {
+    "id": "SS",
+    "name": "Sharyn Styman",
+    "type": "committee",
+    "active": true,
+    "role": "Band Equipment"
+  },
+  {
+    "id": "BH",
+    "name": "Briana Henderson",
+    "type": "committee",
+    "active": true,
+    "role": "Newsletter"
+  },
+  {
+    "id": "MW",
+    "name": "Monique Wills",
+    "type": "committee",
+    "active": true,
+    "role": "Social Media"
+  },
+  {
+    "id": "VG",
+    "name": "Vanessa Gordon",
+    "type": "staff",
+    "active": true,
+    "role": "Principal"
+  },
+  {
+    "id": "KK",
+    "name": "Kerri Kerri",
+    "type": "staff",
+    "active": true,
+    "role": "Vice Principal"
+  },
+  {
+    "id": "TB",
+    "name": "Tanya Burke",
+    "type": "staff",
+    "active": true,
+    "role": "Deputy Principal"
+  },
+  {
+    "id": "AN",
+    "name": "Alecia Nealon",
+    "type": "member",
+    "active": false,
+    "role": "President (2025)"
+  },
+  {
+    "id": "DG",
+    "name": "Dave Gurr",
+    "type": "member",
+    "active": false,
+    "role": "Vice President (2025)"
+  },
+  {
+    "id": "LB",
+    "name": "Laura Butler",
+    "type": "member",
+    "active": false,
+    "role": "Treasurer (2025)"
+  },
+  {
+    "id": "PO",
+    "name": "Peta O'Neil",
+    "type": "member",
+    "active": false,
+    "role": "Fundraising (2025)"
+  },
+  {
+    "id": "LM-matheson",
+    "name": "Lori Matheson",
+    "type": "member",
+    "active": true
+  },
+  {
+    "id": "HN",
+    "name": "Holly Newton",
+    "type": "member",
+    "active": true,
+    "email": "hollie_newton@hotmail.com"
+  },
+  {
+    "id": "JF",
+    "name": "Jessica Fit",
+    "type": "member",
+    "active": true
+  },
+  {
+    "id": "NO",
+    "name": "Nadia OConnell",
+    "type": "member",
+    "active": true
+  }
+]

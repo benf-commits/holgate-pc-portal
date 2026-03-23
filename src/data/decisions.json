@@ -1,0 +1,91 @@
+[
+  {
+    "id": "d-2026-03-01",
+    "meetingId": "2026-03-02",
+    "title": "P&C donation of $300 per classroom — $1,400 total",
+    "description": "For teachers to spend on educational resources and classroom items. Consistent with previous years.",
+    "category": "spending",
+    "result": "carried",
+    "moved": "LB",
+    "seconded": "JV"
+  },
+  {
+    "id": "d-2026-03-02",
+    "meetingId": "2026-03-02",
+    "title": "CC P&C Federation membership — $40",
+    "description": "Annual membership of the Central Coast Council of P&Cs",
+    "category": "spending",
+    "result": "carried",
+    "moved": "JV",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2026-03-03",
+    "meetingId": "2026-03-02",
+    "title": "Spriggy order cut-off time changed to 8:30am",
+    "description": "Canteen ordering deadline moved to 8:30am for operational efficiency",
+    "category": "policy",
+    "result": "carried"
+  },
+  {
+    "id": "d-2026-03-04",
+    "meetingId": "2026-03-02",
+    "title": "2026 Office Bearers elected",
+    "description": "President: Catherine Vassilev. Vice President: Vicki Colmer Ridge. Treasurer: Jodi Vigar. Secretary: Imke Pearce.",
+    "category": "election",
+    "result": "carried"
+  },
+  {
+    "id": "d-2026-03-05",
+    "meetingId": "2026-03-02",
+    "title": "New Canteen Manager role created",
+    "description": "New subcommittee position. Lizzie McPherson appointed.",
+    "category": "policy",
+    "result": "carried"
+  },
+  {
+    "id": "d-2026-03-06",
+    "meetingId": "2026-03-02",
+    "title": "Canteen cash handling — all takings recorded in log book in safe",
+    "description": "All money going into safe must be recorded, signed and sighted in a log book. All money taken out must also be signed and sighted by treasurer.",
+    "category": "policy",
+    "result": "carried"
+  },
+  {
+    "id": "d-2025-12-01",
+    "meetingId": "2025-12-01",
+    "title": "Sandpit & handball court refurbishment — $17,800",
+    "description": "P&C to reimburse school for sandpit upgrade with sandstone rocks",
+    "category": "spending",
+    "result": "carried",
+    "moved": "BF",
+    "seconded": "LM-matheson"
+  },
+  {
+    "id": "d-2025-12-02",
+    "meetingId": "2025-12-01",
+    "title": "Teacher appreciation lunch reimbursement — $34.48",
+    "category": "spending",
+    "result": "carried",
+    "moved": "BF",
+    "seconded": "LM-matheson"
+  },
+  {
+    "id": "d-2025-12-03",
+    "meetingId": "2025-12-01",
+    "title": "Teacher appreciation food reimbursement — $242.20",
+    "category": "spending",
+    "result": "carried",
+    "moved": "BF",
+    "seconded": "LM-matheson"
+  },
+  {
+    "id": "d-2025-12-04",
+    "meetingId": "2025-12-01",
+    "title": "Acceptance of November 2025 reports",
+    "category": "operational",
+    "result": "carried",
+    "moved": "JV",
+    "seconded": "BF"
+  }
+]

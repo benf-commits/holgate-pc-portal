@@ -48,7 +48,9 @@ export default function Dashboard() {
       ? 'Today'
       : nextMeetingDays === 1
         ? 'Tomorrow'
-        : `In ${nextMeetingDays} days`
+        : nextMeetingDays < 0
+          ? 'Date passed'
+          : `In ${nextMeetingDays} days`
     : 'None scheduled'
 
   // Actions
@@ -172,7 +174,7 @@ export default function Dashboard() {
                   </div>
                 )
               })}
-              {allOpenCount + overdueCount > 5 && (
+              {overdueActions.length + openActions.length > 5 && (
                 <Link
                   to="/actions"
                   className="inline-block text-sm font-medium text-info hover:underline mt-2"

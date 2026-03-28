@@ -1,0 +1,59 @@
+{
+  "canteen": {
+    "title": "Canteen",
+    "items": [
+      { "label": "Open", "value": "Every Friday" },
+      { "label": "Order by", "value": "8:30am Friday via Spriggy" },
+      { "label": "Alternative", "value": "Brown paper bag with name, class & order" },
+      { "label": "Volunteers", "value": "Contact Imke — 0447 020 823" }
+    ],
+    "links": [
+      { "label": "Spriggy Schools App", "url": "https://www.spriggyschools.com.au/get-the-spriggy-schools-app" }
+    ]
+  },
+  "uniforms": {
+    "title": "Uniforms",
+    "items": [
+      { "label": "Supplier", "value": "Lowes, Erina Fair" },
+      { "label": "Transition", "value": "Old items accepted until end of 2027" },
+      { "label": "Second-hand", "value": "From $5 — contact school office" },
+      { "label": "Support", "value": "Families needing help with costs — contact school office" }
+    ],
+    "pricing": [
+      { "item": "Dress (maroon & white check)", "price": "$64.95" },
+      { "item": "Polo shirt with emblem", "price": "$46.95" },
+      { "item": "Jumper (maroon fleecy pullover)", "price": "$42.95" },
+      { "item": "Jacket (microfibre, full zip)", "price": "$69.95" },
+      { "item": "Track pants (microfibre, zip ankle)", "price": "$59.95" },
+      { "item": "Skort (front wrap, elastic back)", "price": "$49.95" },
+      { "item": "Shorts (microfibre, full elastic)", "price": "$46.95" },
+      { "item": "Hat (broad-brim or bucket with logo)", "price": "$19.00" },
+      { "item": "School bag", "price": "$54.00" }
+    ],
+    "links": [
+      { "label": "Lowes Online — Holgate PS", "url": "https://www.lowes.com.au/school/holgate-public-school" },
+      { "label": "Uniform Blog", "url": "https://www.lowes.com.au/schools-uniform-blog" }
+    ]
+  },
+  "contacts": {
+    "title": "School Contacts",
+    "items": [
+      { "label": "Phone", "value": "(02) 4367 7444" },
+      { "label": "Email", "value": "holgate-p.school@det.nsw.edu.au" },
+      { "label": "Address", "value": "189 Wattle Tree Road, Holgate NSW 2250" },
+      { "label": "Principal", "value": "Vanessa Gordon" },
+      { "label": "P&C Email", "value": "holgate.pandc@gmail.com" }
+    ],
+    "links": []
+  },
+  "links": {
+    "title": "Key Links",
+    "items": [],
+    "links": [
+      { "label": "School Bytes", "url": "https://www.schoolbytes.education/" },
+      { "label": "Spriggy Schools", "url": "https://www.spriggyschools.com.au/get-the-spriggy-schools-app" },
+      { "label": "Facebook", "url": "https://www.facebook.com/holgatepublicschool" },
+      { "label": "School Website", "url": "https://holgate-p.schools.nsw.gov.au/" }
+    ]
+  }
+}

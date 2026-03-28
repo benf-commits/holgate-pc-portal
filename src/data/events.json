@@ -1,0 +1,222 @@
+[
+  {
+    "id": "2026-03-06-assembly",
+    "title": "First Assembly for 2026",
+    "date": "2026-03-06",
+    "time": "2:15pm",
+    "endDate": null,
+    "note": "Student leaders lead for the first time. Swimming carnival ribbons.",
+    "category": "school",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-10-zone-swimming",
+    "title": "Zone Swimming Carnival",
+    "date": "2026-03-10",
+    "time": null,
+    "endDate": null,
+    "note": "At Mingara. Selected students.",
+    "category": "school",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-11-naplan-writing",
+    "title": "NAPLAN Writing",
+    "date": "2026-03-11",
+    "time": null,
+    "endDate": null,
+    "note": null,
+    "category": "school",
+    "yearGroups": ["Yr 3", "Yr 5"],
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-12-naplan-reading",
+    "title": "NAPLAN Reading",
+    "date": "2026-03-12",
+    "time": null,
+    "endDate": null,
+    "note": null,
+    "category": "school",
+    "yearGroups": ["Yr 3", "Yr 5"],
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-16-naplan-language",
+    "title": "NAPLAN Language Conventions",
+    "date": "2026-03-16",
+    "time": null,
+    "endDate": null,
+    "note": null,
+    "category": "school",
+    "yearGroups": ["Yr 3", "Yr 5"],
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-18-naplan-numeracy",
+    "title": "NAPLAN Numeracy",
+    "date": "2026-03-18",
+    "time": null,
+    "endDate": null,
+    "note": null,
+    "category": "school",
+    "yearGroups": ["Yr 3", "Yr 5"],
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-19-harmony-day",
+    "title": "Harmony Day",
+    "date": "2026-03-19",
+    "time": null,
+    "endDate": null,
+    "note": null,
+    "category": "school",
+    "yearGroups": ["K-6"],
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-20-easter-mufti",
+    "title": "Easter Mufti Day",
+    "date": "2026-03-20",
+    "time": null,
+    "endDate": null,
+    "note": "Bring an Easter egg to participate.",
+    "category": "school",
+    "yearGroups": ["K-6"],
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-20-school-tour",
+    "title": "School Tour with Principal",
+    "date": "2026-03-20",
+    "time": null,
+    "endDate": null,
+    "note": "For families interested in Holgate PS or Kinder 2027 enrolment.",
+    "category": "school",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-25-aecg",
+    "title": "AECG Meeting",
+    "date": "2026-03-25",
+    "time": "4:30pm",
+    "endDate": null,
+    "note": "At Kincumber High School. Everyone welcome.",
+    "category": "community",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-27-cross-country",
+    "title": "Cross Country",
+    "date": "2026-03-27",
+    "time": "9:00am",
+    "endDate": null,
+    "note": "Parents & carers welcome.",
+    "category": "school",
+    "yearGroups": ["K-6"],
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-03-31-easter-raffle-tickets-due",
+    "title": "Easter Raffle Tickets Due",
+    "date": "2026-03-31",
+    "time": null,
+    "endDate": null,
+    "note": "Return tickets to school. Include child's name on tickets sold externally.",
+    "category": "pc",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-04-02-easter-raffle",
+    "title": "Easter Raffle Drawn",
+    "date": "2026-04-02",
+    "time": null,
+    "endDate": null,
+    "note": "Last day of Term 1.",
+    "category": "pc",
+    "yearGroups": ["K-6"],
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-04-02-last-day-term1",
+    "title": "Last Day of Term 1",
+    "date": "2026-04-02",
+    "time": null,
+    "endDate": null,
+    "note": null,
+    "category": "school",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-05-04-pc-meeting",
+    "title": "P&C Meeting",
+    "date": "2026-05-04",
+    "time": "7:00pm",
+    "endDate": null,
+    "note": "School office. Everyone welcome.",
+    "category": "pc",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-05-07-mums-muffins",
+    "title": "Mums & Muffins",
+    "date": "2026-05-07",
+    "time": "8:15am",
+    "endDate": null,
+    "note": null,
+    "category": "pc",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-05-08-mothers-day-stall",
+    "title": "Mother's Day Stall",
+    "date": "2026-05-08",
+    "time": null,
+    "endDate": null,
+    "note": null,
+    "category": "pc",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-05-13-school-tour",
+    "title": "School Tour with Principal",
+    "date": "2026-05-13",
+    "time": null,
+    "endDate": null,
+    "note": "For families interested in Holgate PS or Kinder 2027 enrolment.",
+    "category": "school",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-08-12-school-tour",
+    "title": "School Tour with Principal",
+    "date": "2026-08-12",
+    "time": null,
+    "endDate": null,
+    "note": "For families interested in Holgate PS or Kinder 2027 enrolment.",
+    "category": "school",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  },
+  {
+    "id": "2026-09-03-fathers-day",
+    "title": "Father's Day",
+    "date": "2026-09-03",
+    "time": "8:15am",
+    "endDate": null,
+    "note": null,
+    "category": "pc",
+    "yearGroups": null,
+    "source": "newsletter-2026-03-04"
+  }
+]

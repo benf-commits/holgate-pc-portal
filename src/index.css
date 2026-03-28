@@ -28,6 +28,11 @@
   --color-neutral-text: #5a4a45;
   --color-neutral-bg: #ece6df;
 
+  --color-school: #2d6a4f;
+  --color-school-bg: #d4edda;
+  --color-pc: #b85c38;
+  --color-pc-bg: #fde8c8;
+
   --color-pending: #5b4a8a;
   --color-pending-light: #c4b5d4;
 }

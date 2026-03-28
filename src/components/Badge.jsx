@@ -8,6 +8,8 @@ const variants = {
   action: 'bg-action/10 text-action',
   decision: 'bg-decision/10 text-decision',
   document: 'bg-document/10 text-document',
+  school: 'bg-school-bg text-school',
+  pc: 'bg-pc-bg text-pc',
 }
 
 export default function Badge({ label, variant = 'neutral' }) {

@@ -67,18 +67,20 @@ body {
    ═══════════════════════════════════════════════════════════ */
 
 .committee-hero {
-  background: var(--bg-white);
+  background: var(--bg-page);
 }
 
 .committee-hero-banner {
   position: relative;
   width: 100%;
+  background: var(--bg-page);
 }
 
 .committee-hero-banner-img {
   display: block;
   width: 100%;
   height: auto;
+  margin-bottom: -2px;
 }
 
 .committee-hero-portal-link {
@@ -107,9 +109,10 @@ body {
 }
 
 .committee-hero-nav {
-  padding: 40px 0 48px;
-  background: var(--bg-white);
+  padding: 32px 0 48px;
+  background: var(--bg-page);
   border-bottom: 1px solid var(--border);
+  margin-top: -1px;
 }
 
 .committee-hero-welcome {

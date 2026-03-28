@@ -894,3 +894,27 @@ body {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+/* Dot list — shared bullet-point component */
+.dot-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.dot-list li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+.dot-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+}
+.dot-list--accent li::before {
+  color: var(--accent);
+}

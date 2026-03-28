@@ -1,4 +1,4 @@
-import { FileText, CheckCircle, Calendar, Layers, GraduationCap } from 'lucide-react';
+import { FileText, CheckCircle, Calendar, Layers, GraduationCap, ArrowUpRight } from 'lucide-react';
 import tasksData from '../../data/committee-tasks.json';
 import meetingData from '../../data/committee-meeting.json';
 import nextMeetingData from '../../data/committee-next-meeting.json';
@@ -23,8 +23,8 @@ export default function CommitteeHero() {
           alt="Holgate P&C — Parents & Citizens Association"
           className="committee-hero-banner-img"
         />
-        <a href="#/" className="committee-header-portal-link" aria-label="Parents Portal">
-          Parents Portal
+        <a href="#/" className="committee-hero-portal-link">
+          Parents Portal <ArrowUpRight size={14} strokeWidth={2.5} />
         </a>
       </div>
 

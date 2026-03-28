@@ -4,12 +4,13 @@ import actions from '../data/actions.json'
 import decisions from '../data/decisions.json'
 import school from '../data/school.json'
 import correspondence from '../data/correspondence.json'
+import documents from '../data/documents.json'
 import meta from '../data/meta.json'
 
-export { people, meetings, actions, decisions, school, correspondence, meta }
+export { people, meetings, actions, decisions, school, correspondence, documents, meta }
 
 export function getPersonByInitials(initials) {
-  return people.find((p) => p.id === initials) || { initials, name: initials, role: '' }
+  return people.find((p) => p.id === initials) || { id: initials, name: initials, role: '' }
 }
 
 export function getMeetingById(id) {
@@ -28,10 +29,16 @@ export function getCorrespondenceForMeeting(meetingId) {
   return correspondence.filter((c) => c.meetingId === meetingId)
 }
 
-export function getMeetingStatusBadge(status) {
-  if (status === 'draft') return { label: 'DRAFT', variant: 'warning' }
-  if (status === 'scheduled') return { label: 'UPCOMING', variant: 'info' }
-  return { label: 'FINAL', variant: 'success' }
+export function getDocumentsForMeeting(meetingId) {
+  return documents.filter((d) => d.relatedMeetings?.includes(meetingId))
+}
+
+export function getNextMeeting() {
+  const today = new Date().toISOString().split('T')[0]
+  return (
+    meetings.find((m) => m.status === 'scheduled') ||
+    [...meetings].sort((a, b) => a.date.localeCompare(b.date)).find((m) => m.date >= today)
+  )
 }
 
 export function getAttendanceCount(meeting) {

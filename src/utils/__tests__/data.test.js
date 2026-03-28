@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { getPersonByInitials, getMeetingById, getActionsForMeeting, getDecisionsForMeeting } from '../data'
+import { getPersonByInitials, getMeetingById, getActionsForMeeting, getDecisionsForMeeting, getDocumentsForMeeting, getNextMeeting } from '../data'
 
 describe('getPersonByInitials', () => {
   it('returns person for known initials', () => {
@@ -9,7 +9,7 @@ describe('getPersonByInitials', () => {
   })
   it('returns fallback for unknown initials', () => {
     const unknown = getPersonByInitials('XX')
-    expect(unknown.initials).toBe('XX')
+    expect(unknown.id).toBe('XX')
     expect(unknown.name).toBe('XX')
   })
 })
@@ -38,5 +38,20 @@ describe('getDecisionsForMeeting', () => {
     const result = getDecisionsForMeeting('2026-03-02')
     expect(result.length).toBeGreaterThan(0)
     result.forEach(d => expect(d.meetingId).toBe('2026-03-02'))
+  })
+})
+
+describe('getDocumentsForMeeting', () => {
+  it('returns empty array when no documents exist', () => {
+    const result = getDocumentsForMeeting('2026-03-02')
+    expect(result).toEqual([])
+  })
+})
+
+describe('getNextMeeting', () => {
+  it('returns a scheduled meeting', () => {
+    const next = getNextMeeting()
+    expect(next).toBeDefined()
+    expect(next.status).toBe('scheduled')
   })
 })

@@ -1,43 +1,4 @@
 {
-  "principal": "Vanessa Gordon",
-  "vicePrincipal": "Kerri Kerri",
-  "deputyPrincipal": "Tanya Burke",
-  "phone": "(02) 4367 7444",
-  "address": "189 Wattle Tree Road, Holgate NSW 2250",
-  "email": "holgate-p.school@det.nsw.edu.au",
-  "enrolmentCap": 156,
-  "classes": 4,
-  "values": ["Respect", "Responsibility", "Resilience"],
-  "motto": "To Thine Own Self Be True",
-  "uniformSupplier": "Lowes",
-  "uniformLicenceExpiry": "2029",
-  "auditor": "Karen Ridge, Catalyst Accounting",
-  "bankDetails": {
-    "mainAccount": { "bsb": "082574", "account": "037972903" },
-    "canteenAccount": { "bsb": "082574", "account": "863497729" }
-  },
-  "uniformPricing": [
-    { "item": "Dress", "description": "Maroon & white check", "price": 64.95 },
-    { "item": "Polo", "description": "Sublimation style with emblem", "price": 46.95 },
-    { "item": "Jumper", "description": "Maroon fleecy pullover with logo", "price": 42.95 },
-    { "item": "Jacket (NEW)", "description": "Maroon microfibre full zip with lining", "price": 69.95 },
-    { "item": "Track Pants (NEW)", "description": "Microfibre, zip ankle, school initials", "price": 59.95 },
-    { "item": "Skort (NEW)", "description": "Front wrap, elastic back, initials", "price": 49.95 },
-    { "item": "Shorts (NEW)", "description": "Microfibre, full elastic, initials", "price": 46.95 },
-    { "item": "Broad-brim Hat", "description": "Maroon broad-brim school hat with logo", "price": 19.00 },
-    { "item": "Bucket Hat", "description": "Maroon bucket/boat-style school hat with logo", "price": 19.00 },
-    { "item": "Backpack", "description": "School backpack", "price": 54.00 }
-  ],
-  "operatingRules": [
-    "All office bearer reports due 7 days before meetings",
-    "Minutes distributed within 7 days of meeting",
-    "Agenda to members 5 days prior (Thursdays)",
-    "Two signatories on all financial transactions",
-    "Event insurance notification form required before every event",
-    "Annual audit required — financial year closes 31 December",
-    "Canteen P&L statement submitted once per term",
-    "Newsletter content submitted to school office Weeks 3, 6, 9 of each term"
-  ],
   "pendingItems": [
     {
       "id": "s-2026-03-01",
@@ -90,50 +51,6 @@
       "title": "Canteen fly screen door hinge",
       "resolution": "Fixed",
       "resolvedDate": "2026-03-02"
-    }
-  ],
-  "updates": [
-    {
-      "id": "u-2026-03-01",
-      "title": "School enrolment cap increased to 156",
-      "content": "Demountable staying and included in enrolments. New DoE leadership more flexible and open-minded. Some constraints around funding and assets lifted.",
-      "source": "Principal's Report",
-      "date": "2026-03-02"
-    },
-    {
-      "id": "u-2026-03-02",
-      "title": "Playground markings — student voice groups choosing designs",
-      "content": "Top oval. Handball and fitness circuit most popular. 4-5 weeks to installation. LED installation planned for 24 Feb.",
-      "source": "Principal's Report",
-      "date": "2026-03-02"
-    },
-    {
-      "id": "u-2026-03-03",
-      "title": "Uniform transition period until 31 December 2027",
-      "content": "Students can wear old or new uniform during transition. Lowes phasing out older stock from 2025. New skorts and shorts now available. Winter items and jacket coming soon.",
-      "source": "Principal's Report",
-      "date": "2026-03-02"
-    },
-    {
-      "id": "u-2026-03-04",
-      "title": "Explicit teaching embedded across numeracy and literacy",
-      "content": "School made significant strides embedding explicit teaching. Daily warm-up activities, number sense routines, guided reading enhancements. Regular use of student data for targeted support.",
-      "source": "Principal's AGM Report",
-      "date": "2026-03-02"
-    },
-    {
-      "id": "u-2026-03-05",
-      "title": "AI EduChat being introduced for Stage 3 students",
-      "content": "Introducing explicit instruction for Stage 3 to effectively utilise AI tools such as AI EduChat to support learning.",
-      "source": "Principal's AGM Report",
-      "date": "2026-03-02"
-    },
-    {
-      "id": "u-2025-12-01",
-      "title": "4 classes in 2026, no 3-way classes",
-      "content": "Gaining 20 kindy students, losing 12 Year 6, losing 4 throughout. Ms Nash extra staff until transfer.",
-      "source": "Principal's Report",
-      "date": "2025-12-01"
     }
   ]
 }

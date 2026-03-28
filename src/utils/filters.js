@@ -28,10 +28,3 @@ export function filterMeetings(meetings, { year = null, type = null } = {}) {
     return true
   })
 }
-
-export function filterEvents(events, { type = null } = {}) {
-  return events.filter((e) => {
-    if (type && e.type !== type) return false
-    return true
-  })
-}

@@ -1,5 +1,354 @@
 [
   {
+    "id": "d-2025-03a-01",
+    "meetingId": "2025-03-03-agm",
+    "title": "Previous AGM minutes accepted",
+    "description": "AGM minutes from previous year reviewed and accepted",
+    "category": "operational",
+    "result": "carried",
+    "moved": "LB",
+    "seconded": "IP"
+  },
+  {
+    "id": "d-2025-03a-02",
+    "meetingId": "2025-03-03-agm",
+    "title": "Annual financial reports accepted",
+    "description": "Principal's, President's, and Treasurer's annual reports accepted",
+    "category": "operational",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "DG"
+  },
+  {
+    "id": "d-2025-03a-03",
+    "meetingId": "2025-03-03-agm",
+    "title": "Removal of Wellbeing Officer role from constitution",
+    "description": "Wellbeing Officer position removed from the P&C constitution",
+    "category": "policy",
+    "result": "carried",
+    "moved": "LB",
+    "seconded": "AN"
+  },
+  {
+    "id": "d-2025-03a-04",
+    "meetingId": "2025-03-03-agm",
+    "title": "Addition of Newsletter Coordinator role to constitution",
+    "description": "New role involves preparing a short blurb for the school newsletter three times a term",
+    "category": "policy",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "LB"
+  },
+  {
+    "id": "d-2025-03a-05",
+    "meetingId": "2025-03-03-agm",
+    "title": "Minutes distribution timeline — within 7 days of meeting",
+    "description": "Minutes to be distributed 7 days after meeting to all P&C members",
+    "category": "policy",
+    "result": "carried",
+    "moved": "CV",
+    "seconded": "LB"
+  },
+  {
+    "id": "d-2025-03a-06",
+    "meetingId": "2025-03-03-agm",
+    "title": "President's role adjustments — Gmail, agenda, report collation",
+    "description": "President to monitor P&C Gmail and Google Drive, present agenda 5 days prior, collate reports 7 days prior",
+    "category": "policy",
+    "result": "carried",
+    "moved": "CV",
+    "seconded": "LB"
+  },
+  {
+    "id": "d-2025-03a-07",
+    "meetingId": "2025-03-03-agm",
+    "title": "Treasurer's role adjustments — canteen P&L, Gmail, reporting",
+    "description": "Treasurer to provide canteen P&L once per term, monitor treasurer Gmail, and provide financial report 7 days prior to meetings",
+    "category": "policy",
+    "result": "carried",
+    "moved": "CV",
+    "seconded": "LB"
+  },
+  {
+    "id": "d-2025-03a-08",
+    "meetingId": "2025-03-03-agm",
+    "title": "2025 Office Bearers elected",
+    "description": "President: Alecia Nealon. Vice President: Dave Gurr. Secretary: Imke Pearce. Treasurer: Laura Butler.",
+    "category": "election",
+    "result": "carried"
+  },
+  {
+    "id": "d-2025-03a-09",
+    "meetingId": "2025-03-03-agm",
+    "title": "2025 Association Positions elected",
+    "description": "Fundraising: CB, PO, AV, JV, BH. Book Club: CV, LM. 2nd Hand Clothing: LM. Newsletter: BH. Social Media: CV. Grants: CB, BF, DG. Music & Instrument: SS.",
+    "category": "election",
+    "result": "carried"
+  },
+  {
+    "id": "d-2025-04-01",
+    "meetingId": "2025-04-07",
+    "title": "P&C insurance policy update to include property — $170",
+    "description": "P&C was not covered for property insurance. Additional $170 paid to correct coverage.",
+    "category": "spending",
+    "result": "carried",
+    "moved": "DG",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-04-02",
+    "meetingId": "2025-04-07",
+    "title": "Canteen thermometers — $59.50",
+    "description": "Three thermometers purchased for canteen food safety. Reimbursement to school.",
+    "category": "spending",
+    "result": "carried",
+    "moved": "IP",
+    "seconded": "AN"
+  },
+  {
+    "id": "d-2025-04-03",
+    "meetingId": "2025-04-07",
+    "title": "Teacher class gifts — $350 per class x 4 = $1,400",
+    "description": "Donation increased to $350 per classroom (from previous amount). Teachers have autonomy to spend on resources. Less total as school now has 4 classes not 5.",
+    "category": "spending",
+    "result": "carried",
+    "moved": "SS",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-04-04",
+    "meetingId": "2025-04-07",
+    "title": "P&C Association membership — $40",
+    "description": "Payment for CC P&C Association annual membership. AN attended first meeting and was very impressed with value.",
+    "category": "spending",
+    "result": "carried",
+    "moved": "IP",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-04-05",
+    "meetingId": "2025-04-07",
+    "title": "Acceptance of April 2025 reports",
+    "description": "All reports and items tabled at the April meeting accepted",
+    "category": "operational",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-05-01",
+    "meetingId": "2025-05-05",
+    "title": "Paint for line marking",
+    "description": "Paint to mark lines on oval. SS has the equipment, P&C just needs paint.",
+    "category": "spending",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "BH"
+  },
+  {
+    "id": "d-2025-05-02",
+    "meetingId": "2025-05-05",
+    "title": "Cake boxes reimbursement — $70.11",
+    "description": "Reimbursement for cake decorating boxes for Easter fundraising",
+    "category": "spending",
+    "result": "carried",
+    "moved": "CV",
+    "seconded": "IP"
+  },
+  {
+    "id": "d-2025-05-03",
+    "meetingId": "2025-05-05",
+    "title": "Canteen aprons — $36",
+    "description": "Aprons purchased for canteen volunteers",
+    "category": "spending",
+    "result": "carried",
+    "moved": "CV",
+    "seconded": "IP"
+  },
+  {
+    "id": "d-2025-05-04",
+    "meetingId": "2025-05-05",
+    "title": "Cross country expenses reimbursement — $143.26",
+    "description": "Reimbursement to CB for cross country event expenses",
+    "category": "spending",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "IP"
+  },
+  {
+    "id": "d-2025-05-05",
+    "meetingId": "2025-05-05",
+    "title": "BBQ expenses reimbursement (Election Day) — $564.82",
+    "description": "Reimbursement to CB for Election Day BBQ expenses. Election Day total profit was $2,514.82.",
+    "category": "spending",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "IP"
+  },
+  {
+    "id": "d-2025-05-06",
+    "meetingId": "2025-05-05",
+    "title": "Acceptance of May 2025 reports",
+    "description": "All reports tabled at the May meeting accepted",
+    "category": "operational",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "IP"
+  },
+  {
+    "id": "d-2025-08-01",
+    "meetingId": "2025-08-04",
+    "title": "School Principal gift reimbursement — $20",
+    "description": "Reimbursement to Sharyn Styman for Principal Appreciation Day gift for Mrs Gordon",
+    "category": "spending",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-08-02",
+    "meetingId": "2025-08-04",
+    "title": "Acceptance of June 2025 reports",
+    "description": "All reports tabled at the August meeting (for June) accepted with noted canteen report update",
+    "category": "operational",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-09-01",
+    "meetingId": "2025-09-01",
+    "title": "Bread for Fathers Day breakfast — $60",
+    "description": "Purchase of bread for Fathers Day breakfast event",
+    "category": "spending",
+    "result": "carried",
+    "moved": "LB",
+    "seconded": "JV"
+  },
+  {
+    "id": "d-2025-09-02",
+    "meetingId": "2025-09-01",
+    "title": "Senior jacket shortfall — ~$69.85 paid by P&C",
+    "description": "P&C to pay ~$69.85 shortfall on senior jacket orders. Passed by all members except 1 (AN). This will be the last year of senior jackets.",
+    "category": "spending",
+    "result": "carried"
+  },
+  {
+    "id": "d-2025-09-03",
+    "meetingId": "2025-09-01",
+    "title": "Canteen shutters — not proceeding now",
+    "description": "Vote held on whether to proceed with canteen shutter work now. ASSETS advised full asbestos removal required, cannot do in parts, cabinetry replacement needed — cost significantly higher than quoted. P&C voted NOT to proceed now; will include in future grant submission.",
+    "category": "operational",
+    "result": "defeated"
+  },
+  {
+    "id": "d-2025-09-04",
+    "meetingId": "2025-09-01",
+    "title": "Acceptance of August 2025 reports",
+    "description": "All reports tabled at the August meeting accepted with noted canteen report update",
+    "category": "operational",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-11-01",
+    "meetingId": "2025-11-03",
+    "title": "Disco expenses reimbursement — $417.27",
+    "description": "Reimbursement for school disco expenses",
+    "category": "spending",
+    "result": "carried",
+    "moved": "JV",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-11-02",
+    "meetingId": "2025-11-03",
+    "title": "Headphones reimbursement — $149",
+    "description": "Reimbursement to AN for headphones",
+    "category": "spending",
+    "result": "carried",
+    "moved": "JV",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-11-03",
+    "meetingId": "2025-11-03",
+    "title": "Coles reimbursement — $65.60",
+    "description": "Reimbursement to AN for Coles purchases",
+    "category": "spending",
+    "result": "carried",
+    "moved": "JV",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-11-04",
+    "meetingId": "2025-11-03",
+    "title": "Spoils/Woolworths reimbursement — $164.50",
+    "description": "Reimbursement for food spoilage items from Woolworths",
+    "category": "spending",
+    "result": "carried",
+    "moved": "JV",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-11-05",
+    "meetingId": "2025-11-03",
+    "title": "Water coolers for events — $198",
+    "description": "Purchase of 2-pack water coolers for events and disco",
+    "category": "spending",
+    "result": "carried",
+    "moved": "CV",
+    "seconded": "JV"
+  },
+  {
+    "id": "d-2025-11-06",
+    "meetingId": "2025-11-03",
+    "title": "Acceptance of September 2025 reports",
+    "description": "All reports tabled at the November meeting accepted",
+    "category": "operational",
+    "result": "carried",
+    "moved": "AN",
+    "seconded": "CV"
+  },
+  {
+    "id": "d-2025-12-01",
+    "meetingId": "2025-12-01",
+    "title": "Sandpit & handball court refurbishment — $17,800",
+    "description": "P&C to reimburse school for sandpit upgrade with sandstone rocks",
+    "category": "spending",
+    "result": "carried",
+    "moved": "BF",
+    "seconded": "LM-matheson"
+  },
+  {
+    "id": "d-2025-12-02",
+    "meetingId": "2025-12-01",
+    "title": "Teacher appreciation lunch reimbursement — $34.48",
+    "category": "spending",
+    "result": "carried",
+    "moved": "BF",
+    "seconded": "LM-matheson"
+  },
+  {
+    "id": "d-2025-12-03",
+    "meetingId": "2025-12-01",
+    "title": "Teacher appreciation food reimbursement — $242.20",
+    "category": "spending",
+    "result": "carried",
+    "moved": "BF",
+    "seconded": "LM-matheson"
+  },
+  {
+    "id": "d-2025-12-04",
+    "meetingId": "2025-12-01",
+    "title": "Acceptance of November 2025 reports",
+    "category": "operational",
+    "result": "carried",
+    "moved": "JV",
+    "seconded": "BF"
+  },
+  {
     "id": "d-2026-03-01",
     "meetingId": "2026-03-02",
     "title": "P&C donation of $300 per classroom — $1,400 total",
@@ -50,42 +399,5 @@
     "description": "All money going into safe must be recorded, signed and sighted in a log book. All money taken out must also be signed and sighted by treasurer.",
     "category": "policy",
     "result": "carried"
-  },
-  {
-    "id": "d-2025-12-01",
-    "meetingId": "2025-12-01",
-    "title": "Sandpit & handball court refurbishment — $17,800",
-    "description": "P&C to reimburse school for sandpit upgrade with sandstone rocks",
-    "category": "spending",
-    "result": "carried",
-    "moved": "BF",
-    "seconded": "LM-matheson"
-  },
-  {
-    "id": "d-2025-12-02",
-    "meetingId": "2025-12-01",
-    "title": "Teacher appreciation lunch reimbursement — $34.48",
-    "category": "spending",
-    "result": "carried",
-    "moved": "BF",
-    "seconded": "LM-matheson"
-  },
-  {
-    "id": "d-2025-12-03",
-    "meetingId": "2025-12-01",
-    "title": "Teacher appreciation food reimbursement — $242.20",
-    "category": "spending",
-    "result": "carried",
-    "moved": "BF",
-    "seconded": "LM-matheson"
-  },
-  {
-    "id": "d-2025-12-04",
-    "meetingId": "2025-12-01",
-    "title": "Acceptance of November 2025 reports",
-    "category": "operational",
-    "result": "carried",
-    "moved": "JV",
-    "seconded": "BF"
   }
 ]

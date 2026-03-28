@@ -1,5 +1,587 @@
 [
   {
+    "id": "a-2025-03-01",
+    "meetingId": "2025-03-03",
+    "description": "Chase up Federation account-keeping services cost",
+    "owners": ["LB"],
+    "status": "completed",
+    "dueDate": "2025-04-07",
+    "completedDate": "2025-04-07",
+    "notes": "LB reported in April that it's unlikely to be used as most work is done by LB already"
+  },
+  {
+    "id": "a-2025-03-02",
+    "meetingId": "2025-03-03",
+    "description": "Make insurance claim for canteen food loss due to power outage",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-04-07",
+    "completedDate": "2025-04-07",
+    "notes": "April meeting: could not claim under insurance for food loss blackouts. Property insurance was not even held."
+  },
+  {
+    "id": "a-2025-03-03",
+    "meetingId": "2025-03-03",
+    "description": "Contact East Coast Juices as potential canteen supplier",
+    "owners": ["IP"],
+    "status": "completed",
+    "dueDate": "2025-04-07",
+    "completedDate": "2025-05-05",
+    "notes": "May: Not contacted — juice not popular enough to meet minimum order. BH to contact small juice company from farmers market instead."
+  },
+  {
+    "id": "a-2025-03-04",
+    "meetingId": "2025-03-03",
+    "description": "Distribute permission notes for Year 6 canteen helpers",
+    "owners": ["VG"],
+    "status": "completed",
+    "dueDate": "2025-04-07",
+    "completedDate": "2025-04-07",
+    "notes": "April: Year 6 permission slips completed and induction done"
+  },
+  {
+    "id": "a-2025-03-05",
+    "meetingId": "2025-03-03",
+    "description": "Organise canteen meeting to discuss cost cutting, prices and menu. Calculate cost and profit margins. Monthly report template.",
+    "owners": ["IP", "AN"],
+    "status": "completed",
+    "dueDate": "2025-04-07",
+    "completedDate": "2025-04-07",
+    "notes": "April meeting introduced new canteen procedures and safety measures"
+  },
+  {
+    "id": "a-2025-03-06",
+    "meetingId": "2025-03-03",
+    "description": "Design senior jackets via Alinta Apparel",
+    "owners": ["LM", "AN"],
+    "status": "completed",
+    "dueDate": "2025-04-07",
+    "completedDate": "2025-04-07",
+    "notes": "April: Team Spirit senior jacket complete. Expressions of interest to go out."
+  },
+  {
+    "id": "a-2025-03-07",
+    "meetingId": "2025-03-03",
+    "description": "Create fundraising calendar and send to families (approved by VG)",
+    "owners": ["CB", "VG"],
+    "status": "completed",
+    "dueDate": "2025-03-20",
+    "completedDate": "2025-03-20"
+  },
+  {
+    "id": "a-2025-03-08",
+    "meetingId": "2025-03-03",
+    "description": "Enquire about defibrillator reimbursement",
+    "owners": ["CV"],
+    "status": "completed",
+    "dueDate": "2025-04-07",
+    "completedDate": "2025-04-07",
+    "notes": "April: Efforts circled back to VG — defibrillator was paid by school"
+  },
+  {
+    "id": "a-2025-03-09",
+    "meetingId": "2025-03-03",
+    "description": "Chase up Grill'd application",
+    "owners": ["CB"],
+    "status": "completed",
+    "dueDate": "2025-04-07",
+    "completedDate": "2025-08-04",
+    "notes": "August: Grill'd jar link resent — completed"
+  },
+  {
+    "id": "a-2025-04-01",
+    "meetingId": "2025-04-07",
+    "description": "Follow up dishwasher issues under warranty",
+    "owners": ["IP"],
+    "status": "completed",
+    "dueDate": "2025-05-05",
+    "completedDate": "2025-08-04",
+    "notes": "Issue was commercial use under individual agreement. Receipt found. AN followed up in person. Dishwasher worked all of term 3."
+  },
+  {
+    "id": "a-2025-04-02",
+    "meetingId": "2025-04-07",
+    "description": "Complete Grill'd application form for bonus cash incentive",
+    "owners": ["CB", "DG"],
+    "status": "completed",
+    "dueDate": "2025-05-05",
+    "completedDate": "2025-08-04",
+    "notes": "August: Grill'd link resent — completed"
+  },
+  {
+    "id": "a-2025-04-03",
+    "meetingId": "2025-04-07",
+    "description": "Chase up company name for turf for bottom playground and shade cloth quotes via Erina Heights P&C",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-05-05",
+    "completedDate": "2025-05-05",
+    "notes": "May: Turfing blacklisted due to carcinogens. Pivoted to modular flooring concept."
+  },
+  {
+    "id": "a-2025-04-04",
+    "meetingId": "2025-04-07",
+    "description": "Check if school has line marking equipment",
+    "owners": ["VG"],
+    "status": "completed",
+    "dueDate": "2025-05-05",
+    "completedDate": "2025-05-05",
+    "notes": "May: No equipment available. BH to check soccer club, IP to ask AFL club."
+  },
+  {
+    "id": "a-2025-04-05",
+    "meetingId": "2025-04-07",
+    "description": "Pay money to Prue for classroom resources and other reimbursements",
+    "owners": ["LB"],
+    "status": "completed",
+    "dueDate": "2025-05-05",
+    "completedDate": "2025-08-04",
+    "notes": "August: Class gift money allocated but still not invoiced by school (Prue). Followed up again."
+  },
+  {
+    "id": "a-2025-04-06",
+    "meetingId": "2025-04-07",
+    "description": "Purchase and distribute cake boxes for Easter Hat Parade fundraiser",
+    "owners": ["AN", "CB"],
+    "status": "completed",
+    "dueDate": "2025-05-05",
+    "completedDate": "2025-05-05",
+    "notes": "May: Cake boxes distributed. Winners announced."
+  },
+  {
+    "id": "a-2025-04-07",
+    "meetingId": "2025-04-07",
+    "description": "Place up Election Day signs around valley",
+    "owners": ["AN", "CB"],
+    "status": "completed",
+    "dueDate": "2025-04-28",
+    "completedDate": "2025-04-28"
+  },
+  {
+    "id": "a-2025-04-08",
+    "meetingId": "2025-04-07",
+    "description": "Write up daily timeline procedure for canteen operations",
+    "owners": ["IP", "AN"],
+    "status": "open",
+    "dueDate": "2025-05-05",
+    "notes": "Still outstanding as of August meeting. September: Spriggy login to be added to procedure."
+  },
+  {
+    "id": "a-2025-04-09",
+    "meetingId": "2025-04-07",
+    "description": "Deep clean of canteen",
+    "owners": ["AN", "CV", "LM", "IP"],
+    "status": "completed",
+    "dueDate": "2025-05-03",
+    "completedDate": "2025-05-06"
+  },
+  {
+    "id": "a-2025-04-10",
+    "meetingId": "2025-04-07",
+    "description": "Complete risk assessment for Mothers Day event",
+    "owners": ["AN", "VG"],
+    "status": "completed",
+    "dueDate": "2025-05-05",
+    "completedDate": "2025-05-05"
+  },
+  {
+    "id": "a-2025-05-01",
+    "meetingId": "2025-05-05",
+    "description": "Get shade cloth quote for oval",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-06-02",
+    "completedDate": "2025-08-04",
+    "notes": "August: Shutter quote received — completed"
+  },
+  {
+    "id": "a-2025-05-02",
+    "meetingId": "2025-05-05",
+    "description": "Wash everything in lost property box and return to owners",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-06-02",
+    "completedDate": "2025-06-02"
+  },
+  {
+    "id": "a-2025-05-03",
+    "meetingId": "2025-05-05",
+    "description": "Contact small juice company from farmers market as potential canteen supplier",
+    "owners": ["BH"],
+    "status": "open",
+    "dueDate": "2025-06-02",
+    "notes": "Still outstanding as of August meeting"
+  },
+  {
+    "id": "a-2025-05-04",
+    "meetingId": "2025-05-05",
+    "description": "Look at fencing options for basketball court",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-06-02",
+    "completedDate": "2025-08-04",
+    "notes": "August: New fencing quote received — $38K replacement in black"
+  },
+  {
+    "id": "a-2025-05-05",
+    "meetingId": "2025-05-05",
+    "description": "Get modular flooring quote for bottom area and basketball court",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-06-02",
+    "completedDate": "2025-08-04",
+    "notes": "August: Basketball quote received. $53K for modular flooring included in $80K grant application."
+  },
+  {
+    "id": "a-2025-05-06",
+    "meetingId": "2025-05-05",
+    "description": "Chase up senior jacket sizing kits",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-05-15",
+    "completedDate": "2025-08-04",
+    "notes": "August: Senior jackets received. Sizes running large."
+  },
+  {
+    "id": "a-2025-08-01",
+    "meetingId": "2025-08-04",
+    "description": "Follow up Dinner Ladies voucher ($100) with Mrs Waight",
+    "owners": ["VG"],
+    "status": "completed",
+    "dueDate": "2025-08-08",
+    "completedDate": "2025-09-01",
+    "notes": "September: Mrs Waight response printed and sighted at meeting"
+  },
+  {
+    "id": "a-2025-08-02",
+    "meetingId": "2025-08-04",
+    "description": "Send canteen rostering request in hard copy to parents",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-08-31",
+    "completedDate": "2025-11-03",
+    "notes": "November: Helpers note sent out"
+  },
+  {
+    "id": "a-2025-08-03",
+    "meetingId": "2025-08-04",
+    "description": "Follow up class gift money to be invoiced by school (Prue)",
+    "owners": ["VG"],
+    "status": "completed",
+    "dueDate": "2025-08-31",
+    "completedDate": "2025-09-01"
+  },
+  {
+    "id": "a-2025-08-04",
+    "meetingId": "2025-08-04",
+    "description": "Get disco DJ quotes — Little Ravers and Bop Till You Drop for 7 November",
+    "owners": ["CB"],
+    "status": "completed",
+    "dueDate": "2025-08-31",
+    "completedDate": "2025-09-01",
+    "notes": "September: Disco information received"
+  },
+  {
+    "id": "a-2025-08-05",
+    "meetingId": "2025-08-04",
+    "description": "Update Fathers Day note with bacon/egg deals, gluten-free option, pricing — send to Prue for distribution",
+    "owners": ["CB"],
+    "status": "completed",
+    "dueDate": "2025-08-31",
+    "completedDate": "2025-09-01"
+  },
+  {
+    "id": "a-2025-08-06",
+    "meetingId": "2025-08-04",
+    "description": "Send donation request email to previous Trivia Night prize donors",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-08-31",
+    "completedDate": "2025-09-01",
+    "notes": "September: Prizes sourced. Alkira Preschool donated $300."
+  },
+  {
+    "id": "a-2025-08-07",
+    "meetingId": "2025-08-04",
+    "description": "Request flood lights from firefighter team for Trivia Night",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-09-01",
+    "completedDate": "2025-09-01"
+  },
+  {
+    "id": "a-2025-08-08",
+    "meetingId": "2025-08-04",
+    "description": "Confirm if end-of-term canteen clean was completed (Term 2)",
+    "owners": ["IP"],
+    "status": "completed",
+    "dueDate": "2025-09-01",
+    "completedDate": "2025-09-01",
+    "notes": "September: Canteen clean completed last term"
+  },
+  {
+    "id": "a-2025-08-09",
+    "meetingId": "2025-08-04",
+    "description": "Ensure canteen volunteers sign in every shift",
+    "owners": ["IP"],
+    "status": "open",
+    "dueDate": "2025-09-01",
+    "notes": "Ongoing operational requirement"
+  },
+  {
+    "id": "a-2025-08-10",
+    "meetingId": "2025-08-04",
+    "description": "Add P&C Canteen Manager role to AGM agenda for 2026",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2026-03-02",
+    "completedDate": "2026-03-02",
+    "notes": "March 2026 AGM: Canteen Manager role created, LM appointed"
+  },
+  {
+    "id": "a-2025-08-11",
+    "meetingId": "2025-08-04",
+    "description": "Get firm asbestos removal quote from ASSETS for canteen shutters — full and partial options",
+    "owners": ["VG"],
+    "status": "completed",
+    "dueDate": "2025-09-01",
+    "completedDate": "2025-09-01",
+    "notes": "September: ASSETS meeting held. Cannot do partial — must do all at once. Cabinetry replacement needed. Cost significantly higher. P&C voted not to proceed now."
+  },
+  {
+    "id": "a-2025-08-12",
+    "meetingId": "2025-08-04",
+    "description": "Pull together FAQ list for P&C section of school website",
+    "owners": ["BF"],
+    "status": "open",
+    "dueDate": "2025-09-01"
+  },
+  {
+    "id": "a-2025-08-13",
+    "meetingId": "2025-08-04",
+    "description": "Review with Prue — ensure school office can accept senior jacket cash for P&C",
+    "owners": ["VG"],
+    "status": "completed",
+    "dueDate": "2025-08-31",
+    "completedDate": "2025-09-01"
+  },
+  {
+    "id": "a-2025-08-14",
+    "meetingId": "2025-08-04",
+    "description": "Issue guidance on acceptable school uniform",
+    "owners": ["VG"],
+    "status": "completed",
+    "dueDate": "2025-08-31",
+    "completedDate": "2025-11-03",
+    "notes": "November: Letter going out clarifying new uniform and what is accepted"
+  },
+  {
+    "id": "a-2025-08-15",
+    "meetingId": "2025-08-04",
+    "description": "Community Building Grant — draft submission using previous grant info",
+    "owners": ["BF", "DG"],
+    "status": "open",
+    "dueDate": "2025-09-30",
+    "notes": "September and November: Still open — grant submissions not yet open. Targeting $20K for canteen shutters."
+  },
+  {
+    "id": "a-2025-09-01",
+    "meetingId": "2025-09-01",
+    "description": "Order senior jackets and pay P&C shortfall of ~$69.85",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-09-15",
+    "completedDate": "2025-09-15"
+  },
+  {
+    "id": "a-2025-09-02",
+    "meetingId": "2025-09-01",
+    "description": "Send thank you to Aaron Parker for $200 donation",
+    "owners": ["AN"],
+    "status": "open",
+    "dueDate": "2025-11-03"
+  },
+  {
+    "id": "a-2025-09-03",
+    "meetingId": "2025-09-01",
+    "description": "Shout out that Library Funds can be paid over School Bytes",
+    "owners": ["CV"],
+    "status": "open",
+    "dueDate": "2025-11-03"
+  },
+  {
+    "id": "a-2025-09-04",
+    "meetingId": "2025-09-01",
+    "description": "Advertise remaining 5 Trivia Night tables and post in newsletter",
+    "owners": ["CV", "BH"],
+    "status": "completed",
+    "dueDate": "2025-09-15",
+    "completedDate": "2025-09-15"
+  },
+  {
+    "id": "a-2025-09-05",
+    "meetingId": "2025-09-01",
+    "description": "Prepare Trivia Night questions",
+    "owners": ["DG"],
+    "status": "completed",
+    "dueDate": "2025-09-18",
+    "completedDate": "2025-09-18"
+  },
+  {
+    "id": "a-2025-09-06",
+    "meetingId": "2025-09-01",
+    "description": "Design Trivia Night presentation",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-09-18",
+    "completedDate": "2025-09-18"
+  },
+  {
+    "id": "a-2025-09-07",
+    "meetingId": "2025-09-01",
+    "description": "Complete risk assessment and volunteer sign-in for Trivia Night",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-09-18",
+    "completedDate": "2025-09-18"
+  },
+  {
+    "id": "a-2025-09-08",
+    "meetingId": "2025-09-01",
+    "description": "Draft note for school disco and place in newsletter",
+    "owners": ["CB", "BH"],
+    "status": "completed",
+    "dueDate": "2025-09-30",
+    "completedDate": "2025-09-30"
+  },
+  {
+    "id": "a-2025-09-09",
+    "meetingId": "2025-09-01",
+    "description": "Add Spriggy login details to canteen procedure document",
+    "owners": ["IP"],
+    "status": "open",
+    "dueDate": "2025-11-03"
+  },
+  {
+    "id": "a-2025-09-10",
+    "meetingId": "2025-09-01",
+    "description": "Sculptures in the Vines — send note to parents about event, art purchasing, and pickup",
+    "owners": ["CV"],
+    "status": "completed",
+    "dueDate": "2025-09-15",
+    "completedDate": "2025-09-15"
+  },
+  {
+    "id": "a-2025-09-11",
+    "meetingId": "2025-09-01",
+    "description": "Sculptures in the Vines — follow-up meeting with Nadia on event details",
+    "owners": ["CV"],
+    "status": "completed",
+    "dueDate": "2025-09-15",
+    "completedDate": "2025-09-15"
+  },
+  {
+    "id": "a-2025-09-12",
+    "meetingId": "2025-09-01",
+    "description": "Supply 2 small trestle tables for Sculptures in the Vines craft activity",
+    "owners": ["BH"],
+    "status": "completed",
+    "dueDate": "2025-10-04",
+    "completedDate": "2025-10-04"
+  },
+  {
+    "id": "a-2025-09-13",
+    "meetingId": "2025-09-01",
+    "description": "Thank-you post on Facebook for all Fathers Day donations",
+    "owners": ["CV"],
+    "status": "open",
+    "dueDate": "2025-11-03"
+  },
+  {
+    "id": "a-2025-11-01",
+    "meetingId": "2025-11-03",
+    "description": "Facebook shout-out for Christmas toy appeal",
+    "owners": ["CV"],
+    "status": "open",
+    "dueDate": "2025-11-15"
+  },
+  {
+    "id": "a-2025-11-02",
+    "meetingId": "2025-11-03",
+    "description": "Send Trivia Night thank-you letters to donors",
+    "owners": ["AN"],
+    "status": "open",
+    "dueDate": "2025-12-01"
+  },
+  {
+    "id": "a-2025-11-03",
+    "meetingId": "2025-11-03",
+    "description": "Add uniform shop info and FAQ to school website",
+    "owners": ["VG"],
+    "status": "open",
+    "dueDate": "2025-12-01"
+  },
+  {
+    "id": "a-2025-11-04",
+    "meetingId": "2025-11-03",
+    "description": "Make list of canteen spoilage with costs for insurance claim (freezer failure)",
+    "owners": ["IP"],
+    "status": "completed",
+    "dueDate": "2025-11-15",
+    "completedDate": "2025-12-01",
+    "notes": "December: Insurance claim nearing completion — $1,190 food spoilage + $1,500 freezer expected"
+  },
+  {
+    "id": "a-2025-11-05",
+    "meetingId": "2025-11-03",
+    "description": "Lodge insurance claim for canteen freezer failure and food spoilage",
+    "owners": ["AN"],
+    "status": "completed",
+    "dueDate": "2025-12-01",
+    "completedDate": "2026-03-02",
+    "notes": "March 2026: Insurance claim complete — all money received, case closed"
+  },
+  {
+    "id": "a-2025-11-06",
+    "meetingId": "2025-11-03",
+    "description": "Policy folder review — review existing policies over coming months",
+    "owners": ["CB", "VCR", "SS"],
+    "status": "open",
+    "dueDate": "2026-03-02",
+    "notes": "Ongoing — to be reviewed every year or two"
+  },
+  {
+    "id": "a-2025-12-01",
+    "meetingId": "2025-12-01",
+    "description": "Follow up Canteen Insurance claim",
+    "owners": ["AN"],
+    "status": "completed",
+    "completedDate": "2026-03-02"
+  },
+  {
+    "id": "a-2025-12-02",
+    "meetingId": "2025-12-01",
+    "description": "Community Building Grant — complete application",
+    "owners": ["BF", "DG"],
+    "status": "open",
+    "notes": "Waiting for CBP 2026 round to open"
+  },
+  {
+    "id": "a-2025-12-03",
+    "meetingId": "2025-12-01",
+    "description": "Email Year in Review 2025",
+    "owners": ["AN"],
+    "status": "open"
+  },
+  {
+    "id": "a-2025-12-04",
+    "meetingId": "2025-12-01",
+    "description": "Canteen volunteer sign-in sheets to be scanned and added to Drive",
+    "owners": ["IP"],
+    "status": "open",
+    "dueDate": "2026-02-01"
+  },
+  {
     "id": "a-2026-03-01",
     "meetingId": "2026-03-02",
     "description": "Check if $41.61 reimbursement for CB has been paid — if not, make payment",
@@ -69,36 +651,5 @@
     "description": "Starlink to be trialled",
     "owners": ["BF"],
     "status": "open"
-  },
-  {
-    "id": "a-2025-12-01",
-    "meetingId": "2025-12-01",
-    "description": "Follow up Canteen Insurance claim",
-    "owners": ["AN"],
-    "status": "completed",
-    "completedDate": "2026-03-02"
-  },
-  {
-    "id": "a-2025-12-02",
-    "meetingId": "2025-12-01",
-    "description": "Community Building Grant — complete application",
-    "owners": ["BF", "DG"],
-    "status": "open",
-    "notes": "Waiting for CBP 2026 round to open"
-  },
-  {
-    "id": "a-2025-12-03",
-    "meetingId": "2025-12-01",
-    "description": "Email Year in Review 2025",
-    "owners": ["AN"],
-    "status": "open"
-  },
-  {
-    "id": "a-2025-12-04",
-    "meetingId": "2025-12-01",
-    "description": "Canteen volunteer sign-in sheets to be scanned and added to Drive",
-    "owners": ["IP"],
-    "status": "open",
-    "dueDate": "2026-02-01"
   }
 ]

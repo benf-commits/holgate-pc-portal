@@ -177,5 +177,13 @@
     "name": "Nadia OConnell",
     "type": "member",
     "active": true
+  },
+  {
+    "id": "AV",
+    "name": "Anna Van Drempt",
+    "type": "member",
+    "active": false,
+    "role": "Fundraising (2025)",
+    "notes": "Left school community mid-2025"
   }
 ]

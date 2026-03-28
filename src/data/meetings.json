@@ -1,5 +1,485 @@
 [
   {
+    "id": "2025-03-03-agm",
+    "date": "2025-03-03",
+    "type": "agm",
+    "title": "Annual General Meeting — March 2025",
+    "status": "final",
+    "openTime": "7:00pm",
+    "closeTime": "7:45pm",
+    "location": "School Staffroom",
+    "convenedBy": "DG",
+    "minutesBy": "IP",
+    "attendance": {
+      "present": ["VG", "DG", "AN", "LB", "IP", "TB", "LM", "SS", "JV", "VCR", "LM-matheson", "BF", "BH", "CV", "AV"],
+      "online": ["CB"],
+      "apologies": ["PO"],
+      "absent": []
+    },
+    "agendaItems": [
+      "Welcome",
+      "Minutes from Previous Meeting",
+      "Annual Reports",
+      "Constitutional Changes",
+      "Election of Office Bearers"
+    ],
+    "minutesItems": [
+      "Previous AGM minutes reviewed and accepted (LB/IP). Carried.",
+      "Annual reports presented: Principal's Report, President's Report, Treasurer's Report. Motion to accept annual financial reports carried (AN/DG).",
+      "Constitutional changes: Removal of Wellbeing Officer role carried (LB/AN). Addition of Newsletter Coordinator role carried (AN/LB). All Office Bearer reports due 7 days prior to meetings. Minutes to be distributed within 7 days after meeting (CV/LB). President's role adjusted to include monitoring Gmail and Google Drive, presenting agenda 5 days prior, and collating reports 7 days prior (CV/LB). Treasurer to include canteen P&L once per term, monitor treasurer Gmail, provide financial report 7 days prior (CV/LB). Secretary adjustments for recording and distributing minutes (AN/LB). Fundraising and Social Media role adjustments also carried.",
+      "Election of 2025 Office Bearers: President — Alecia Nealon (proposed CV, seconded IP). Vice President — Dave Gurr (proposed CV, seconded LB). Secretary — Imke Pearce (proposed LB, seconded CV). Treasurer — Laura Butler (proposed AN, seconded SS).",
+      "Election of Association Positions: Fundraising — CB, PO, AV, JV, BH. Book Club — CV & LM. 2nd Hand Clothing — LM. Newsletter — BH. Social Media — CV. Grants — CB, BF, DG. Music & Instrument Coordinator — SS.",
+      "VG congratulated all newly elected office bearers. Existing executive members (AN, DG, IP, LB) retain NAB net banking access. Additional thanks to Lorrie for deck work and Sharyn for mowing school lawns over summer."
+    ],
+    "keyOutcomes": [
+      {
+        "type": "success",
+        "text": "2025 Office Bearers elected: AN (President), DG (Vice President), IP (Secretary), LB (Treasurer)"
+      },
+      {
+        "type": "success",
+        "text": "Constitutional changes: Wellbeing Officer removed, Newsletter Coordinator added, reporting timelines formalised"
+      },
+      {
+        "type": "success",
+        "text": "Annual financial reports accepted"
+      },
+      {
+        "type": "info",
+        "text": "Committee positions filled: Fundraising, Book Club, 2nd Hand Clothing, Newsletter, Social Media, Grants, Music"
+      }
+    ],
+    "reimbursements": []
+  },
+  {
+    "id": "2025-03-03",
+    "date": "2025-03-03",
+    "type": "monthly",
+    "title": "Monthly Meeting — March 2025",
+    "status": "final",
+    "openTime": "7:50pm",
+    "closeTime": "9:00pm",
+    "location": "School Staffroom",
+    "convenedBy": "DG",
+    "minutesBy": "IP",
+    "attendance": {
+      "present": ["VG", "AN", "DG", "IP", "LB", "CB", "TB", "LM", "SS", "JV", "VCR", "LM-matheson", "PO", "BF", "BH", "CV", "AV"],
+      "online": [],
+      "apologies": [],
+      "absent": []
+    },
+    "agendaItems": [
+      "Minutes from Previous Meeting",
+      "Correspondence",
+      "Principal's Report",
+      "President's Report",
+      "Treasurer's Report",
+      "Fundraising Report",
+      "Canteen Report",
+      "General Business"
+    ],
+    "minutesItems": [
+      "Previous minutes sighted and checked by AN (seconded CV). P&C has already reimbursed school for election day signs. Canteen dishwasher is working so service not required.",
+      "Correspondence inward: Holgate P&C no longer part of 2025 Healthy School Canteens program. CV to enquire about defibrillator reimbursement. Email from Grill'd Erina (Jonathon) — CB to chase up application. Correspondence from Lowes re uniform. New letterhead from VG. Cyber security training free — JV already qualified. Federation now offers account-keeping services (LB to check cost). Outward: Lowes uniform correspondence.",
+      "Reports: Principal's, President's, Treasurer's (canteen at a loss in 2024 per LB canteen report), Fundraising (CB), Canteen reports all tabled.",
+      "Canteen discussion: Separate meeting needed to discuss cost-cutting, price increases, and new homemade menu items. Calculate cost and profit margin of each item sold. Insurance claim to be made for food loss due to power outage (AN).",
+      "2025 events calendar set: Harmony Day (21 Mar), Easter Hat Parade (Apr TBC), Cross Country BBQ (10 Apr), Mothers Day stall and picnic lunch (2 May), School Disco (Aug TBC), Fathers Day BBQ (3 Sep), Trivia Night (Nov TBC), Carols (11 Dec). Colour run noted for 2026 consideration.",
+      "Harmony Day: Canteen to offer specials — spring rolls and other international dishes.",
+      "School uniform update: Survey results in. Upgrade in progress but not yet advertised due to Lowes contract. Maroon shorts, grey blocker shorts, yellow blouses, winter items now on sale at Lowes. New items pending Lowes depleting old stock: girls sports uniform with long pants/skort, wind-breaker jacket with fleece lining, tracksuit pants, maroon shorts with logo, maroon skort. Year 5/6 senior jackets now outsourced by uniform committee — 7 week wait.",
+      "Reimbursement: Sharyn Styman (Woolworths) — amount not specified in minutes."
+    ],
+    "keyOutcomes": [
+      {
+        "type": "info",
+        "text": "Canteen ran at a loss in 2024 — separate meeting to discuss pricing, costs and menu changes"
+      },
+      {
+        "type": "success",
+        "text": "2025 events calendar established with 8 major events"
+      },
+      {
+        "type": "info",
+        "text": "School uniform upgrade underway — new items pending Lowes stock depletion"
+      },
+      {
+        "type": "info",
+        "text": "Senior jackets now outsourced from Lowes to external supplier"
+      },
+      {
+        "type": "warning",
+        "text": "P&C no longer part of Healthy School Canteens program"
+      }
+    ],
+    "reimbursements": [
+      { "payee": "SS", "description": "Woolworths", "amount": null }
+    ]
+  },
+  {
+    "id": "2025-04-07",
+    "date": "2025-04-07",
+    "type": "monthly",
+    "title": "Monthly Meeting — April 2025",
+    "status": "final",
+    "openTime": "7:00pm",
+    "closeTime": "8:40pm",
+    "location": "School Staffroom & Online Meeting",
+    "convenedBy": "AN",
+    "minutesBy": "IP",
+    "attendance": {
+      "present": ["VG", "AN", "DG", "IP", "LB", "CB", "KK", "LM", "SS", "JV", "BF", "CV"],
+      "online": [],
+      "apologies": ["VCR", "LM-matheson", "AV"],
+      "absent": ["TB", "PO", "BH"]
+    },
+    "agendaItems": [
+      "Minutes from Previous Meeting",
+      "Business Arising",
+      "Correspondence",
+      "Reports",
+      "Purchasing & Reimbursement Claims",
+      "General Business"
+    ],
+    "minutesItems": [
+      "Business arising: P&C was not covered for property insurance — now corrected with additional $170 paid. Could not claim under insurance for food loss blackouts. Year 6 permission slips completed and induction done. Certificate of Currency uploaded to Google Drive. Grill'd application — CB and DG to chase up.",
+      "Correspondence inward: P&C insurance new policy including property ($170 extra). Team Spirit — senior jackets complete. Susan — Baby Grand Piano advertisement request. Alarm code for P&C events at Admin building. VG risk assessment for Year 6 helpers. Cier Broadhurst — photo booth business offer passed to VG. P&C Federation emails. Outward: Risk assessments for Cross Country, Mothers Day, canteen volunteers & Election Day. Request for 3 thermometers for canteen (Taryn ordered, need to reimburse school). Team Spirit senior jacket expressions of interest to go out. Adam Crouch — office bearers list.",
+      "Tabled items: 2024 Annual Report HPS, 2025-2028 School Excellence Plan.",
+      "Treasurer's Report: Efforts for defibrillator reimbursement circled back to VG — paid by school. VG warned that reaching out to politicians (Gordon Reid, Adam Crouch) can trigger ministerial processes creating more paperwork for school. Be aware and check with VG first.",
+      "Fundraising: Cake boxes to be sent out this week for holiday decorating. Theme chosen: 'What we Love about Australia?'",
+      "Canteen: Invoices lower from Impulse, higher from Woolworths as sourcing more food from there. Canteen now running at a small profit. Dishwasher still playing up — IP to follow up under warranty.",
+      "Purchasing: Property insurance update $170 (DG/CV carried). Canteen thermometers $59.50 (IP/AN carried). Teacher class gifts $350 per class = $1,400 total (SS/CV carried). P&C Association membership $40 (IP/CV carried). All reports accepted (AN/CV carried).",
+      "General business: Class donation increased to $350 per classroom. VG explained teachers have autonomy to spend. Increase justified as school now has 4 classes not 5. Discussion about teachers requesting additional funds for special occasions like Kindy Graduation.",
+      "CC P&C Association meeting attended by AN — very impressed. $40 annual fee agreed. Adam Crouch discussed $400K budget for Central Coast. School to look at smaller grants under $5,000.",
+      "Canteen: New safety procedures introduced for next term. Logs to be documented. IP to create daily procedures timeline. Reports now weekly and monthly. Deep clean scheduled for first Tuesday back (3 May).",
+      "Grants: Shade cloth over oval benches discussed — VG checking fire rating. Options for turf and shade over bottom playground area. AN to chase quote through Erina Heights Primary. Line marking for top oval — SS has the tool, P&C just needs paint. To be discussed next meeting.",
+      "Communication: Parents confused about contacting teachers — currently just email. School Bytes working on 2-way system."
+    ],
+    "keyOutcomes": [
+      {
+        "type": "success",
+        "text": "P&C property insurance corrected — additional $170 paid"
+      },
+      {
+        "type": "success",
+        "text": "Teacher class gifts approved: $350 per class x 4 = $1,400"
+      },
+      {
+        "type": "success",
+        "text": "Canteen now running at small profit after pricing changes"
+      },
+      {
+        "type": "info",
+        "text": "CC P&C Association membership joined — $40 annual fee"
+      },
+      {
+        "type": "warning",
+        "text": "VG warned: contacting politicians can trigger ministerial processes creating paperwork burden for school"
+      },
+      {
+        "type": "info",
+        "text": "New canteen safety procedures and daily timeline being developed"
+      }
+    ],
+    "reimbursements": [
+      { "payee": "School", "description": "Insurance policy update to include property", "amount": 170.00 },
+      { "payee": "School", "description": "Thermometers for canteen", "amount": 59.50 },
+      { "payee": "School", "description": "Teacher class gifts — $350 per class x 4", "amount": 1400.00 },
+      { "payee": "P&C Federation", "description": "P&C Association membership", "amount": 40.00 }
+    ]
+  },
+  {
+    "id": "2025-05-05",
+    "date": "2025-05-05",
+    "type": "monthly",
+    "title": "Monthly Meeting — May 2025",
+    "status": "draft",
+    "openTime": "7:00pm",
+    "closeTime": "8:45pm",
+    "location": "School Staffroom & Online Meeting",
+    "convenedBy": "AN",
+    "minutesBy": "IP",
+    "attendance": {
+      "present": ["VG", "AN", "DG", "IP", "LB", "CB", "TB", "SS", "VCR", "PO", "BF", "BH", "CV", "AV"],
+      "online": [],
+      "apologies": ["LM"],
+      "absent": ["JV", "LM-matheson"]
+    },
+    "agendaItems": [
+      "Minutes from Previous Meeting",
+      "Business Arising",
+      "Correspondence",
+      "Reports",
+      "Purchasing & Reimbursement Claims",
+      "General Business"
+    ],
+    "minutesItems": [
+      "Business arising: No line marking equipment available — BH to check with soccer club, IP to ask AFL club. Mothers Day update: 6 volunteers still needed, screening required. East Coast Juices not contacted — juice not popular enough for minimum order. BH to contact small juice company from farmers market.",
+      "Fundraising report: Election Day proceeds — BBQ $1,974 and Cake Stall $1,280 cash/eftpos. Profit after expenses $2,514.82. Gluten-free bread should be an option next year. Geoff Patterson judged cake boxes. Winners Willow and Elodie to be announced at assembly — art sets donated by Faber-Castell. Thank you to Faber-Castell in newsletter.",
+      "Mothers Day Stall 9 May: Volunteers BF, PO, BH, CV, AN, SS. Setup Thursday afternoon, open 9am-11am Friday. ~100 gift bags available. Butcher's paper for ceramics from canteen, SS has backup newspaper. Mothers Day Picnic: Jumbo Nachos $12, Jumbo Bolognaise/Carbonara $10 (serves 2-3).",
+      "Canteen: Running at a small loss to date. LB estimates $550/week needed to break even (currently close). No point in MYOB health review — over budget. LB not registered to lodge BAS. Keep accounts and BAS with existing accountant — audit $300/year, BAS $60/quarter.",
+      "Purchasing: Paint for line marking (AN/BH carried). Cake boxes $70.11 (CV/IP carried). Aprons $36 (CV/IP carried). Cross country expenses $143.26 (AN/IP carried). BBQ expenses $564.82 (AN/IP carried). Reports accepted (AN/IP carried).",
+      "School uniforms: Skort options reviewed — opted for skirt look at back. Piping: gold, black and white. Two suppliers so colours/piping need consistency. Tracksuit sample too orange, thinner piping needed, block print to be removed. Senior jacket samples received (size 12 only, small). Minimum order 10. Cost ~$95, prompted discussion about lost property system. Year 6 uniform monitor proposed. AN volunteered to wash everything in lost property box.",
+      "Grants — Bottom area: Turfing no longer an option due to carcinogens leaching into waterways/sandpits. New idea: modular sports floors over concrete slab (like Avoca Primary). Quotes needed for concrete slab and modular flooring. Drainage consideration to avoid flooding into hall. Asphalt to be laid in 3 weeks with hopscotch lines (DoE funded). Basketball area: quote for modular flooring. Adjustable basketball hoops — BH to ask Hart for quote. Shade sail at oval: applying for grant. Bus area shelter: must go through assets (over 2.4m high).",
+      "Google Drive: IP, AN, LB, CB, DG have access. Child protection screening reminder for all P&C members.",
+      "Canteen operations: Volunteer hard copies with dates/times to be sent home for parents to circle availability. Lunch volunteers most needed (12-1:30pm). Recess 10:30-11:15am. Air fryer doesn't fit in canteen — contact JV about using as raffle prize for Fathers Day. Deep clean tomorrow 9am with CV, AN, IP, BH."
+    ],
+    "keyOutcomes": [
+      {
+        "type": "success",
+        "text": "Election Day profit: $2,514.82 from BBQ and Cake Stall"
+      },
+      {
+        "type": "info",
+        "text": "Canteen needs $550/week to break even — currently close"
+      },
+      {
+        "type": "warning",
+        "text": "Artificial turf blacklisted due to carcinogens — pivot to modular sports flooring on concrete slab"
+      },
+      {
+        "type": "info",
+        "text": "Uniform skort design chosen (skirt look at back). Senior jacket minimum order 10, ~$95 each"
+      },
+      {
+        "type": "info",
+        "text": "BAS and audit staying with existing accountant — $300/year audit, $60/quarter BAS"
+      }
+    ],
+    "reimbursements": [
+      { "payee": "AN", "description": "Paint for line marking", "amount": null },
+      { "payee": "CB", "description": "Cake boxes", "amount": 70.11 },
+      { "payee": "P&C", "description": "Aprons", "amount": 36.00 },
+      { "payee": "CB", "description": "Cross country expenses", "amount": 143.26 },
+      { "payee": "CB", "description": "BBQ expenses (Election Day)", "amount": 564.82 }
+    ]
+  },
+  {
+    "id": "2025-08-04",
+    "date": "2025-08-04",
+    "type": "monthly",
+    "title": "Monthly Meeting — August 2025",
+    "status": "draft",
+    "openTime": "7:07pm",
+    "closeTime": "9:10pm",
+    "location": "School Staffroom & Online Meeting",
+    "convenedBy": "AN",
+    "minutesBy": "JV",
+    "attendance": {
+      "present": ["VG", "AN", "DG", "LB", "CB", "LM", "SS", "JV", "VCR", "BF", "BH", "CV"],
+      "online": [],
+      "apologies": ["IP", "TB", "LM-matheson", "PO"],
+      "absent": ["AV"]
+    },
+    "agendaItems": [
+      "Minutes from Previous Meeting",
+      "Business Arising",
+      "Correspondence",
+      "Reports",
+      "Purchasing & Reimbursement Claims",
+      "General Business"
+    ],
+    "minutesItems": [
+      "Business arising from June meeting: Shutter quote received (completed). Grill'd jar link resent (completed). Canteen procedures still outstanding with IP. Small juice company still outstanding. Dishwasher warranty issue — commercial use under individual agreement, receipt found, AN to follow up in person. Senior jackets received — new link sent for orders, including Year 4 for minimum order of 10. This is last year Lowes does them; survey showed parents wanted them to continue. Basketball quote received (completed). Roach bomb closed — last spray 4 June 2025. Canteen fly screen and grill under door fixed by VG. Basketball court survey results received and grants submitted.",
+      "Correspondence inward: Lowes Rachel uniform update. Andrews Insurance annual renewal and hospital cover ($5). Gittoes requested Santa suit for Christmas in July. Induction training info from Prue. VG grant info review (shutters, basketball). Dinner Ladies voucher ($100 with Mrs Waight) expiring. P&C Federation emails. Adam Crouch Club Grants. Gittoes (Ingrid) re Trivia Night and canteen shutter donation offer. Ged 'The Agency' re Fathers Day gift. Canteen induction responses. Anne Robson Architecture Trivia Night prize (1hr design consultation). SS letter of support for basketball court grant. Lowes 20% off sale. BF questions re school media/travel policy and digital readers. Outward: Grant info to members/VG. Ingrid (Gittoes) letter of support for grants. Anne re Trivia Night. Canteen induction info to volunteers. Letter to Rachael (Lowes) re supply concerns and custom tracksuit. Grill'd new link request.",
+      "Principal's Report: LED sign with Council — DA approved, awaiting timing. PBL signage completed. Asphalt marking scheduled for 6 August. Retaining wall complete with new step and garden bed. Bridges all painted. New lights and aircon completed. VG back at HPS for 100 days. Kindy enrolments fluctuating (21-23). Full school number ~107, likely 5-class structure for 2026 (105+ = 5 classes). HeadStart next term for kindy kids. Budget submitted for 5-class structure. Prue working on new school website — live in 5 weeks.",
+      "Principal's Report continued: NAPLAN — Year 3 showed growth in all areas but numeracy concerning. Year 5 numeracy and writing need focus. School compared to state: Year 5 above average. Band changes make comparison difficult, especially with COVID gaps. School focusing on numeracy. Professional learning continuing. HPGE (High Potential Gifted Education) being developed — 2-year journey. STEM and Coding groups forming with Ms Nunn.",
+      "President's Report: Welcome back after July break. Happy Principal Appreciation Day to VG. NAPLAN results in. Upcoming events: Fathers Day breakfast, Trivia Night — seeking company donations for both. Grants submitted for basketball upgrade, modular flooring, handball courts. Playground equipment grant in next round (community-based). Working with ASSETS on priorities. Canteen rostering on Facebook but need hard copy for volunteers. Education Week Thursday.",
+      "Treasurer's Report: Canteen still running at loss but improving since pricing update. Question raised about whether pricing is right — need review in next 6 months. ACNC Report submitted. Class gift money ($350/class) allocated but not yet invoiced by school (Prue).",
+      "Canteen Report (read by AN as IP absent): $826.35 in-person + $2,868 online orders across 7 weeks. Insurance removed from expenditure — corrected total $2,188.25. Best sellers remain tenders and nachos. Tap leak fixed. Food ideas: bring back spaghetti, bacon & cheese subs, fried rice and spring rolls on regular cycle. CV to broadcast specials on Facebook and newsletter. Dishwasher worked all term — warranty follow-up deferred as commercial use issue. Extra bacon to be used for Fathers Day breakfast.",
+      "Fundraising: School disco proposed for Friday 7 November, Halloween themed. Previous hosts: Little Ravers (~$500) and Bop Till You Drop (~$450). Need DJ quotes. Fathers Day breakfast improvements: additional microphone, earlier food order forms, early raffle ticket option, backup plan for bad weather (hall endorsed by VG). Fathers Day 2 September, 8am start. Gluten-free options needed. Gittoes donated hamper, Morse family donated air fryer. Prestige not yet contributed. Real estate agents donating but not attending events.",
+      "General business — Trivia Night improvements: Answers displayed not read out. Wider community invitation. Next-day cleanup sweep. Two microphones needed. First aid kit with defib in discreet area. School lighting at canteen. Safety officers announced at start. Need prize donations.",
+      "Canteen operations: Term clean status unknown — follow up. Volunteer sign-in required every shift. Discussion about dedicated Canteen Admin/Manager role — someone to manage volunteers, rosters, procedures. Not the person running the canteen. Must be P&C member. Role to be added at next AGM.",
+      "Canteen shutters: Gittoes happy to donate $2,000. Remaining $4,924 from P&C. But ASSETS advised wall lining (lower section) is hazardous — asbestos removal needed, ~$5K additional, must be supervised by health regulator and go to tender. Options discussed: (1) half the job now, half later; (2) one shutter side only with full asbestos removal; (3) full job both sides. Agreed to table options and get firmer quote from ASSETS.",
+      "Sculptures in the Vines: October long weekend at Frierscreek Winery. Cakes and slices. CV to coordinate with Nardia. Shout-out for cakes closer to event.",
+      "P&C website section: Development happening, tiles added. To include: P&C committee members (name and position only, no personal emails), 2nd hand uniform pool, canteen + Spriggy, contact details, FAQ. BF to pull together FAQ.",
+      "Senior jackets: Sizes running large. P&C collecting money and ordering through Team Spirit. Issue with school office turning away cash — need to ensure front office can accept funds. Order deadline 8 August (may be extended).",
+      "School uniform: Working on short and skort samples with HPS logo. Looking at pant options. Lowes licence colour change pending confirmation. Removed stripes from jacket, kept piping. VG to issue guidance on acceptable school uniform.",
+      "Basketball fencing & grants: New fencing quote $38K (replacement in black) + $5K additional side section (previous quote $50K). Grant application for $80K submitted — includes basketball, pickleball, tennis, handball markings, modular flooring ($53K). If over $50K must go through ASSETS and tender. Results expected in a couple of months. No Central Coast school got this grant last year. Community Building Grant through Adam Crouch being explored — submissions close 15 December, results April 2026. BF and DG to draft in September using previous submissions."
+    ],
+    "keyOutcomes": [
+      {
+        "type": "success",
+        "text": "$80K grant application submitted for basketball court upgrade and modular flooring"
+      },
+      {
+        "type": "success",
+        "text": "Gittoes to donate $2,000 towards canteen shutters"
+      },
+      {
+        "type": "warning",
+        "text": "Canteen shutters complicated by asbestos — ASSETS says wall lining hazardous, adds ~$5K, requires health regulator supervision"
+      },
+      {
+        "type": "info",
+        "text": "Canteen Admin/Manager role proposed for next AGM — dedicated person to manage volunteers and procedures"
+      },
+      {
+        "type": "info",
+        "text": "School likely 5-class structure in 2026 (107 students). NAPLAN: Year 3 growth in all areas, numeracy focus needed"
+      },
+      {
+        "type": "info",
+        "text": "Community Building Grant (Adam Crouch) — submissions close 15 Dec, BF & DG to draft"
+      }
+    ],
+    "reimbursements": [
+      { "payee": "SS", "description": "School Principal gift", "amount": 20.00 }
+    ]
+  },
+  {
+    "id": "2025-09-01",
+    "date": "2025-09-01",
+    "type": "monthly",
+    "title": "Monthly Meeting — September 2025",
+    "status": "draft",
+    "openTime": "7:05pm",
+    "closeTime": "8:45pm",
+    "location": "School Staffroom & Online Meeting",
+    "convenedBy": "AN",
+    "minutesBy": "JV",
+    "attendance": {
+      "present": ["VG", "AN", "DG", "IP", "LB", "CB", "SS", "JV", "VCR", "LM-matheson", "BF", "BH", "CV"],
+      "online": [],
+      "apologies": [],
+      "absent": ["TB", "LM", "PO"]
+    },
+    "agendaItems": [
+      "Minutes from Previous Meeting",
+      "Correspondence",
+      "Reports",
+      "Purchasing & Reimbursement Claims",
+      "General Business"
+    ],
+    "minutesItems": [
+      "Correspondence inward: Lowes Rachel uniform update. Trivia Night and Fathers Day donation responses. Insurance renewal certifications. Mrs Waight response (printed and sighted). Disco information. Activity Statement due to lodge. Uniform questions from parents. P&C Federation emails. Outward: Trivia Night donation letters. Risk assessment and safety briefing to Fathers Day volunteers. VG — risk assessment, uniform (Lowes), disco date. Minutes and agenda.",
+      "Principal's Report: Creative Arts Expo received great feedback — new parents commented on how well Year 6 students supported Kindy and Year 1. Peer Mediator Training added to school parliament for conflict resolution. New school website live — staff very happy with flexibility and ease of use. Student survey results: slightly below average in feedback and motivation. Bullying experience at 23% — below average but still concerning. Discussion on perception differences between girls and boys. Student leadership nominations moved to Term 4.",
+      "Treasurer's Report: Thank you to Aaron Parker for $200 donation. Reminder that Library Funds can be paid over School Bytes.",
+      "Fundraising — Fathers Day breakfast: 7am start for volunteers. Floats ready, photo booth, rolls cut, bacon defrosted. Inside and outside event in hall (microphone works). Trivia Night: Old Crew table unable to attend. AN uncertain about attending. DG unable to attend. IP will help. Alkira Preschool donated $300 — discussion about purchasing something to auction (eg art deluxe print). Alecia listed prizes already sourced — silent auction alongside traditional auction (Gittoes traditionally runs auction). Disco: Halloween theme confirmed.",
+      "Canteen: Spriggy login details to be added to procedure. New canteen volunteer role to be added in 2026. Term clean completed last term. Phone being put into canteen.",
+      "Purchasing: Bread for Fathers Day breakfast $60 (LB/JV supported). Reports from August accepted (AN/CV carried).",
+      "Sculptures in the Vines — Special guest Nadia O'Connell presented. CV primary contact, supported by JV. Bake sale and craft activities. Event Saturday 4 October and Sunday 5 October (full days), half-day Monday 6 October. Holgate P&C on Saturday and Sunday only — cake stall and craft station. Proceeds to Holgate Public School. System needed for parents to purchase children's Under the Sea art pieces in advance. 92 pieces on display — red stickers/flags to mark sold items. All items need student names. Note to parents about event, purchasing ($5 minimum), and pickup. Theme: 'Bring Joy'. Float and pay machine setup — JV and CV managing money. BH to supply 2 small trestle tables. Need school tables and gazebo transported in advance.",
+      "Senior jackets: Orders to be placed with existing numbers. Extra ~$69.85 to be paid by P&C — passed by all members except 1 (AN). This will be the last year of senior jackets — volumes mean high cost moving forward, senior shirts are sufficient.",
+      "School uniform: New skort/skirt and short samples shown. Agreed to remove stripes — too much clashing with shirt lines. VG to contact Lowes. Track pants and pants still to come.",
+      "Grants: Still waiting on feedback from $80K grant submission. Community Grant may open while AN is away — can use previous submissions as guide. AN to advise when open, BF and DG to start process.",
+      "Canteen shutters: Another meeting with ASSETS. Cannot do work in parts — must do all at once as section-by-section would cost more. Cabinet replacement also needed due to asbestos. Cost will increase significantly. P&C vote held: outcome was to NOT proceed now, and seek to include in a future grant submission to assist with high costs."
+    ],
+    "keyOutcomes": [
+      {
+        "type": "success",
+        "text": "Sculptures in the Vines event planned — Holgate P&C running cake stall and craft station over October long weekend"
+      },
+      {
+        "type": "info",
+        "text": "Canteen shutters: P&C voted NOT to proceed now — will include in future grant submission due to high costs"
+      },
+      {
+        "type": "info",
+        "text": "Senior jackets: Last year — P&C paying $69.85 shortfall. Volumes too low to continue"
+      },
+      {
+        "type": "success",
+        "text": "New school website live — staff very happy with flexibility"
+      },
+      {
+        "type": "info",
+        "text": "Still awaiting $80K grant result for basketball court and modular flooring"
+      },
+      {
+        "type": "warning",
+        "text": "Student survey: bullying experience at 23% — below average but still concerning"
+      }
+    ],
+    "reimbursements": [
+      { "payee": "P&C", "description": "Bread for Fathers Day breakfast", "amount": 60.00 }
+    ]
+  },
+  {
+    "id": "2025-11-03",
+    "date": "2025-11-03",
+    "type": "monthly",
+    "title": "Monthly Meeting — November 2025",
+    "status": "draft",
+    "openTime": "7:05pm",
+    "closeTime": "9:15pm",
+    "location": "School Staffroom & Online Meeting",
+    "convenedBy": "AN",
+    "minutesBy": "IP",
+    "attendance": {
+      "present": ["VG", "AN", "DG", "IP", "LB", "CB", "SS", "JV", "VCR", "BF", "CV", "KK", "MW"],
+      "online": [],
+      "apologies": ["PO", "BH"],
+      "absent": ["TB", "LM", "LM-matheson"]
+    },
+    "agendaItems": [
+      "Minutes from Previous Meeting",
+      "Correspondence",
+      "Reports",
+      "Purchasing & Reimbursement Claims",
+      "General Business"
+    ],
+    "minutesItems": [
+      "Welcome to Monique (MW) — $1 paid to become P&C member.",
+      "Correspondence inward: Lowes Rachel uniform updates. Trivia Night and Fathers Day donation responses. Insurance — now required to fill in event form before every event to ensure cover. Ged/Paul Hills offering to help with other events. CCPC invite to Tacoma School meeting 10 Nov. P&C Federation emails. Outward: Trivia Night donation thank-you letters. VG — risk assessment, uniform (Lowes), clay models, CUBS presentation, grants, water coolers. Minutes and agenda.",
+      "Principal's Report: Trivia Night — nice to see previous and present community members. Sculptures in the Vines — great feedback on cakes and activities. Parent survey: 32 responses (best rate ever), VG making phone calls for further feedback. Professional learning on 4 new syllabuses: CAPA, HSIE, PDHPE — rolling out 2 first. Toy appeal through Erina Learning Community — highly personalised gifts for kids up to 15.",
+      "Treasurer's Report: Canteen running at a loss. Discussion on raising prices at start of 2026. Debate on whether current prices too high or low — low order numbers make it hard to cover fixed costs. Survey proposed asking families what they want on menu. Water coolers for events and disco $198 for 2-pack (carried CV/JV).",
+      "Fundraising — Fathers Day breakfast: $542 banked (MYOB may show $450 due to different referencing). Would be better with 4 on BBQ instead of 3. Trivia Night: Silent auction worked well — more profitable than raffle tickets. Wi-Fi was only issue — BF could bring mobile Starlink for better reception. Thank-you letters still need to go out. Promote and lock in date earlier next year. Sculptures in the Vines: $200 from artwork, rest from cakes. Signed artwork suggestion for next year. Different location for kids artwork recommended.",
+      "Canteen: Discussion in general business.",
+      "Purchasing: Disco $417.27 (JV/CV supported). Headphones AN $149 (JV/CV supported). Coles AN $65.60 (JV/CV supported). Spoils Woolworths $164.50 (JV/CV supported).",
+      "Uniform shop: Donated clothes arriving with vomit, dirt, non-school uniform — huge work for CV and LM. Letter going out clarifying what new uniform is and what's accepted. Add to FAQ on school website.",
+      "Grants — Bottom area playground: Second quote received for extra 40m2 and fixed tables — $27,800 (Scotty). First quote Geoff Patterson $18,000. Ideas: concrete barrier around sandpit for bugs/sticks/maintenance, K-6 use sandpit. Fixed tables (spray-painted bench used as skatepark). Permanent bins and handball. Turn into constructive learning space with sandstone blocks. Scotty can complete in 2 weeks, already ASSETS approved. School contributing $10,000 (must be spent by 4 December). Waiting for RSL grant result. Waiting for fencing and matting grant — if received, would be 2-year process with $20K-$40K P&C contribution. If grant not received, happy to proceed with $27,800 quote.",
+      "Community Building Grant: Canteen shutters — connection with Fathers Day and other events, $20K grant target.",
+      "Fairy garden not affected by any new works.",
+      "Canteen: Helpers note sent out. Insurance forms to be filled in — belief that tall freezer was faulty and caused fuse blowout. Photos and invoices of food available. IP to make list of spoilage and cost for insurance claim. Wait for freezer purchase. VG to check power on Monday/Tuesday after holidays.",
+      "Disco: Volunteers LM, SS, JV, MW, CB, VCR, PO. 4:30pm helpers start. Water coolers for the night.",
+      "HeadStart and Kindy: 6-week program, parents to come early on last session for certificate. Holgate is only public school visiting preschools. School changes: Camp removed (can't find provider for small cohort). Year 6 chairs taken away — now used as reward for all, not just Year 6. Parliament removed — kids said ineffective, replaced with Year 6 leadership day. Need better communication about changes to parents.",
+      "End of year survey: AN to post in group chat for additional questions. To go out last week of November for December meeting discussion.",
+      "Road safety: Reminder about no U-turns, backing out of driveways. Electric bikes also a problem. Signage on front gate not possible (council land). Basketball driveway used by tradesman is dangerous.",
+      "Teacher Appreciation Day: Tuesday 18 November, Thai or sushi, for 16 staff.",
+      "End of year catch-up: 8 December, Crowne Plaza, 7pm.",
+      "Policy folder: To be reviewed by CB, VCR, SS over coming months, then reviewed annually."
+    ],
+    "keyOutcomes": [
+      {
+        "type": "success",
+        "text": "Bottom area playground: $27,800 quote accepted (Scotty). School contributing $10K. Can be done in 2 weeks."
+      },
+      {
+        "type": "info",
+        "text": "Community Building Grant targeting $20K for canteen shutters"
+      },
+      {
+        "type": "warning",
+        "text": "Canteen freezer failure — insurance claim being prepared with spoilage list"
+      },
+      {
+        "type": "info",
+        "text": "Trivia Night: Silent auction more profitable than raffles. Wi-Fi was only issue — Starlink Mini proposed"
+      },
+      {
+        "type": "warning",
+        "text": "Insurance now requires event notification form before every event"
+      },
+      {
+        "type": "info",
+        "text": "New member: Monique Wills joined P&C"
+      },
+      {
+        "type": "info",
+        "text": "Policy folder review assigned to CB, VCR, SS"
+      },
+      {
+        "type": "info",
+        "text": "Canteen prices to increase at start of 2026. Menu survey proposed."
+      }
+    ],
+    "reimbursements": [
+      { "payee": "CB", "description": "Disco expenses", "amount": 417.27 },
+      { "payee": "AN", "description": "Headphones", "amount": 149.00 },
+      { "payee": "AN", "description": "Coles", "amount": 65.60 },
+      { "payee": "AN", "description": "Spoils/Woolworths", "amount": 164.50 },
+      { "payee": "P&C", "description": "Water coolers for events (2-pack)", "amount": 198.00 }
+    ]
+  },
+  {
     "id": "2025-12-01",
     "date": "2025-12-01",
     "type": "monthly",

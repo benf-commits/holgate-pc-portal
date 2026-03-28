@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
-import CommitteeNav from '../components/committee/CommitteeNav';
-import CommitteeIntro from '../components/committee/CommitteeIntro';
+import CommitteeHero from '../components/committee/CommitteeHero';
 import LastMeeting from '../components/committee/LastMeeting';
 import OpenTasks from '../components/committee/OpenTasks';
 import NextMeeting from '../components/committee/NextMeeting';
@@ -28,13 +27,12 @@ export default function Committee() {
 
   return (
     <>
-      <CommitteeNav />
-      <CommitteeIntro />
-      <LastMeeting />
-      <OpenTasks />
-      <NextMeeting />
-      <AreasSection />
-      <PrincipalReport />
+      <CommitteeHero />
+      <div id="last-meeting"><LastMeeting /></div>
+      <div id="open-tasks"><OpenTasks /></div>
+      <div id="next-meeting"><NextMeeting /></div>
+      <div id="pc-areas"><AreasSection /></div>
+      <div id="principal-report"><PrincipalReport /></div>
       <CommitteeFooter />
     </>
   );

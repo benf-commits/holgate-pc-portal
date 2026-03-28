@@ -1,57 +1,72 @@
-import { describe, it, expect } from 'vitest'
-import { getPersonByInitials, getMeetingById, getActionsForMeeting, getDecisionsForMeeting, getDocumentsForMeeting, getNextMeeting } from '../data'
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
+import { getUpcomingEvents, getRecentUpdates, events, updates, reference } from '../data'
 
-describe('getPersonByInitials', () => {
-  it('returns person for known initials', () => {
-    const cv = getPersonByInitials('CV')
-    expect(cv.name).toBe('Catherine Vassilev')
-    expect(cv.role).toBe('President')
+describe('data exports', () => {
+  it('exports events array', () => {
+    expect(Array.isArray(events)).toBe(true)
+    expect(events.length).toBeGreaterThan(0)
+    expect(events[0]).toHaveProperty('id')
+    expect(events[0]).toHaveProperty('date')
+    expect(events[0]).toHaveProperty('category')
   })
-  it('returns fallback for unknown initials', () => {
-    const unknown = getPersonByInitials('XX')
-    expect(unknown.id).toBe('XX')
-    expect(unknown.name).toBe('XX')
+
+  it('exports updates array', () => {
+    expect(Array.isArray(updates)).toBe(true)
+    expect(updates.length).toBeGreaterThan(0)
+    expect(updates[0]).toHaveProperty('id')
+    expect(updates[0]).toHaveProperty('source')
+  })
+
+  it('exports reference object', () => {
+    expect(reference).toHaveProperty('canteen')
+    expect(reference).toHaveProperty('uniforms')
+    expect(reference).toHaveProperty('contacts')
+    expect(reference).toHaveProperty('links')
   })
 })
 
-describe('getMeetingById', () => {
-  it('returns meeting for known ID', () => {
-    const m = getMeetingById('2026-03-02')
-    expect(m).toBeDefined()
-    expect(m.title).toContain('March')
+describe('getUpcomingEvents', () => {
+  beforeEach(() => {
+    vi.useFakeTimers()
+    vi.setSystemTime(new Date('2026-03-28T00:00:00'))
   })
-  it('returns undefined for unknown ID', () => {
-    expect(getMeetingById('9999-01-01')).toBeUndefined()
+
+  afterEach(() => {
+    vi.useRealTimers()
+  })
+
+  it('returns only future and today events', () => {
+    const upcoming = getUpcomingEvents()
+    upcoming.forEach((e) => {
+      expect(new Date(e.date + 'T00:00:00').getTime()).toBeGreaterThanOrEqual(
+        new Date('2026-03-28T00:00:00').getTime()
+      )
+    })
+  })
+
+  it('returns events sorted by date ascending', () => {
+    const upcoming = getUpcomingEvents()
+    for (let i = 1; i < upcoming.length; i++) {
+      expect(upcoming[i].date >= upcoming[i - 1].date).toBe(true)
+    }
   })
 })
 
-describe('getActionsForMeeting', () => {
-  it('returns actions linked to a meeting', () => {
-    const result = getActionsForMeeting('2026-03-02')
-    expect(result.length).toBeGreaterThan(0)
-    result.forEach(a => expect(a.meetingId).toBe('2026-03-02'))
+describe('getRecentUpdates', () => {
+  it('returns updates sorted by date descending', () => {
+    const recent = getRecentUpdates()
+    for (let i = 1; i < recent.length; i++) {
+      expect(recent[i].date <= recent[i - 1].date).toBe(true)
+    }
   })
-})
 
-describe('getDecisionsForMeeting', () => {
-  it('returns decisions linked to a meeting', () => {
-    const result = getDecisionsForMeeting('2026-03-02')
-    expect(result.length).toBeGreaterThan(0)
-    result.forEach(d => expect(d.meetingId).toBe('2026-03-02'))
+  it('respects the limit parameter', () => {
+    const limited = getRecentUpdates(3)
+    expect(limited.length).toBeLessThanOrEqual(3)
   })
-})
 
-describe('getDocumentsForMeeting', () => {
-  it('returns empty array when no documents exist', () => {
-    const result = getDocumentsForMeeting('2026-03-02')
-    expect(result).toEqual([])
-  })
-})
-
-describe('getNextMeeting', () => {
-  it('returns a scheduled meeting', () => {
-    const next = getNextMeeting()
-    expect(next).toBeDefined()
-    expect(next.status).toBe('scheduled')
+  it('returns all when no limit given', () => {
+    const all = getRecentUpdates()
+    expect(all.length).toBe(updates.length)
   })
 })

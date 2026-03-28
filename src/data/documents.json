@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "id": "doc-minutes-2025-03-agm",
+    "title": "AGM Minutes — March 2025",
+    "description": "Annual General Meeting March 2025. Election of 2025 office bearers: President Alecia Nealon, VP Dave Gurr, Secretary Imke Pearce, Treasurer Laura Butler. Constitutional changes including removal of Wellbeing Officer role and addition of Newsletter Coordinator. Annual financial reports accepted.",
+    "type": "minutes",
+    "format": "pdf",
+    "path": "docs/minutes/202503_PC_AGM_Minutes_docx_docx.pdf",
+    "relatedMeetings": ["2025-03-03-agm"],
+    "tags": ["agm", "election", "office bearers", "constitution", "annual report", "2025"]
+  },
+  {
+    "id": "doc-minutes-2025-03",
+    "title": "Meeting Minutes — March 2025",
+    "description": "Monthly meeting March 2025. 2025 events calendar established with 8 major events. Canteen ran at a loss in 2024 — separate meeting to discuss pricing and menu. School uniform upgrade underway with Lowes. P&C no longer part of Healthy School Canteens program.",
+    "type": "minutes",
+    "format": "pdf",
+    "path": "docs/minutes/202503_PC_Minutes_docx.pdf",
+    "relatedMeetings": ["2025-03-03"],
+    "tags": ["canteen", "uniforms", "events calendar", "harmony day", "fundraising", "2025"]
+  },
+  {
+    "id": "doc-minutes-2025-04",
+    "title": "Meeting Minutes — April 2025",
+    "description": "Monthly meeting April 2025. P&C property insurance corrected. Canteen now running at small profit after pricing changes. Teacher class gifts approved $350 per class. New canteen safety procedures and daily timeline being developed. Grant discussion: shade cloth, playground, oval line marking.",
+    "type": "minutes",
+    "format": "pdf",
+    "path": "docs/minutes/202504PC_Minutes.pdf",
+    "relatedMeetings": ["2025-04-07"],
+    "tags": ["insurance", "canteen", "grants", "uniforms", "teacher gifts", "safety procedures", "2025"]
+  },
+  {
+    "id": "doc-minutes-2025-05",
+    "title": "Meeting Minutes — May 2025",
+    "description": "Monthly meeting May 2025. Election Day profit $2,514.82 from BBQ and Cake Stall. Canteen needs $550/week to break even. Artificial turf blacklisted due to carcinogens — pivot to modular sports flooring on concrete slab. Uniform skort design chosen. Mothers Day stall and Picnic planning.",
+    "type": "minutes",
+    "format": "pdf",
+    "path": "docs/minutes/202505_PC_Minutes_DRAFT__docx.pdf",
+    "relatedMeetings": ["2025-05-05"],
+    "tags": ["election day", "fundraising", "canteen", "modular flooring", "uniforms", "playground", "mothers day", "2025"]
+  },
+  {
+    "id": "doc-minutes-2025-08",
+    "title": "Meeting Minutes — August 2025",
+    "description": "Monthly meeting August 2025. $80K grant application submitted for basketball court upgrade and modular flooring. Canteen shutters complicated by asbestos — ASSETS advises wall lining hazardous, adds ~$5K, requires health regulator supervision. Gittoes to donate $2,000 towards shutters. Canteen Admin/Manager role proposed for next AGM. Community Building Grant via Adam Crouch — deadline 15 December.",
+    "type": "minutes",
+    "format": "pdf",
+    "path": "docs/minutes/202508_PC_Minutes_DRAFT.pdf",
+    "relatedMeetings": ["2025-08-04"],
+    "tags": ["grants", "basketball court", "modular flooring", "canteen shutters", "asbestos", "trivia night", "disco", "uniforms", "community building grant", "2025"]
+  },
+  {
+    "id": "doc-minutes-2025-09",
+    "title": "Meeting Minutes — September 2025",
+    "description": "Monthly meeting September 2025. Sculptures in the Vines event planned — Holgate P&C running cake stall and craft station over October long weekend. P&C voted NOT to proceed with canteen shutters now — will include in future grant submission due to high costs. Senior jackets: last year. Still awaiting $80K grant result.",
+    "type": "minutes",
+    "format": "pdf",
+    "path": "docs/minutes/September__PC_Meeting_Minutes__docx.pdf",
+    "relatedMeetings": ["2025-09-01"],
+    "tags": ["sculptures in the vines", "fundraising", "canteen shutters", "senior jackets", "uniforms", "grants", "fathers day", "2025"]
+  },
+  {
+    "id": "doc-minutes-2025-11",
+    "title": "Meeting Minutes — November 2025",
+    "description": "Monthly meeting November 2025. Bottom area playground: $27,800 quote accepted (Scotty), school contributing $10K. Community Building Grant targeting $20K for canteen shutters. Canteen freezer failure — insurance claim being prepared. Trivia Night: silent auction more profitable than raffles. Starlink Mini proposed for Wi-Fi at events. Policy folder review assigned to CB, VCR, SS.",
+    "type": "minutes",
+    "format": "pdf",
+    "path": "docs/minutes/202511_PC_Minutes_DRAFT_docx.pdf",
+    "relatedMeetings": ["2025-11-03"],
+    "tags": ["playground", "bottom area", "community building grant", "canteen shutters", "canteen", "trivia night", "starlink", "insurance", "uniforms", "disco", "policy review", "2025"]
+  },
+  {
+    "id": "doc-policy-sponsorship",
+    "title": "Commercial Endorsement and Sponsorship Policy",
+    "description": "Holgate Public School P&C Association Commercial Endorsement and Sponsorship Policy. Sets out the framework for accepting sponsorships and commercial endorsements, including approval authority, acknowledgement benefits, and conditions for trial periods.",
+    "type": "policy",
+    "format": "pdf",
+    "path": "docs/policies/Holgate_Public_School_PC_Commercial_Endorsement_and_Sponsorship_Policy.pdf",
+    "relatedMeetings": [],
+    "tags": ["sponsorship", "commercial endorsement", "policy", "governance", "fundraising", "grants"]
+  },
+  {
+    "id": "doc-grant-community-building",
+    "title": "Community Building Grant Strategy — Canteen Shutters & Asbestos",
+    "description": "Full grant strategy for the Community Building Partnership grant application targeting ~$20K for canteen shutter replacement and asbestos removal. Includes Q38-41 narrative responses, evidence checklist, task assignments, community impact framing, and key contacts. Canteen framed as the community hub for this semi-rural area with no public transport or gathering spaces.",
+    "type": "strategy",
+    "format": "md",
+    "path": "docs/grants/community_building_grant_strategy.md",
+    "relatedMeetings": ["2025-08-04", "2025-09-01", "2025-11-03"],
+    "tags": ["community building grant", "canteen shutters", "asbestos", "cbp", "adam crouch", "grant strategy", "canteen", "community hub", "whs", "volunteer safety"]
+  },
+  {
+    "id": "doc-proposal-starlink",
+    "title": "Starlink Mini Connectivity Proposal",
+    "description": "P&C meeting proposal for a Starlink Mini satellite internet service to improve connectivity at school events including Trivia Night. Covers the problem of unreliable Wi-Fi, proposed solution, costs (~$199 hardware + $60/month), funding approach via local business sponsorship, and formal motion block for P&C approval.",
+    "type": "proposal",
+    "format": "md",
+    "path": "docs/proposals/starlink_proposal.md",
+    "relatedMeetings": ["2025-11-03"],
+    "tags": ["starlink", "wi-fi", "internet", "connectivity", "trivia night", "events", "sponsorship", "technology", "proposal"]
+  }
+]

@@ -1,21 +1,19 @@
-const variantStyles = {
-  success: 'bg-green-100 text-green-800',
-  warning: 'bg-red-100 text-red-800',
-  info: 'bg-blue-100 text-blue-800',
-  neutral: 'bg-gray-100 text-gray-700',
-  spending: 'bg-amber-100 text-amber-800',
-  policy: 'bg-purple-100 text-purple-800',
-  election: 'bg-indigo-100 text-indigo-800',
-  operational: 'bg-maroon-100 text-maroon-800',
+const variants = {
+  carried: 'bg-carried-bg text-carried-text',
+  open: 'bg-open-bg text-open-text',
+  defeated: 'bg-defeated-bg text-defeated-text',
+  overdue: 'bg-overdue text-white',
+  neutral: 'bg-neutral-bg text-neutral-text',
+  meeting: 'bg-meeting/10 text-meeting',
+  action: 'bg-action/10 text-action',
+  decision: 'bg-decision/10 text-decision',
+  document: 'bg-document/10 text-document',
 }
 
 export default function Badge({ label, variant = 'neutral' }) {
-  const styles = variantStyles[variant] || variantStyles.neutral
-
+  const style = variants[variant] || variants.neutral
   return (
-    <span
-      className={`inline-block px-2.5 py-0.5 text-xs font-medium rounded-full ${styles}`}
-    >
+    <span className={`inline-block px-2 py-0.5 text-[9px] font-bold rounded-full whitespace-nowrap ${style}`}>
       {label}
     </span>
   )

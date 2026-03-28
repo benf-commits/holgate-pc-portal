@@ -1,26 +1,19 @@
 export default function FilterChips({ options, active, onChange }) {
   return (
-    <div className="flex gap-2 overflow-x-auto">
-      {options.map((option) => {
-        const isActive = option.value === active
+    <div className="flex flex-wrap gap-1.5">
+      {options.map((opt) => {
+        const isActive = opt.value === active
         return (
           <button
-            key={option.value}
-            onClick={() => onChange(option.value)}
-            className={`px-3 py-1.5 text-sm font-medium rounded-full whitespace-nowrap shrink-0 transition-colors ${
+            key={opt.value}
+            onClick={() => onChange(opt.value)}
+            className={`px-3 py-1 text-[11px] font-medium rounded-full transition-colors ${
               isActive
-                ? 'bg-maroon-900 text-white'
-                : 'bg-white text-text-secondary border border-gray-200 hover:border-maroon-900 hover:text-maroon-900'
+                ? 'bg-text-primary text-white'
+                : 'bg-neutral-bg text-neutral-text hover:bg-header-border'
             }`}
           >
-            {option.label}
-            {option.count != null && (
-              <span
-                className={`ml-1.5 text-xs ${isActive ? 'text-white/70' : 'text-text-secondary/60'}`}
-              >
-                {option.count}
-              </span>
-            )}
+            {opt.label}
           </button>
         )
       })}

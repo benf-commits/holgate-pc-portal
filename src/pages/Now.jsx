@@ -72,7 +72,7 @@ export default function Now() {
             ))}
           </div>
           {remainingActions > 0 && (
-            <Link to="/archive?filter=actions" className="inline-block text-[11px] text-action hover:underline mt-3">
+            <Link to="/committee/archive?filter=actions" className="inline-block text-[11px] text-action hover:underline mt-3">
               +{remainingActions} more &rarr;
             </Link>
           )}

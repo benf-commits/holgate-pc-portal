@@ -3,14 +3,20 @@ import { Outlet, NavLink, useLocation } from 'react-router-dom'
 import { meta } from '../utils/data'
 import { formatDate } from '../utils/dates'
 
-const navLinks = [
-  { to: '/', label: 'Now', end: true },
-  { to: '/archive', label: 'Archive' },
+const topNav = [
+  { to: '/', label: 'Parents', end: true },
+  { to: '/committee', label: 'Committee' },
+]
+
+const committeeSubNav = [
+  { to: '/committee', label: 'Now', end: true },
+  { to: '/committee/archive', label: 'Archive' },
 ]
 
 export default function Layout() {
   const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation()
+  const isCommittee = location.pathname.startsWith('/committee')
 
   useEffect(() => {
     setMenuOpen(false)
@@ -28,18 +34,19 @@ export default function Layout() {
 
           {/* Desktop nav */}
           <nav className="hidden sm:flex items-center gap-4">
-            {navLinks.map((link) => (
+            {topNav.map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
                 end={link.end}
-                className={({ isActive }) =>
-                  `text-xs font-semibold pb-1 transition-colors ${
-                    isActive
+                className={({ isActive }) => {
+                  const active = link.to === '/committee' ? isCommittee : isActive
+                  return `text-xs font-semibold pb-1 transition-colors ${
+                    active
                       ? 'text-text-primary border-b-2 border-accent'
                       : 'text-text-secondary hover:text-text-primary'
                   }`
-                }
+                }}
               >
                 {link.label}
               </NavLink>
@@ -65,19 +72,33 @@ export default function Layout() {
           </button>
         </div>
 
+        {/* Mobile menu */}
         {menuOpen && (
           <nav className="sm:hidden border-t border-header-border px-4 py-2 flex flex-col gap-1">
-            {navLinks.map((link) => (
+            <NavLink
+              to="/"
+              end
+              onClick={() => setMenuOpen(false)}
+              className={({ isActive }) =>
+                `px-3 py-2 text-xs font-semibold rounded transition-colors ${
+                  isActive ? 'text-text-primary bg-cream' : 'text-text-secondary hover:text-text-primary'
+                }`
+              }
+            >
+              Parents
+            </NavLink>
+            <div className="px-3 py-1 text-[10px] font-bold text-text-secondary uppercase tracking-wider">
+              Committee
+            </div>
+            {committeeSubNav.map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
                 end={link.end}
                 onClick={() => setMenuOpen(false)}
                 className={({ isActive }) =>
-                  `px-3 py-2 text-xs font-semibold rounded transition-colors ${
-                    isActive
-                      ? 'text-text-primary bg-cream'
-                      : 'text-text-secondary hover:text-text-primary'
+                  `px-6 py-2 text-xs font-semibold rounded transition-colors ${
+                    isActive ? 'text-text-primary bg-cream' : 'text-text-secondary hover:text-text-primary'
                   }`
                 }
               >
@@ -85,6 +106,32 @@ export default function Layout() {
               </NavLink>
             ))}
           </nav>
+        )}
+
+        {/* Committee sub-nav */}
+        {isCommittee && (
+          <div className="border-t border-header-border hidden sm:block">
+            <div className="max-w-4xl mx-auto px-4">
+              <nav className="flex items-center gap-4">
+                {committeeSubNav.map((link) => (
+                  <NavLink
+                    key={link.to}
+                    to={link.to}
+                    end={link.end}
+                    className={({ isActive }) =>
+                      `text-[11px] font-semibold py-2 transition-colors ${
+                        isActive
+                          ? 'text-text-primary border-b-2 border-accent'
+                          : 'text-text-secondary hover:text-text-primary'
+                      }`
+                    }
+                  >
+                    {link.label}
+                  </NavLink>
+                ))}
+              </nav>
+            </div>
+          </div>
         )}
       </header>
 

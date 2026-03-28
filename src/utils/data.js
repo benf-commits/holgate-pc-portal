@@ -2,12 +2,11 @@ import people from '../data/people.json'
 import meetings from '../data/meetings.json'
 import actions from '../data/actions.json'
 import decisions from '../data/decisions.json'
-import events from '../data/events.json'
 import school from '../data/school.json'
 import correspondence from '../data/correspondence.json'
 import meta from '../data/meta.json'
 
-export { people, meetings, actions, decisions, events, school, correspondence, meta }
+export { people, meetings, actions, decisions, school, correspondence, meta }
 
 export function getPersonByInitials(initials) {
   return people.find((p) => p.id === initials) || { initials, name: initials, role: '' }

@@ -1,4 +1,5 @@
 import Badge from './Badge'
+import { formatShortDate } from '../utils/dates'
 
 export default function UpdateCard({ update }) {
   const content = (
@@ -8,7 +9,7 @@ export default function UpdateCard({ update }) {
           label={update.source === 'school' ? 'School' : 'P&C'}
           variant={update.source === 'school' ? 'school' : 'pc'}
         />
-        <span className="text-[10px] text-text-secondary">{update.date}</span>
+        <span className="text-[10px] text-text-secondary">{formatShortDate(update.date)}</span>
       </div>
       <div className="text-[11px] font-semibold text-text-primary leading-tight">{update.title}</div>
       {update.summary && (

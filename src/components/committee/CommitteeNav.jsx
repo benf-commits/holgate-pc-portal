@@ -1,15 +1,14 @@
-import { ArrowUpRight } from 'lucide-react';
-
 export default function CommitteeNav() {
   return (
-    <nav className="nav">
-      <div className="nav-inner">
-        <div className="nav-brand">Holgate P&C</div>
-        <a href="#/" className="nav-link">
-          Parents Portal
-          <ArrowUpRight size={13} strokeWidth={2.5} />
-        </a>
-      </div>
-    </nav>
+    <header className="committee-header">
+      <a href="#/" className="committee-header-portal-link" aria-label="Parents Portal">
+        Parents Portal
+      </a>
+      <img
+        src={`${import.meta.env.BASE_URL}images/pc-header.png`}
+        alt="Holgate P&C — Parents & Citizens Association"
+        className="committee-header-img"
+      />
+    </header>
   );
 }

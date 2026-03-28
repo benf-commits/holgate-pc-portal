@@ -62,6 +62,40 @@ body {
    NAV BAR — Minimal, floating
    ═══════════════════════════════════════════════════════════ */
 
+/* Image-based header */
+.committee-header {
+  position: relative;
+  width: 100%;
+  background: var(--bg-page);
+}
+
+.committee-header-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.committee-header-portal-link {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  font-size: 0;
+  width: 140px;
+  height: 40px;
+  z-index: 10;
+  text-decoration: none;
+  color: transparent;
+}
+
+@media (max-width: 768px) {
+  .committee-header-portal-link {
+    right: 16px;
+    width: 100px;
+  }
+}
+
+/* Legacy nav (kept for reference) */
 .nav {
   position: sticky;
   top: 0;

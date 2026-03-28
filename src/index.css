@@ -1,22 +1,33 @@
 @import "tailwindcss";
 
 @theme {
-  --color-maroon-900: #4A1525;
-  --color-maroon-800: #5E1D32;
-  --color-maroon-700: #7B2D3B;
-  --color-maroon-600: #9B4050;
-  --color-maroon-100: #F5F0F1;
-  --color-gold-500: #D4A843;
-  --color-gold-400: #E0BC6A;
-  --color-gold-100: #FDF8EC;
-  --color-cream: #FDFBF7;
-  --color-text-primary: #2D1A1F;
-  --color-text-secondary: #7B6B70;
-  --color-success: #27ae60;
-  --color-warning: #C0392B;
-  --color-info: #3949ab;
-  --color-event-meeting: #7b1fa2;
-  --color-event-pc: #27ae60;
-  --color-event-school: #3949ab;
-  --color-event-external: #e65100;
+  --color-cream: #faf8f5;
+  --color-card-shadow: rgba(0, 0, 0, 0.06);
+
+  --color-text-primary: #3d2c2e;
+  --color-text-secondary: #8a7e7a;
+
+  --color-header-border: #e8e0d8;
+  --color-accent: #b85c38;
+
+  --color-action: #b85c38;
+  --color-decision: #2d6a4f;
+  --color-meeting: #5b4a8a;
+  --color-document: #8a7e7a;
+
+  --color-overdue: #e84118;
+  --color-overdue-bg: #fef3f0;
+  --color-overdue-border: #f0cdc4;
+
+  --color-carried-text: #155724;
+  --color-carried-bg: #d4edda;
+  --color-open-text: #856404;
+  --color-open-bg: #fff3cd;
+  --color-defeated-text: #721c24;
+  --color-defeated-bg: #f8d7da;
+  --color-neutral-text: #5a4a45;
+  --color-neutral-bg: #ece6df;
+
+  --color-pending: #5b4a8a;
+  --color-pending-light: #c4b5d4;
 }

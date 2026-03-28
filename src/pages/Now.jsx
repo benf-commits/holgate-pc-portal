@@ -58,31 +58,31 @@ export default function Now() {
   const remainingActions = openActions.length - displayActions.length
 
   return (
-    <div className="p-5 space-y-4">
+    <div className="p-8 space-y-6">
       <AttentionBanner actions={overdueActions} />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <div className="bg-white rounded-[10px] shadow-[0_1px_3px_var(--color-card-shadow)] p-4">
-          <div className="text-[10px] font-bold text-action uppercase tracking-[0.8px] mb-3">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="bg-white rounded-lg shadow-[0_1px_3px_var(--color-card-shadow)] p-6">
+          <div className="text-[13px] font-semibold text-action uppercase tracking-[1px] mb-4">
             Open Actions ({openActions.length})
           </div>
-          <div className="space-y-2">
+          <div className="space-y-3">
             {displayActions.map((action) => (
               <ActionItem key={action.id} action={action} />
             ))}
           </div>
           {remainingActions > 0 && (
-            <Link to="/committee/archive?filter=actions" className="inline-block text-[11px] text-action hover:underline mt-3">
+            <Link to="/committee/archive?filter=actions" className="inline-block text-[14px] text-action hover:underline mt-4">
               +{remainingActions} more &rarr;
             </Link>
           )}
         </div>
 
-        <div className="bg-white rounded-[10px] shadow-[0_1px_3px_var(--color-card-shadow)] p-4">
-          <div className="text-[10px] font-bold text-decision uppercase tracking-[0.8px] mb-3">
+        <div className="bg-white rounded-lg shadow-[0_1px_3px_var(--color-card-shadow)] p-6">
+          <div className="text-[13px] font-semibold text-decision uppercase tracking-[1px] mb-4">
             Recent Decisions
           </div>
-          <div className="space-y-2">
+          <div className="space-y-3">
             {recentDecisions.map((decision) => (
               <DecisionItem key={decision.id} decision={decision} />
             ))}
@@ -90,57 +90,57 @@ export default function Now() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-4">
-        <div className="bg-white rounded-[10px] shadow-[0_1px_3px_var(--color-card-shadow)] p-4">
-          <div className="text-[10px] font-bold text-pending uppercase tracking-[0.8px] mb-2">
+      <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-6">
+        <div className="bg-white rounded-lg shadow-[0_1px_3px_var(--color-card-shadow)] p-6">
+          <div className="text-[13px] font-semibold text-pending uppercase tracking-[1px] mb-3">
             Next Meeting
           </div>
           {nextMeeting ? (
             <>
               <div className="flex justify-between items-baseline">
-                <div className="text-base font-bold text-text-primary">{formatDate(nextMeeting.date)}</div>
-                <div className="text-[11px] text-text-secondary">
+                <div className="text-lg font-bold text-text-primary">{formatDate(nextMeeting.date)}</div>
+                <div className="text-[14px] text-text-secondary">
                   {nextMeeting.openTime || nextMeeting.time || ''} &middot; {nextMeeting.location || 'Staffroom'} &middot; {nextMeetingCountdown}
                 </div>
               </div>
-              <div className="border-t border-header-border mt-3 pt-3">
-                <div className="text-[10px] font-semibold text-pending mb-2">AGENDA</div>
+              <div className="border-t border-header-border mt-4 pt-4">
+                <div className="text-[12px] font-semibold text-pending uppercase tracking-[0.8px] mb-3">Agenda</div>
                 {(nextMeeting.agendaItems || []).length > 0 ? (
-                  <div className="space-y-1">
+                  <div className="space-y-1.5">
                     {nextMeeting.agendaItems.map((item, i) => (
-                      <div key={i} className="text-[11px] text-text-primary flex gap-2">
-                        <span className="text-text-secondary min-w-[14px]">{i + 1}.</span>
+                      <div key={i} className="text-[14px] text-text-primary flex gap-2">
+                        <span className="text-text-secondary min-w-[18px]">{i + 1}.</span>
                         {item}
                       </div>
                     ))}
                   </div>
                 ) : (
-                  <p className="text-[11px] text-text-secondary italic">Agenda items will appear as they're added</p>
+                  <p className="text-[14px] text-text-secondary italic">Agenda items will appear as they're added</p>
                 )}
               </div>
             </>
           ) : (
-            <p className="text-[11px] text-text-secondary">No upcoming meetings scheduled</p>
+            <p className="text-[14px] text-text-secondary">No upcoming meetings scheduled</p>
           )}
         </div>
 
-        <div className="bg-white rounded-[10px] shadow-[0_1px_3px_var(--color-card-shadow)] p-4">
-          <div className="text-[10px] font-bold text-pending uppercase tracking-[0.8px] mb-3">
+        <div className="bg-white rounded-lg shadow-[0_1px_3px_var(--color-card-shadow)] p-6">
+          <div className="text-[13px] font-semibold text-pending uppercase tracking-[1px] mb-4">
             Waiting On School
           </div>
           {pendingItems.length > 0 ? (
-            <div className="space-y-2">
+            <div className="space-y-3">
               {pendingItems.map((item) => (
-                <div key={item.id} className="border-l-[3px] border-l-pending-light pl-3 py-1">
-                  <div className="text-[11px] text-text-primary">{item.title}</div>
+                <div key={item.id} className="border-l-[3px] border-l-pending-light pl-4 py-1">
+                  <div className="text-[14px] text-text-primary">{item.title}</div>
                   {item.description && (
-                    <div className="text-[10px] text-text-secondary mt-0.5">{item.waitingOn || ''}</div>
+                    <div className="text-[13px] text-text-secondary mt-0.5">{item.waitingOn || ''}</div>
                   )}
                 </div>
               ))}
             </div>
           ) : (
-            <p className="text-[11px] text-text-secondary">Nothing pending</p>
+            <p className="text-[14px] text-text-secondary">Nothing pending</p>
           )}
         </div>
       </div>

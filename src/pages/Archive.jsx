@@ -26,29 +26,29 @@ export default function Archive() {
   }, [query, filter])
 
   return (
-    <div className="p-5 space-y-4">
-      <div className="bg-white rounded-[10px] shadow-[0_1px_3px_var(--color-card-shadow)]">
+    <div className="p-8 space-y-5">
+      <div className="bg-white rounded-lg shadow-[0_1px_3px_var(--color-card-shadow)]">
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search meetings, decisions, actions, documents..."
-          className="w-full px-4 py-3 text-[13px] text-text-primary bg-transparent placeholder:text-text-secondary/50 focus:outline-none rounded-[10px]"
+          className="w-full px-5 py-3.5 text-[15px] text-text-primary bg-transparent placeholder:text-text-secondary/50 focus:outline-none rounded-lg"
         />
       </div>
 
       <FilterChips options={filterOptions} active={filter} onChange={setFilter} />
 
       {query.trim() && (
-        <div className="text-[10px] text-text-secondary">
+        <div className="text-[13px] text-text-secondary">
           {results.length} {results.length === 1 ? 'result' : 'results'} for <strong className="text-text-primary">"{query}"</strong>
         </div>
       )}
 
-      <div className="space-y-2">
+      <div className="space-y-3">
         {results.length === 0 ? (
-          <div className="bg-white rounded-[10px] shadow-[0_1px_3px_var(--color-card-shadow)] p-8 text-center">
-            <p className="text-[12px] text-text-secondary">
+          <div className="bg-white rounded-lg shadow-[0_1px_3px_var(--color-card-shadow)] p-8 text-center">
+            <p className="text-[15px] text-text-secondary">
               {query.trim() ? 'No results found.' : 'No meetings recorded yet.'}
             </p>
           </div>

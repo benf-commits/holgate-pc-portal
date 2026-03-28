@@ -11,27 +11,27 @@ function EventEntry({ event }) {
   const dotColor = categoryColors[event.category] || 'bg-text-secondary'
 
   return (
-    <div className="flex gap-3 py-1.5">
-      <div className="flex flex-col items-center pt-1.5">
-        <div className={`w-2 h-2 rounded-full ${dotColor} shrink-0`} />
+    <div className="flex gap-3 py-2">
+      <div className="flex flex-col items-center pt-2">
+        <div className={`w-2.5 h-2.5 rounded-full ${dotColor} shrink-0`} />
       </div>
       <div className="min-w-0">
         <div className="flex items-baseline gap-2 flex-wrap">
-          <span className="text-[11px] font-bold text-text-primary whitespace-nowrap">
+          <span className="text-[15px] font-bold text-text-primary whitespace-nowrap">
             {formatShortDate(event.date)}
           </span>
           {event.time && (
-            <span className="text-[10px] text-text-secondary">{event.time}</span>
+            <span className="text-[13px] text-text-secondary">{event.time}</span>
           )}
         </div>
-        <div className="text-[11px] text-text-primary">{event.title}</div>
+        <div className="text-[15px] text-text-primary font-medium">{event.title}</div>
         {event.yearGroups && (
-          <span className="text-[9px] text-text-secondary">
+          <span className="text-[12px] text-text-secondary">
             {event.yearGroups.join(', ')}
           </span>
         )}
         {event.note && (
-          <div className="text-[10px] text-text-secondary mt-0.5">{event.note}</div>
+          <div className="text-[13px] text-text-secondary mt-0.5">{event.note}</div>
         )}
       </div>
     </div>
@@ -55,17 +55,17 @@ export default function EventTimeline({ events }) {
   }, [events])
 
   if (groups.length === 0) {
-    return <p className="text-[11px] text-text-secondary italic">No upcoming events</p>
+    return <p className="text-[14px] text-text-secondary italic">No upcoming events</p>
   }
 
   return (
     <div className="space-y-4">
       {groups.map((group) => (
         <div key={group.label}>
-          <div className="text-[9px] font-bold text-text-secondary uppercase tracking-[0.8px] mb-1">
+          <div className="text-[12px] font-semibold text-text-secondary uppercase tracking-[1px] mb-2">
             {group.label}
           </div>
-          <div className="border-l-2 border-header-border pl-2 ml-1">
+          <div className="border-l-2 border-header-border pl-3 ml-1">
             {group.events.map((event) => (
               <EventEntry key={event.id} event={event} />
             ))}

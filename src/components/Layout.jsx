@@ -25,15 +25,15 @@ export default function Layout() {
   return (
     <div className="min-h-screen bg-cream flex flex-col">
       <header className="bg-white border-b border-header-border">
-        <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <NavLink to="/" className="no-underline">
-            <span className="text-[15px] font-bold text-text-primary tracking-[-0.3px]">
+            <span className="text-[20px] font-bold text-text-primary tracking-[-0.3px]">
               Holgate P&amp;C
             </span>
           </NavLink>
 
           {/* Desktop nav */}
-          <nav className="hidden sm:flex items-center gap-4">
+          <nav className="hidden sm:flex items-center gap-6">
             {topNav.map((link) => (
               <NavLink
                 key={link.to}
@@ -41,7 +41,7 @@ export default function Layout() {
                 end={link.end}
                 className={({ isActive }) => {
                   const active = link.to === '/committee' ? isCommittee : isActive
-                  return `text-xs font-semibold pb-1 transition-colors ${
+                  return `text-[15px] font-medium pb-1 transition-colors ${
                     active
                       ? 'text-text-primary border-b-2 border-accent'
                       : 'text-text-secondary hover:text-text-primary'
@@ -80,14 +80,14 @@ export default function Layout() {
               end
               onClick={() => setMenuOpen(false)}
               className={({ isActive }) =>
-                `px-3 py-2 text-xs font-semibold rounded transition-colors ${
+                `px-3 py-2.5 text-[15px] font-medium rounded transition-colors ${
                   isActive ? 'text-text-primary bg-cream' : 'text-text-secondary hover:text-text-primary'
                 }`
               }
             >
               Parents
             </NavLink>
-            <div className="px-3 py-1 text-[10px] font-bold text-text-secondary uppercase tracking-wider">
+            <div className="px-3 py-1.5 text-[11px] font-bold text-text-secondary uppercase tracking-wider">
               Committee
             </div>
             {committeeSubNav.map((link) => (
@@ -97,7 +97,7 @@ export default function Layout() {
                 end={link.end}
                 onClick={() => setMenuOpen(false)}
                 className={({ isActive }) =>
-                  `px-6 py-2 text-xs font-semibold rounded transition-colors ${
+                  `px-6 py-2.5 text-[15px] font-medium rounded transition-colors ${
                     isActive ? 'text-text-primary bg-cream' : 'text-text-secondary hover:text-text-primary'
                   }`
                 }
@@ -111,15 +111,15 @@ export default function Layout() {
         {/* Committee sub-nav */}
         {isCommittee && (
           <div className="border-t border-header-border hidden sm:block">
-            <div className="max-w-4xl mx-auto px-4">
-              <nav className="flex items-center gap-4">
+            <div className="max-w-5xl mx-auto px-6">
+              <nav className="flex items-center gap-6">
                 {committeeSubNav.map((link) => (
                   <NavLink
                     key={link.to}
                     to={link.to}
                     end={link.end}
                     className={({ isActive }) =>
-                      `text-[11px] font-semibold py-2 transition-colors ${
+                      `text-[14px] font-medium py-2.5 transition-colors ${
                         isActive
                           ? 'text-text-primary border-b-2 border-accent'
                           : 'text-text-secondary hover:text-text-primary'
@@ -135,11 +135,11 @@ export default function Layout() {
         )}
       </header>
 
-      <main className="max-w-4xl mx-auto w-full flex-1">
+      <main className="max-w-5xl mx-auto w-full flex-1">
         <Outlet />
       </main>
 
-      <footer className="text-center py-4 text-[10px] text-text-secondary">
+      <footer className="text-center py-6 text-[13px] text-text-secondary">
         Last updated: {formatDate(meta.lastUpdated)}
       </footer>
     </div>

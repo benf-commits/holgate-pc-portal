@@ -15,7 +15,7 @@ const variants = {
 export default function Badge({ label, variant = 'neutral' }) {
   const style = variants[variant] || variants.neutral
   return (
-    <span className={`inline-block px-2 py-0.5 text-[9px] font-bold rounded-full whitespace-nowrap ${style}`}>
+    <span className={`inline-block px-2.5 py-0.5 text-[11px] font-bold rounded-full whitespace-nowrap ${style}`}>
       {label}
     </span>
   )

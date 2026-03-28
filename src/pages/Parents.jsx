@@ -12,23 +12,23 @@ export default function Parents() {
   const hasMore = allUpdates.length > 5
 
   return (
-    <div className="p-5 space-y-4">
-      <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-4">
+    <div className="p-8 space-y-6">
+      <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-6">
         {/* Left column: Coming Up */}
-        <div className="bg-white rounded-[10px] shadow-[0_1px_3px_var(--color-card-shadow)] p-4">
-          <div className="text-[10px] font-bold text-accent uppercase tracking-[0.8px] mb-3">
+        <div className="bg-white rounded-lg shadow-[0_1px_3px_var(--color-card-shadow)] p-6">
+          <div className="text-[13px] font-semibold text-accent uppercase tracking-[1px] mb-4">
             Coming Up
           </div>
           <EventTimeline events={upcomingEvents} />
         </div>
 
         {/* Right column: Updates + Quick Links */}
-        <div className="space-y-4">
-          <div className="bg-white rounded-[10px] shadow-[0_1px_3px_var(--color-card-shadow)] p-4">
-            <div className="text-[10px] font-bold text-decision uppercase tracking-[0.8px] mb-3">
+        <div className="space-y-6">
+          <div className="bg-white rounded-lg shadow-[0_1px_3px_var(--color-card-shadow)] p-6">
+            <div className="text-[13px] font-semibold text-decision uppercase tracking-[1px] mb-4">
               Latest Updates
             </div>
-            <div className="space-y-2">
+            <div className="space-y-3">
               {visibleUpdates.map((update) => (
                 <UpdateCard key={update.id} update={update} />
               ))}
@@ -36,7 +36,7 @@ export default function Parents() {
             {hasMore && !showAllUpdates && (
               <button
                 onClick={() => setShowAllUpdates(true)}
-                className="text-[11px] text-accent hover:underline mt-3"
+                className="text-[14px] text-accent hover:underline mt-4"
               >
                 See all updates →
               </button>
@@ -44,7 +44,7 @@ export default function Parents() {
           </div>
 
           <div>
-            <div className="text-[10px] font-bold text-text-secondary uppercase tracking-[0.8px] mb-2">
+            <div className="text-[13px] font-semibold text-text-secondary uppercase tracking-[1px] mb-3">
               Quick Links
             </div>
             <QuickLinkPanel sections={reference} />

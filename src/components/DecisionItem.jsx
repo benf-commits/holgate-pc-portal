@@ -12,12 +12,12 @@ export default function DecisionItem({ decision }) {
     : null
 
   return (
-    <div className="border-l-[3px] border-l-decision pl-3 py-1">
+    <div className="border-l-[3px] border-l-decision pl-4 py-1.5">
       <div className="flex items-start justify-between gap-2">
-        <span className="text-[11px] text-text-primary">{decision.title}</span>
+        <span className="text-[14px] text-text-primary">{decision.title}</span>
         <Badge label={decision.result} variant={decision.result === 'carried' ? 'carried' : decision.result === 'defeated' ? 'defeated' : 'neutral'} />
       </div>
-      <div className="text-[10px] text-text-secondary mt-0.5">
+      <div className="text-[13px] text-text-secondary mt-0.5">
         {meeting && formatDate(meeting.date)}
         {moverName && <> &middot; Moved: {moverName}{seconderName && ` / ${seconderName}`}</>}
       </div>

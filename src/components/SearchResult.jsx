@@ -27,14 +27,14 @@ function MeetingResult({ data, query }) {
   return (
     <>
       <div className="flex justify-between items-center mb-1">
-        <span className="text-[10px] font-semibold text-meeting uppercase tracking-[0.5px]">{typeLabels.meeting}</span>
-        <span className="text-[10px] text-text-secondary">{formatDate(data.date)}</span>
+        <span className="text-[13px] font-semibold text-meeting uppercase tracking-[0.5px]">{typeLabels.meeting}</span>
+        <span className="text-[13px] text-text-secondary">{formatDate(data.date)}</span>
       </div>
-      <div className="text-[12px] font-semibold text-text-primary mb-1" dangerouslySetInnerHTML={{ __html: highlightMatch(data.title, query) }} />
+      <div className="text-[15px] font-semibold text-text-primary mb-1" dangerouslySetInnerHTML={{ __html: highlightMatch(data.title, query) }} />
       {matchingMinutes.length > 0 && (
-        <div className="text-[11px] text-neutral-text leading-relaxed mb-2" dangerouslySetInnerHTML={{ __html: matchingMinutes.map((m) => highlightMatch(m, query)).join(' &middot; ') }} />
+        <div className="text-[14px] text-neutral-text leading-relaxed mb-2" dangerouslySetInnerHTML={{ __html: matchingMinutes.map((m) => highlightMatch(m, query)).join(' &middot; ') }} />
       )}
-      <div className="flex gap-3 text-[10px]">
+      <div className="flex gap-3 text-[13px]">
         {actionCount > 0 && <span className="text-action">{actionCount} actions</span>}
         {decisionCount > 0 && <span className="text-decision">{decisionCount} decisions</span>}
         {data.pdfPath && (
@@ -52,14 +52,14 @@ function DecisionResult({ data, query }) {
   return (
     <>
       <div className="flex justify-between items-center mb-1">
-        <span className="text-[10px] font-semibold text-decision uppercase tracking-[0.5px]">{typeLabels.decision}</span>
+        <span className="text-[13px] font-semibold text-decision uppercase tracking-[0.5px]">{typeLabels.decision}</span>
         <Badge label={data.result} variant={data.result === 'carried' ? 'carried' : data.result === 'defeated' ? 'defeated' : 'neutral'} />
       </div>
-      <div className="text-[12px] font-semibold text-text-primary mb-1" dangerouslySetInnerHTML={{ __html: highlightMatch(data.title, query) }} />
+      <div className="text-[15px] font-semibold text-text-primary mb-1" dangerouslySetInnerHTML={{ __html: highlightMatch(data.title, query) }} />
       {data.description && (
-        <div className="text-[11px] text-neutral-text" dangerouslySetInnerHTML={{ __html: highlightMatch(data.description, query) }} />
+        <div className="text-[14px] text-neutral-text" dangerouslySetInnerHTML={{ __html: highlightMatch(data.description, query) }} />
       )}
-      {meeting && <div className="text-[10px] text-text-secondary mt-1">{formatDate(meeting.date)} meeting</div>}
+      {meeting && <div className="text-[13px] text-text-secondary mt-1">{formatDate(meeting.date)} meeting</div>}
     </>
   )
 }
@@ -71,11 +71,11 @@ function ActionResult({ data, query }) {
   return (
     <>
       <div className="flex justify-between items-center mb-1">
-        <span className="text-[10px] font-semibold text-action uppercase tracking-[0.5px]">{typeLabels.action}</span>
+        <span className="text-[13px] font-semibold text-action uppercase tracking-[0.5px]">{typeLabels.action}</span>
         <Badge label={data.status} variant={statusVariant} />
       </div>
-      <div className="text-[12px] font-semibold text-text-primary mb-1" dangerouslySetInnerHTML={{ __html: highlightMatch(data.description, query) }} />
-      <div className="text-[10px] text-text-secondary">
+      <div className="text-[15px] font-semibold text-text-primary mb-1" dangerouslySetInnerHTML={{ __html: highlightMatch(data.description, query) }} />
+      <div className="text-[13px] text-text-secondary">
         {ownerNames}
         {meeting && <> &middot; from {formatDate(meeting.date)} meeting</>}
       </div>
@@ -87,15 +87,15 @@ function DocumentResult({ data, query }) {
   return (
     <>
       <div className="flex justify-between items-center mb-1">
-        <span className="text-[10px] font-semibold text-document uppercase tracking-[0.5px]">{typeLabels.document}</span>
-        <span className="text-[10px] text-text-secondary uppercase">{data.format}</span>
+        <span className="text-[13px] font-semibold text-document uppercase tracking-[0.5px]">{typeLabels.document}</span>
+        <span className="text-[13px] text-text-secondary uppercase">{data.format}</span>
       </div>
-      <div className="text-[12px] font-semibold text-text-primary mb-1" dangerouslySetInnerHTML={{ __html: highlightMatch(data.title, query) }} />
+      <div className="text-[15px] font-semibold text-text-primary mb-1" dangerouslySetInnerHTML={{ __html: highlightMatch(data.title, query) }} />
       {data.description && (
-        <div className="text-[11px] text-neutral-text" dangerouslySetInnerHTML={{ __html: highlightMatch(data.description, query) }} />
+        <div className="text-[14px] text-neutral-text" dangerouslySetInnerHTML={{ __html: highlightMatch(data.description, query) }} />
       )}
       {data.path && (
-        <a href={data.path} target="_blank" rel="noopener noreferrer" className="inline-block text-[10px] text-action hover:underline mt-1">
+        <a href={data.path} target="_blank" rel="noopener noreferrer" className="inline-block text-[13px] text-action hover:underline mt-1">
           Open document &rarr;
         </a>
       )}
@@ -115,7 +115,7 @@ export default function SearchResult({ result, query }) {
   const Renderer = renderers[result.type]
 
   return (
-    <div className={`bg-white rounded-[10px] shadow-[0_1px_3px_var(--color-card-shadow)] border-l-4 ${border} p-4`}>
+    <div className={`bg-white rounded-lg shadow-[0_1px_3px_var(--color-card-shadow)] border-l-4 ${border} p-6`}>
       <Renderer data={result.data} query={query} />
     </div>
   )

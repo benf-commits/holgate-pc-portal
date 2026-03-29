@@ -17,15 +17,28 @@ export default function CommitteeHero() {
 
   return (
     <section className="committee-hero">
-      <div className="committee-hero-banner">
-        <img
-          src={`${base}images/pc-header.png`}
-          alt="Holgate P&C — Parents & Citizens Association"
-          className="committee-hero-banner-img"
-        />
-        <a href="#/" className="committee-hero-portal-link">
-          Parents Portal <ArrowUpRight size={14} strokeWidth={2.5} />
-        </a>
+      <div
+        className="committee-hero-banner"
+        style={{ backgroundImage: `url(${base}images/school-building.jpg)` }}
+      >
+        <div className="committee-hero-banner-overlay" />
+        <div className="committee-hero-banner-content section-inner">
+          <div className="committee-hero-brand">
+            <img
+              src={`${base}images/holgate-logo.png`}
+              alt="Holgate P.S."
+              className="committee-hero-crest"
+            />
+            <div>
+              <div className="committee-hero-title">Holgate P&C</div>
+              <div className="committee-hero-subtitle">Parents & Citizens Association</div>
+            </div>
+          </div>
+          <a href="#/" className="committee-hero-portal-link">
+            Parents Portal <ArrowUpRight size={14} strokeWidth={2.5} />
+          </a>
+        </div>
+        <div className="committee-hero-banner-fade" />
       </div>
 
       <div className="committee-hero-nav">

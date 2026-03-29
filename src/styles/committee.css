@@ -70,40 +70,96 @@ body {
   background: var(--bg-page);
 }
 
+/* Banner — school photo background with overlay + branding */
 .committee-hero-banner {
   position: relative;
   width: 100%;
-  background: var(--bg-page);
+  min-height: 200px;
+  background-size: cover;
+  background-position: center 30%;
+  display: flex;
+  flex-direction: column;
 }
 
-.committee-hero-banner-img {
-  display: block;
-  width: 100%;
+.committee-hero-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(60, 20, 15, 0.92) 0%,
+    rgba(60, 20, 15, 0.85) 35%,
+    rgba(60, 20, 15, 0.5) 60%,
+    rgba(60, 20, 15, 0.2) 100%
+  );
+  z-index: 1;
+}
+
+.committee-hero-banner-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(to bottom, transparent, var(--bg-page));
+  z-index: 2;
+}
+
+.committee-hero-banner-content {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 36px;
+  padding-bottom: 48px;
+}
+
+.committee-hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.committee-hero-crest {
+  width: 72px;
   height: auto;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
+}
+
+.committee-hero-title {
+  font-family: var(--font-display);
+  font-size: 36px;
+  color: #faf5ef;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+}
+
+.committee-hero-subtitle {
+  font-size: 16px;
+  color: rgba(250, 245, 239, 0.75);
+  font-weight: 400;
+  margin-top: 2px;
+  letter-spacing: 0.3px;
 }
 
 .committee-hero-portal-link {
-  position: absolute;
-  top: 24px;
-  right: 40px;
   font-size: 14px;
   font-weight: 500;
   font-family: var(--font-body);
-  color: var(--text-secondary);
+  color: rgba(250, 245, 239, 0.85);
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 4px;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border-radius: var(--radius-full);
-  background: rgba(255,255,255,0.8);
-  backdrop-filter: blur(8px);
+  border: 1px solid rgba(250, 245, 239, 0.3);
   transition: all 0.2s var(--ease);
-  z-index: 10;
 }
 .committee-hero-portal-link:hover {
-  background: rgba(255,255,255,0.95);
-  color: var(--accent);
+  background: rgba(250, 245, 239, 0.15);
+  border-color: rgba(250, 245, 239, 0.5);
+  color: #fff;
 }
 
 .committee-hero-nav {
@@ -185,8 +241,12 @@ body {
     gap: 8px;
   }
   .committee-hero-nav { padding: 28px 0 36px; }
-  /* banner scales naturally with width */
-  .committee-hero-portal-link { right: 16px; top: 16px; font-size: 12px; padding: 6px 12px; }
+  .committee-hero-banner { min-height: 140px; }
+  .committee-hero-banner-content { padding-top: 24px; padding-bottom: 36px; flex-wrap: wrap; gap: 16px; }
+  .committee-hero-crest { width: 52px; }
+  .committee-hero-title { font-size: 26px; }
+  .committee-hero-subtitle { font-size: 13px; }
+  .committee-hero-portal-link { font-size: 12px; padding: 6px 12px; }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {

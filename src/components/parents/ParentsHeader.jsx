@@ -1,5 +1,3 @@
-import { ArrowUpRight } from 'lucide-react';
-
 export default function ParentsHeader() {
   const base = import.meta.env.BASE_URL;
   return (
@@ -16,9 +14,6 @@ export default function ParentsHeader() {
             <div className="committee-hero-subtitle">Parents & Citizens Association</div>
           </div>
         </div>
-        <a href="#/committee" className="committee-hero-portal-link">
-          Committee Portal <ArrowUpRight size={14} strokeWidth={2.5} />
-        </a>
       </div>
       <div className="committee-hero-banner-fade" />
     </header>

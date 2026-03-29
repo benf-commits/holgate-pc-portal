@@ -1,4 +1,4 @@
-import { CookingPot, Users, PartyPopper, Heart } from 'lucide-react';
+import { CookingPot, Users, PartyPopper, Heart, Handshake } from 'lucide-react';
 import helpItems from '../../data/parents-help.json';
 
 const ICONS = {
@@ -6,6 +6,7 @@ const ICONS = {
   'users': Users,
   'party-popper': PartyPopper,
   'heart': Heart,
+  'handshake': Handshake,
 };
 
 export default function HowToHelp() {

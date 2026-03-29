@@ -28,10 +28,10 @@ export default function ParentsPortal() {
     <>
       <ParentsHeader />
       <ParentsWelcome />
-      <WhatsComingUp />
-      <WhatToKnow />
-      <HowToHelp />
-      <QuickReference />
+      <div id="whats-coming-up"><WhatsComingUp /></div>
+      <div id="what-to-know"><WhatToKnow /></div>
+      <div id="how-to-help"><HowToHelp /></div>
+      <div id="quick-reference"><QuickReference /></div>
       <ParentsFooter />
     </>
   );

@@ -6,9 +6,9 @@
     "icon": "cooking-pot"
   },
   {
-    "id": "meeting",
-    "title": "Come to a P&C meeting",
-    "body": "First Monday of each month, 7pm in the staffroom. Online option available. No commitment — just come and see what we do. Next meeting: Monday 4 May.",
+    "id": "join",
+    "title": "Join the P&C",
+    "body": "Come to a meeting — first Monday of each month, 7pm in the staffroom (online option available). Membership is $1/year. No commitment needed to attend. Next meeting: Monday 4 May.",
     "icon": "users"
   },
   {
@@ -18,9 +18,15 @@
     "icon": "party-popper"
   },
   {
-    "id": "join",
-    "title": "Join the P&C",
-    "body": "Membership is $1/year. You get a voice in how the P&C spends money, what projects we take on, and how we support the school. Everyone is welcome.",
+    "id": "donate",
+    "title": "Make a donation",
+    "body": "Every dollar goes directly to improving our school. The P&C funded $17,800 for playground upgrades and $1,400 in classroom resources in 2025. Contact holgate.pandc@gmail.com.",
     "icon": "heart"
+  },
+  {
+    "id": "sponsor",
+    "title": "Sponsor a P&C event",
+    "body": "Local businesses can sponsor our events — Trivia Night, School Disco, Father's Day, and more. We offer acknowledgment across our channels. Get in touch at holgate.pandc@gmail.com.",
+    "icon": "handshake"
   }
 ]

@@ -10,7 +10,7 @@ export default function ParentsWelcome() {
     <section className="committee-hero-nav">
       <div className="section-inner">
         <p className="committee-hero-welcome">
-          Your go-to for everything happening at Holgate Public School — events, news, ways to get involved, and all the info you need as a parent.
+          Your go-to for everything happening at Holgate Public School — events, news, ways to get involved, and all the info you need as a parent. Jump straight to a section:
         </p>
         <div className="committee-hero-grid">
           <button className="committee-hero-card" onClick={() => scrollTo('whats-coming-up')}>

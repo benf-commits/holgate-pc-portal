@@ -73,17 +73,13 @@ body {
 .committee-hero-banner {
   position: relative;
   width: 100%;
-  height: 180px;
-  overflow: hidden;
   background: var(--bg-page);
 }
 
 .committee-hero-banner-img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top left;
+  height: auto;
 }
 
 .committee-hero-portal-link {
@@ -189,7 +185,7 @@ body {
     gap: 8px;
   }
   .committee-hero-nav { padding: 28px 0 36px; }
-  .committee-hero-banner { height: 120px; }
+  /* banner scales naturally with width */
   .committee-hero-portal-link { right: 16px; top: 16px; font-size: 12px; padding: 6px 12px; }
 }
 

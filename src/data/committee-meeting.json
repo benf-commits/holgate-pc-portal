@@ -1,0 +1,300 @@
+{
+  "id": "2026-03-02",
+  "date": "2026-03-01T13:00:00.000Z",
+  "title": "Monday 2 March 2026",
+  "summaryPoints": [
+    "New executive: Catherine Vassilev (President), Vicki Colmer Ridge (VP), Jodi Vigar (Treasurer)",
+    "Canteen asbestos quote received ~$7,800 — scope unclear (one wall or both?)",
+    "Classroom donations approved — $300 per class ($1,400 total)",
+    "Mother's Day confirmed: Mums & Muffins, 6 May, school hosting",
+    "BAS lodging taken over by Jessica Fit — saving $330/year"
+  ],
+  "attendance": [
+    {
+      "id": "AN",
+      "name": "Alecia Nealon",
+      "role": "President (2025)"
+    },
+    {
+      "id": "BF",
+      "name": "Ben Fitzpatrick",
+      "role": "Grants"
+    },
+    {
+      "id": "BH",
+      "name": "Briana Henderson",
+      "role": "Newsletter"
+    },
+    {
+      "id": "CV",
+      "name": "Catherine Vassilev",
+      "role": "President"
+    },
+    {
+      "id": "CB",
+      "name": "Colleen Birch",
+      "role": "Fundraising"
+    },
+    {
+      "id": "DG",
+      "name": "Dave Gurr",
+      "role": "Vice President (2025)"
+    },
+    {
+      "id": "HN",
+      "name": "Holly Newton",
+      "role": null
+    },
+    {
+      "id": "IP",
+      "name": "Imke Pearce",
+      "role": "Secretary"
+    },
+    {
+      "id": "JF",
+      "name": "Jessica Fit",
+      "role": null
+    },
+    {
+      "id": "JV",
+      "name": "Jodi Vigar",
+      "role": "Treasurer"
+    },
+    {
+      "id": "KK",
+      "name": "Kerri Kerri",
+      "role": "Vice Principal"
+    },
+    {
+      "id": "LB",
+      "name": "Laura Butler",
+      "role": "Treasurer (2025)"
+    },
+    {
+      "id": "LM",
+      "name": "Lizzie McPherson",
+      "role": "Canteen Manager, 2nd Hand Clothing"
+    },
+    {
+      "id": "LM-matheson",
+      "name": "Lori Matheson",
+      "role": null
+    },
+    {
+      "id": "MW",
+      "name": "Monique Wills",
+      "role": "Social Media"
+    },
+    {
+      "id": "NO",
+      "name": "Nadia OConnell",
+      "role": null
+    },
+    {
+      "id": "SS",
+      "name": "Sharyn Styman",
+      "role": "Band Equipment"
+    },
+    {
+      "id": "VG",
+      "name": "Vanessa Gordon",
+      "role": "Principal"
+    },
+    {
+      "id": "VCR",
+      "name": "Vicki Colmer Ridge",
+      "role": "Vice President"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "d-2026-03-01",
+      "title": "P&C donation of $300 per classroom — $1,400 total",
+      "result": "carried",
+      "movedBy": "Laura Butler",
+      "secondedBy": "Jodi Vigar"
+    },
+    {
+      "id": "d-2026-03-02",
+      "title": "CC P&C Federation membership — $40",
+      "result": "carried",
+      "movedBy": "Jodi Vigar",
+      "secondedBy": "Catherine Vassilev"
+    },
+    {
+      "id": "d-2026-03-03",
+      "title": "Spriggy order cut-off time changed to 8:30am",
+      "result": "carried",
+      "movedBy": null,
+      "secondedBy": null
+    },
+    {
+      "id": "d-2026-03-04",
+      "title": "2026 Office Bearers elected",
+      "result": "carried",
+      "movedBy": null,
+      "secondedBy": null
+    },
+    {
+      "id": "d-2026-03-05",
+      "title": "New Canteen Manager role created",
+      "result": "carried",
+      "movedBy": null,
+      "secondedBy": null
+    },
+    {
+      "id": "d-2026-03-06",
+      "title": "Canteen cash handling — all takings recorded in log book in safe",
+      "result": "carried",
+      "movedBy": null,
+      "secondedBy": null
+    }
+  ],
+  "actions": [
+    {
+      "id": "a-2026-03-01",
+      "description": "Check if $41.61 reimbursement for CB has been paid — if not, make payment",
+      "topic": "finance",
+      "owners": [
+        {
+          "id": "LB",
+          "name": "Laura Butler",
+          "role": "Treasurer (2025)"
+        },
+        {
+          "id": "JV",
+          "name": "Jodi Vigar",
+          "role": "Treasurer"
+        }
+      ],
+      "timing": "From this meeting"
+    },
+    {
+      "id": "a-2026-03-02",
+      "description": "Year in Review 2025 for fundraising on Facebook",
+      "topic": "events",
+      "owners": [
+        {
+          "id": "MW",
+          "name": "Monique Wills",
+          "role": "Social Media"
+        }
+      ],
+      "timing": "From this meeting"
+    },
+    {
+      "id": "a-2026-03-03",
+      "description": "Pick up Grill'd cheque $100",
+      "topic": "finance",
+      "owners": [
+        {
+          "id": "CV",
+          "name": "Catherine Vassilev",
+          "role": "President"
+        }
+      ],
+      "timing": "From this meeting"
+    },
+    {
+      "id": "a-2026-03-04",
+      "description": "Google Drive access to be updated for new executives",
+      "topic": "governance",
+      "owners": [
+        {
+          "id": "CV",
+          "name": "Catherine Vassilev",
+          "role": "President"
+        },
+        {
+          "id": "AN",
+          "name": "Alecia Nealon",
+          "role": "President (2025)"
+        }
+      ],
+      "timing": "From this meeting"
+    },
+    {
+      "id": "a-2026-03-05",
+      "description": "MYOB access to be granted for JV and CV",
+      "topic": "grants",
+      "owners": [
+        {
+          "id": "LB",
+          "name": "Laura Butler",
+          "role": "Treasurer (2025)"
+        },
+        {
+          "id": "JV",
+          "name": "Jodi Vigar",
+          "role": "Treasurer"
+        }
+      ],
+      "timing": "From this meeting"
+    },
+    {
+      "id": "a-2026-03-06",
+      "description": "Ask Jessica Fit to lodge nil BAS to save $330 accounting fee annually",
+      "topic": "finance",
+      "owners": [
+        {
+          "id": "CV",
+          "name": "Catherine Vassilev",
+          "role": "President"
+        }
+      ],
+      "timing": "From this meeting"
+    },
+    {
+      "id": "a-2026-03-07",
+      "description": "Uniform shop procedures to be sent to VG",
+      "topic": "uniforms",
+      "owners": [
+        {
+          "id": "LM",
+          "name": "Lizzie McPherson",
+          "role": "Canteen Manager, 2nd Hand Clothing"
+        }
+      ],
+      "timing": "From this meeting"
+    },
+    {
+      "id": "a-2026-03-08",
+      "description": "Log book for canteen and fundraising cash to be purchased and organised for safe",
+      "topic": "canteen",
+      "owners": [
+        {
+          "id": "CV",
+          "name": "Catherine Vassilev",
+          "role": "President"
+        }
+      ],
+      "timing": "From this meeting"
+    },
+    {
+      "id": "a-2026-03-09",
+      "description": "Transfer canteen volunteer logs onto Google Drive",
+      "topic": "canteen",
+      "owners": [
+        {
+          "id": "IP",
+          "name": "Imke Pearce",
+          "role": "Secretary"
+        }
+      ],
+      "timing": "From this meeting"
+    },
+    {
+      "id": "a-2026-03-10",
+      "description": "Starlink to be trialled",
+      "topic": "admin",
+      "owners": [
+        {
+          "id": "BF",
+          "name": "Ben Fitzpatrick",
+          "role": "Grants"
+        }
+      ],
+      "timing": "From this meeting"
+    }
+  ]
+}

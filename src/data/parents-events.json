@@ -1,0 +1,101 @@
+[
+  {
+    "id": "2026-03-31-easter-raffle-tickets-due",
+    "title": "Easter Raffle Tickets Due",
+    "date": "2026-03-30T13:00:00.000Z",
+    "day": 31,
+    "month": "Mar",
+    "time": null,
+    "note": "Return tickets to school. Include child's name on tickets sold externally.",
+    "category": "pc",
+    "group": "This Week"
+  },
+  {
+    "id": "2026-04-02-easter-raffle",
+    "title": "Easter Raffle Drawn",
+    "date": "2026-04-01T13:00:00.000Z",
+    "day": 2,
+    "month": "Apr",
+    "time": null,
+    "note": "Last day of Term 1.",
+    "category": "pc",
+    "group": "This Week"
+  },
+  {
+    "id": "2026-04-02-last-day-term1",
+    "title": "Last Day of Term 1",
+    "date": "2026-04-01T13:00:00.000Z",
+    "day": 2,
+    "month": "Apr",
+    "time": null,
+    "note": null,
+    "category": "school",
+    "group": "This Week"
+  },
+  {
+    "id": "2026-05-04-pc-meeting",
+    "title": "P&C Meeting",
+    "date": "2026-05-03T14:00:00.000Z",
+    "day": 4,
+    "month": "May",
+    "time": "7:00pm",
+    "note": "School office. Everyone welcome.",
+    "category": "pc",
+    "group": "Next Term"
+  },
+  {
+    "id": "2026-05-07-mums-muffins",
+    "title": "Mums & Muffins",
+    "date": "2026-05-06T14:00:00.000Z",
+    "day": 7,
+    "month": "May",
+    "time": "8:15am",
+    "note": null,
+    "category": "pc",
+    "group": "Next Term"
+  },
+  {
+    "id": "2026-05-08-mothers-day-stall",
+    "title": "Mother's Day Stall",
+    "date": "2026-05-07T14:00:00.000Z",
+    "day": 8,
+    "month": "May",
+    "time": null,
+    "note": null,
+    "category": "pc",
+    "group": "Next Term"
+  },
+  {
+    "id": "2026-05-13-school-tour",
+    "title": "School Tour with Principal",
+    "date": "2026-05-12T14:00:00.000Z",
+    "day": 13,
+    "month": "May",
+    "time": null,
+    "note": "For families interested in Holgate PS or Kinder 2027 enrolment.",
+    "category": "school",
+    "group": "Next Term"
+  },
+  {
+    "id": "2026-08-12-school-tour",
+    "title": "School Tour with Principal",
+    "date": "2026-08-11T14:00:00.000Z",
+    "day": 12,
+    "month": "Aug",
+    "time": null,
+    "note": "For families interested in Holgate PS or Kinder 2027 enrolment.",
+    "category": "school",
+    "group": "Next Term"
+  },
+  {
+    "id": "2026-09-03-fathers-day",
+    "title": "Father's Day",
+    "date": "2026-09-02T14:00:00.000Z",
+    "day": 3,
+    "month": "Sep",
+    "time": "8:15am",
+    "note": null,
+    "category": "pc",
+    "group": "Next Term"
+  }
+]

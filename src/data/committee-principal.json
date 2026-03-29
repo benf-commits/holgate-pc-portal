@@ -1,0 +1,69 @@
+{
+  "meetingDate": "2026-03-01T13:00:00.000Z",
+  "summaryPoints": [
+    "Enrolment at 100 (capacity 156) — Kindergarten and 5/6 classes full",
+    "Explicit teaching embedded across numeracy and literacy",
+    "Restorative Practice circles running in all classrooms",
+    "New Science/Technology and HSIE syllabuses for 2026",
+    "AI EduChat piloted for Stage 3 students"
+  ],
+  "fullReport": {
+    "sections": [
+      {
+        "heading": "Enrolments",
+        "points": [
+          "Current 100, availability 156, buffer 140",
+          "Kindergarten and 5/6 full; demountable staying",
+          "New flexibility from school leadership on marketing and engagement"
+        ]
+      },
+      {
+        "heading": "Teaching & Learning",
+        "points": [
+          "Explicit teaching strategies embedded in numeracy and literacy",
+          "Mathematics sprints, collaborative planning, learning walks",
+          "New Science/Technology and HSIE syllabuses for 2026",
+          "AI EduChat pilot for Stage 3; Writing with Purpose professional learning"
+        ]
+      },
+      {
+        "heading": "Wellbeing",
+        "points": [
+          "Restorative Practice circles and agreements in all classrooms",
+          "Peer mediation structures and Reset & Repair (RNR) procedures",
+          "Additional award categories and social-emotional programs expansion"
+        ]
+      },
+      {
+        "heading": "Infrastructure",
+        "points": [
+          "Playground marks via student voice groups (handball, fitness circuit)",
+          "LED sign installation planned (DA approved)",
+          "Bottom area playground build commenced"
+        ]
+      }
+    ]
+  },
+  "waitingOnSchool": [
+    {
+      "description": "Asbestos removal quote — is it for one side or both?",
+      "owner": "VG / DoE Assets",
+      "note": "Quote of ~$7,804 received but scope unclear. Also doesn't include cost of new shutters. Questions put to Assets."
+    },
+    {
+      "description": "Dangerous chemicals stored next to clothing pool",
+      "owner": "Vanessa Gordon (Principal)",
+      "note": "Chemicals stored adjacent to second-hand uniform area. Safety concern flagged at March meeting."
+    },
+    {
+      "description": "Underground irrigation feasibility",
+      "owner": "Vanessa Gordon (Principal)",
+      "note": "Nadia suggested underground irrigation. Majority of septic systems won't support it and costs may be high."
+    },
+    {
+      "description": "Uniform fabric — cotton blend alternatives for breathability",
+      "owner": "VG / Lowes",
+      "note": "Current polyester uniform is uncomfortable. School looking at getting more cotton blends. Lowes licence until 2029."
+    }
+  ]
+}

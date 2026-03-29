@@ -1125,6 +1125,261 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════════════
+   PARENTS PORTAL — Welcome
+   ═══════════════════════════════════════════════════════════ */
+
+.welcome {
+  background: var(--bg-page);
+  padding: 36px 0 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.welcome-text {
+  font-size: 19px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 640px;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   PARENTS PORTAL — Section backgrounds
+   ═══════════════════════════════════════════════════════════ */
+
+.section--white { background: var(--bg-white); }
+.section--warm { background: var(--bg-warm); }
+.section--page { background: var(--bg-page); }
+
+.section--white,
+.section--warm,
+.section--page {
+  padding: 72px 0;
+}
+
+.section-subheading {
+  font-size: 16px;
+  color: var(--text-muted);
+  margin-bottom: 36px;
+  max-width: 560px;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   PARENTS PORTAL — Events Timeline
+   ═══════════════════════════════════════════════════════════ */
+
+.event-group-label {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+  margin-bottom: 12px;
+  margin-top: 28px;
+}
+
+.event-group-label:first-child {
+  margin-top: 0;
+}
+
+.event-card {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.event-date-block {
+  width: 52px;
+  flex-shrink: 0;
+  text-align: center;
+  background: var(--bg-page);
+  border-radius: var(--radius-sm);
+  padding: 6px 4px;
+  border: 1px solid var(--border);
+}
+
+.event-date-day {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.event-date-month {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.event-body {
+  flex: 1;
+}
+
+.event-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.event-meta {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.event-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  margin-top: 4px;
+}
+
+.event-tag--school { background: #e4e8f0; color: #4a5a7a; }
+.event-tag--pc { background: var(--accent-light); color: var(--accent); }
+.event-tag--community { background: var(--success-bg); color: var(--success); }
+
+/* ═══════════════════════════════════════════════════════════
+   PARENTS PORTAL — News Cards
+   ═══════════════════════════════════════════════════════════ */
+
+.news-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.news-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  transition: box-shadow 0.2s var(--ease);
+}
+
+.news-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.news-card-source {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.news-card-source--school { color: #4a5a7a; }
+.news-card-source--pc { color: var(--accent); }
+
+.news-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.news-card-body {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.news-card-date {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   PARENTS PORTAL — Help Cards
+   ═══════════════════════════════════════════════════════════ */
+
+.help-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.help-card {
+  background: var(--bg-page);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  transition: all 0.2s var(--ease);
+}
+
+.help-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.help-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.help-card-body {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   PARENTS PORTAL — Quick Reference
+   ═══════════════════════════════════════════════════════════ */
+
+.ref-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.ref-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+.ref-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+.ref-item {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  padding: 4px 0;
+}
+
+.ref-item strong {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.ref-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.ref-link:hover {
+  text-decoration: underline;
+}
+
+/* ═══════════════════════════════════════════════════════════
    RESPONSIVE
    ═══════════════════════════════════════════════════════════ */
 
@@ -1158,6 +1413,14 @@ body {
 
   .calendar-block { width: 64px; }
   .calendar-block-day { font-size: 28px; }
+
+  /* Parents portal responsive */
+  .welcome { padding: 28px 0 32px; }
+  .welcome-text { font-size: 17px; }
+  .section--white,
+  .section--warm,
+  .section--page { padding: 48px 0; }
+  .help-cards, .ref-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "canteen",
+    "name": "Canteen",
+    "oneLiner": "Volunteer-run Fridays. Break-even $550/week. Asbestos prevents modifications.",
+    "summaryPoints": [
+      "Volunteer-run every Friday, break-even $550/week, perpetually near loss",
+      "Lizzie McPherson appointed Canteen Manager at 2026 AGM",
+      "Asbestos in walls prevents modifications — deferred to Community Building Grant"
+    ],
+    "openItems": [
+      "Asbestos quote scope unclear",
+      "Cash logging procedures",
+      "Price increase timing"
+    ],
+    "status": "3 open",
+    "statusType": "open",
+    "colourBar": "accent"
+  },
+  {
+    "id": "events",
+    "name": "Fundraising & Events",
+    "oneLiner": "2025 total: $14,373. Top earners: Trivia $8K, Election Day $2.5K. Next: Mother's Day, 6 May.",
+    "summaryPoints": [
+      "2025 total: $14,373 fundraising profit",
+      "Top earners: Trivia Night $8K, Election Day $2.5K, Sculptures $1.5K",
+      "Next event: Mother's Day — Mums & Muffins, 6 May"
+    ],
+    "openItems": [
+      "2026 major event selection",
+      "Starlink trial at next event"
+    ],
+    "status": "Planning",
+    "statusType": "open",
+    "colourBar": "accent"
+  },
+  {
+    "id": "finance",
+    "name": "Finance & Compliance",
+    "oneLiner": "NAB accounts, MYOB, audit $300/yr. BAS now handled by JF at no cost.",
+    "summaryPoints": [
+      "NAB accounts (Main + Canteen), MYOB accounting, annual audit $300",
+      "BAS now lodged by Jessica Fit at no cost (was $60/quarter)",
+      "Insurance via Andrews/Federation — event notification form required before every event"
+    ],
+    "openItems": [
+      "MYOB access for new exec",
+      "Letterhead vote pending"
+    ],
+    "status": "Transitioning",
+    "statusType": "progress",
+    "colourBar": "warning"
+  },
+  {
+    "id": "governance",
+    "name": "Governance & Policy",
+    "oneLiner": "NSW P&C Federation constitution. New executive elected March 2026.",
+    "summaryPoints": [
+      "NSW P&C Federation prescribed constitution",
+      "New executive elected March 2026 — 3 of 4 positions changed",
+      "Canteen Manager role created; 7-day reporting deadlines for all office bearers"
+    ],
+    "openItems": [
+      "Policy folder review incomplete",
+      "Sponsorship policy fields blank"
+    ],
+    "status": "2 outstanding",
+    "statusType": "open",
+    "colourBar": "accent"
+  },
+  {
+    "id": "grants",
+    "name": "Grants & Capital Projects",
+    "oneLiner": "Grants Committee: BF, DG, CB. Bottom area build commenced. CBG ~$20K in progress.",
+    "summaryPoints": [
+      "Grants Committee: Ben Fitzpatrick, Dave Gurr, Colleen Birch",
+      "Bottom area playground build commenced ($27.8K, P&C contributing $17.8K)",
+      "Community Building Grant ~$20K in progress for canteen shutters/asbestos",
+      "Basketball court/modular flooring $80K grant submitted — awaiting result"
+    ],
+    "openItems": [
+      "CBG application",
+      "Basketball grant result",
+      "Full asbestos cost undefined"
+    ],
+    "status": "3 active",
+    "statusType": "progress",
+    "colourBar": "warning"
+  },
+  {
+    "id": "uniforms",
+    "name": "Uniforms",
+    "oneLiner": "Lowes Erina Fair, licensed to 2029. Core items agreed and available.",
+    "summaryPoints": [
+      "Supplier: Lowes Erina Fair, licensed to 2029",
+      "Core items agreed and available; old items accepted until end 2027",
+      "Senior jackets discontinued; second-hand shop run by Lizzie McPherson"
+    ],
+    "openItems": [
+      "Track pants cotton blend",
+      "Second-hand shop donation quality"
+    ],
+    "status": "Stable",
+    "statusType": "stable",
+    "colourBar": "success"
+  }
+]

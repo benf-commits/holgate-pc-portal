@@ -1,0 +1,167 @@
+{
+  "canteen": {
+    "title": "Canteen",
+    "items": [
+      {
+        "label": "Open",
+        "value": "Every Friday",
+        "link": null
+      },
+      {
+        "label": "Order by",
+        "value": "8:30am Friday via Spriggy",
+        "link": null
+      },
+      {
+        "label": "Alternative",
+        "value": "Brown paper bag with name, class & order",
+        "link": null
+      },
+      {
+        "label": "Volunteers",
+        "value": "Contact Imke — 0447 020 823",
+        "link": null
+      },
+      {
+        "label": "Spriggy Schools App",
+        "value": "https://www.spriggyschools.com.au/get-the-spriggy-schools-app",
+        "link": "https://www.spriggyschools.com.au/get-the-spriggy-schools-app"
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Contacts",
+    "items": [
+      {
+        "label": "Phone",
+        "value": "(02) 4367 7444",
+        "link": null
+      },
+      {
+        "label": "Email",
+        "value": "holgate-p.school@det.nsw.edu.au",
+        "link": null
+      },
+      {
+        "label": "Address",
+        "value": "189 Wattle Tree Road, Holgate NSW 2250",
+        "link": null
+      },
+      {
+        "label": "Principal",
+        "value": "Vanessa Gordon",
+        "link": null
+      },
+      {
+        "label": "P&C Email",
+        "value": "holgate.pandc@gmail.com",
+        "link": null
+      }
+    ]
+  },
+  "links": {
+    "title": "Links",
+    "items": [
+      {
+        "label": "School Bytes",
+        "value": "https://www.schoolbytes.education/",
+        "link": "https://www.schoolbytes.education/"
+      },
+      {
+        "label": "Spriggy Schools",
+        "value": "https://www.spriggyschools.com.au/get-the-spriggy-schools-app",
+        "link": "https://www.spriggyschools.com.au/get-the-spriggy-schools-app"
+      },
+      {
+        "label": "Facebook",
+        "value": "https://www.facebook.com/holgatepublicschool",
+        "link": "https://www.facebook.com/holgatepublicschool"
+      },
+      {
+        "label": "School Website",
+        "value": "https://holgate-p.schools.nsw.gov.au/",
+        "link": "https://holgate-p.schools.nsw.gov.au/"
+      }
+    ]
+  },
+  "uniforms": {
+    "title": "Uniforms",
+    "items": [
+      {
+        "label": "Supplier",
+        "value": "Lowes, Erina Fair",
+        "link": null
+      },
+      {
+        "label": "Transition",
+        "value": "Old items accepted until end of 2027",
+        "link": null
+      },
+      {
+        "label": "Second-hand",
+        "value": "From $5 — contact school office",
+        "link": null
+      },
+      {
+        "label": "Support",
+        "value": "Families needing help with costs — contact school office",
+        "link": null
+      },
+      {
+        "label": "Lowes Online — Holgate PS",
+        "value": "https://www.lowes.com.au/school/holgate-public-school",
+        "link": "https://www.lowes.com.au/school/holgate-public-school"
+      },
+      {
+        "label": "Uniform Blog",
+        "value": "https://www.lowes.com.au/schools-uniform-blog",
+        "link": "https://www.lowes.com.au/schools-uniform-blog"
+      },
+      {
+        "label": "Dress (maroon & white check)",
+        "value": "$64.95",
+        "link": null
+      },
+      {
+        "label": "Polo shirt with emblem",
+        "value": "$46.95",
+        "link": null
+      },
+      {
+        "label": "Jumper (maroon fleecy pullover)",
+        "value": "$42.95",
+        "link": null
+      },
+      {
+        "label": "Jacket (microfibre, full zip)",
+        "value": "$69.95",
+        "link": null
+      },
+      {
+        "label": "Track pants (microfibre, zip ankle)",
+        "value": "$59.95",
+        "link": null
+      },
+      {
+        "label": "Skort (front wrap, elastic back)",
+        "value": "$49.95",
+        "link": null
+      },
+      {
+        "label": "Shorts (microfibre, full elastic)",
+        "value": "$46.95",
+        "link": null
+      },
+      {
+        "label": "Hat (broad-brim or bucket with logo)",
+        "value": "$19.00",
+        "link": null
+      },
+      {
+        "label": "School bag",
+        "value": "$54.00",
+        "link": null
+      }
+    ]
+  }
+}
